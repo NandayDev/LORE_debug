@@ -3,6 +3,13 @@
     "key": "f666512c-f9be-475b-858b-0dc394be57b9",
     "name": "fdsdf",
     "order": 1,
-    "chapters": {}
+    "chapters": {
+      "c36f5713-752f-4d7d-8fc3-ba13029ddd3a": {
+        "key": "c36f5713-752f-4d7d-8fc3-ba13029ddd3a",
+        "name": "jfdfgj",
+        "order": 1,
+        "probability": 55
+      }
+    }
   }
 }
