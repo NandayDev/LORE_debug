@@ -28,7 +28,18 @@
           "variableGroup": {
             "key": "734f175c-8145-4f1d-b0e1-a713ff3d28df",
             "logicOperator": "AND",
-            "variableComparers": []
+            "variableComparers": [
+              {
+                "key": "9f85ce9a-aa3c-42cf-b42f-3d6eb0127cb3",
+                "type": "EQUALS",
+                "value": 1,
+                "variable": {
+                  "key": "0f87bbde-325a-4b21-8961-5169fd711115",
+                  "type": "WORLD",
+                  "name": "SDGSDG"
+                }
+              }
+            ]
           },
           "probabilityModifiers": []
         }
