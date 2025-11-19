@@ -1,0 +1,38 @@
+{
+  "key": "b4b608c9-6d98-46ad-977d-1b6c36b6491d",
+  "name": "Fuori dal vulcano",
+  "scenes": {
+    "75f50d53-f42e-4433-ad0a-ab3ecbdee771": {
+      "key": "75f50d53-f42e-4433-ad0a-ab3ecbdee771",
+      "name": "Prima scena",
+      "isStartingScene": true,
+      "image": null,
+      "events": [
+        {
+          "key": "529eff69-f93d-4fe8-9e36-cba5838fdb67",
+          "name": "Evento 1",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Type here the event's text."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": []
+          },
+          "color": "ffb3d8d5",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "23bd56bc-b64f-4557-aba8-e22b5f8ef68b",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        }
+      ]
+    }
+  }
+}

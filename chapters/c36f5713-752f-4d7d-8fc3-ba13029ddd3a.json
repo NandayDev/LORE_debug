@@ -13,7 +13,7 @@
           "name": "Evento 1",
           "text": {
             "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ITALIAN": "Dentro il vulcano c'è molta lava.",
               "ENGLISH": "Type here the event's text."
             },
             "styles": []
@@ -21,25 +21,39 @@
           "image": null,
           "exitPaths": {
             "type": "SINGLE",
-            "paths": []
+            "paths": [
+              {
+                "key": "d760e278-7e56-491e-9592-e041aa97856b",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "786ea5e3-18c6-4bb7-b6b8-24aede4b9c42",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "17931606-976f-466a-9538-dd2d63ddd947",
+                  "nextSceneKey": "5134f1dc-2698-4b18-b35b-6f5b85b2c391",
+                  "nextSceneChapterKey": "c36f5713-752f-4d7d-8fc3-ba13029ddd3a",
+                  "nextEventKey": "f585a23d-d875-445b-97a3-5eb1320446e1",
+                  "type": "SCENE"
+                }
+              }
+            ]
           },
           "color": "ffcbdba7",
           "baseProbability": 30,
           "variableGroup": {
             "key": "734f175c-8145-4f1d-b0e1-a713ff3d28df",
             "logicOperator": "AND",
-            "variableComparers": [
-              {
-                "key": "9f85ce9a-aa3c-42cf-b42f-3d6eb0127cb3",
-                "type": "EQUALS",
-                "value": 1,
-                "variable": {
-                  "key": "0f87bbde-325a-4b21-8961-5169fd711115",
-                  "type": "WORLD",
-                  "name": "SDGSDG"
-                }
-              }
-            ]
+            "variableComparers": []
           },
           "probabilityModifiers": [
             {
@@ -57,6 +71,63 @@
               "value": 0
             }
           ]
+        }
+      ]
+    },
+    "ec0a2171-6f03-4d6e-9461-7b2998e2e0f7": {
+      "key": "ec0a2171-6f03-4d6e-9461-7b2998e2e0f7",
+      "name": "seconda scena",
+      "isStartingScene": false,
+      "image": null,
+      "events": [
+        {
+          "key": "be1fe411-acd4-49a0-9ae1-91e9f67f35ef",
+          "name": "Evento 1",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Ora invece sei fuori dal vulcano. Perché sì.",
+              "ENGLISH": "Type here the event's text."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "f41bd815-bd66-4c77-8e13-b2be9fe44529",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "6f7b07d4-25cc-465c-9929-14ac74079491",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "12d9b96b-c8a7-4dea-8312-85383c725ebe",
+                  "nextSceneKey": "5134f1dc-2698-4b18-b35b-6f5b85b2c391",
+                  "nextSceneChapterKey": "c36f5713-752f-4d7d-8fc3-ba13029ddd3a",
+                  "nextEventKey": "f585a23d-d875-445b-97a3-5eb1320446e1",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffded1ba",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "a09b0e3d-7b81-4346-94ac-538d73c29dd3",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
         }
       ]
     }
