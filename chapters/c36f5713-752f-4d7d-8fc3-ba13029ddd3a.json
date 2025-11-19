@@ -41,7 +41,22 @@
               }
             ]
           },
-          "probabilityModifiers": []
+          "probabilityModifiers": [
+            {
+              "key": "536de323-7d12-450c-bc2c-57859ee98797",
+              "variableComparer": {
+                "key": "c95161bf-59ce-4c51-bc51-bc3cd488e9d7",
+                "type": "NOT_EQUALS",
+                "value": 2,
+                "variable": {
+                  "key": "6cf561e0-5b89-4888-a242-b7e47f89e4aa",
+                  "type": "WORLD",
+                  "name": "SDGSDG"
+                }
+              },
+              "value": 0
+            }
+          ]
         }
       ]
     }
