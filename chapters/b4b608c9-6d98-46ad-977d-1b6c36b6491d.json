@@ -13,12 +13,12 @@
           "name": "Evento 1",
           "text": {
             "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ITALIAN": "Sei fuori dal vulcano",
               "ENGLISH": "Type here the event's text."
             },
             "styles": []
           },
-          "image": null,
+          "image": "no-noooo.gif",
           "exitPaths": {
             "type": "SINGLE",
             "paths": []
