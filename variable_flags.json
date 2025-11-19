@@ -1,6 +1,6 @@
 {
   "WORLD___SDGSDG": {
-    "isInventory": true,
-    "isQuest": false
+    "isInventory": false,
+    "isQuest": true
   }
 }
