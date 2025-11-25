@@ -128,6 +128,55 @@
             "variableComparers": []
           },
           "probabilityModifiers": []
+        },
+        {
+          "key": "4264af3d-9e1a-4682-b655-eb56e7f8524a",
+          "name": "Evento 1",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Ora invece sei fuori dal vulcano. Perché sì.",
+              "ENGLISH": "Type here the event's text."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "4ba63344-f2ac-4f34-ad87-9298cde03fef",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "707a223c-5f34-48bd-b10e-96caccf215cc",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "50707c1b-1481-4df3-959d-b43a44453140",
+                  "nextSceneKey": "5134f1dc-2698-4b18-b35b-6f5b85b2c391",
+                  "nextSceneChapterKey": "c36f5713-752f-4d7d-8fc3-ba13029ddd3a",
+                  "nextEventKey": "f585a23d-d875-445b-97a3-5eb1320446e1",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffdfafd8",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "1d20f2bb-e50e-428d-be64-b4ca47443922",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
         }
       ]
     }
