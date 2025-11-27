@@ -112,186 +112,14 @@
     "39e9cb13-0030-4930-83f5-3421a390dcc5": {
       "key": "39e9cb13-0030-4930-83f5-3421a390dcc5",
       "name": "Look closely at the gentle water",
-      "order": 3,
+      "order": 1,
       "isStartingScene": false,
       "image": null,
       "events": [
         {
-          "key": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
-          "name": "Gentle Water 1",
-          "order": 0,
-          "text": {
-            "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
-              "ENGLISH": "In the thick woods, the gentle lullaby of rushing water can be heard, sneaking its way among the dark bushes and the low branches, like a distant melody of the forest.\n\nIt takes some time to reach it, as the ground is slowly rising into a cliff, making navigation quite hard. Chasm and fallen trees often block your path, sharp stones start to emerge from the soft undergrowth more often, trying to bite at your ankles and making it hard to keep your footing.\r\n\r\nAt last, the river is in front of you. It’s a large and deep thing, it’s water clear and fast, killing any hope to try and traverse it, as you would be easily swept away against the large stones that often sleep barely below the surface."
-            },
-            "styles": []
-          },
-          "image": null,
-          "exitPaths": {
-            "type": "CHOICES",
-            "paths": [
-              {
-                "key": "ae25bbf0-f4fb-4570-a37b-1fad7eb5c6ce",
-                "text": {
-                  "textMap": {
-                    "ITALIAN": "Prosegui oltre",
-                    "ENGLISH": "Press onward"
-                  },
-                  "styles": []
-                },
-                "type": "UNIVERSAL",
-                "variableGroup": {
-                  "key": "cd63c294-b46d-4a7b-a0df-f29ae09f8082",
-                  "logicOperator": "AND",
-                  "variableComparers": []
-                },
-                "variablesSet": [],
-                "exit": {
-                  "key": "68b7e1b8-ce72-4a08-8d12-faa53f8bdbf4",
-                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
-                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
-                  "type": "SCENE"
-                }
-              },
-              {
-                "key": "6c1e1a4d-6300-428b-9067-2201e2ff3c68",
-                "text": {
-                  "textMap": {
-                    "ITALIAN": "Fermati e siediti sulla riva del fiume, ascoltandone la voce",
-                    "ENGLISH": "Stop and sit near the river, listening to it's voice"
-                  },
-                  "styles": []
-                },
-                "type": "UNIVERSAL",
-                "variableGroup": {
-                  "key": "637bdc9d-cec6-423b-8c77-54293a23743d",
-                  "logicOperator": "AND",
-                  "variableComparers": []
-                },
-                "variablesSet": [],
-                "exit": {
-                  "key": "e58d7440-9265-4cf5-aeb8-6014081fa867",
-                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
-                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
-                  "type": "SCENE"
-                }
-              }
-            ]
-          },
-          "color": "ffede1dc",
-          "baseProbability": 50,
-          "variableGroup": {
-            "key": "de95cfb3-7051-4d6a-b39a-4cf5b204aeaf",
-            "logicOperator": "AND",
-            "variableComparers": []
-          },
-          "probabilityModifiers": []
-        },
-        {
-          "key": "af835f2a-c701-4209-97c9-ed1c656b369c",
-          "name": "Gentle Water 2",
-          "order": 1,
-          "text": {
-            "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
-              "ENGLISH": "The water flows gently along the rocks lazily reflecting what little light drips between the folliage above your head.\r\n\r\nYou can see the smooth pebbles on the river bed, their dull colors slightly painted by little algae. \n\nAmong them, you catch something small and shiny hidden under the layer of rocks."
-            },
-            "styles": []
-          },
-          "image": null,
-          "exitPaths": {
-            "type": "CHOICES",
-            "paths": [
-              {
-                "key": "13492cc8-b2d3-492b-9000-d9d33f67551a",
-                "text": {
-                  "textMap": {
-                    "ITALIAN": "Prosegui oltre",
-                    "ENGLISH": "Press onward"
-                  },
-                  "styles": []
-                },
-                "type": "UNIVERSAL",
-                "variableGroup": {
-                  "key": "6227db3b-a24c-49c9-ac8a-263a618b6ee8",
-                  "logicOperator": "AND",
-                  "variableComparers": []
-                },
-                "variablesSet": [],
-                "exit": {
-                  "key": "efaa56a2-1021-49ff-9788-dc2e34d7154a",
-                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
-                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
-                  "type": "SCENE"
-                }
-              },
-              {
-                "key": "a12b12b8-8dd7-4615-a52b-61949b334750",
-                "text": {
-                  "textMap": {
-                    "ITALIAN": "Fermati e siediti sulla riva del fiume, ascoltandone la voce",
-                    "ENGLISH": "Stop and sit near the river, listening to it's voice"
-                  },
-                  "styles": []
-                },
-                "type": "UNIVERSAL",
-                "variableGroup": {
-                  "key": "215e9780-2093-4767-b676-fe943378450f",
-                  "logicOperator": "AND",
-                  "variableComparers": []
-                },
-                "variablesSet": [],
-                "exit": {
-                  "key": "75018f93-e471-42c4-8a29-23400084bf77",
-                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
-                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
-                  "type": "SCENE"
-                }
-              },
-              {
-                "key": "ccf36499-a039-490c-96fa-f982237c203f",
-                "text": {
-                  "textMap": {
-                    "ITALIAN": "Allunga una mano e prova a raccogliere l'oggetto luccicante",
-                    "ENGLISH": "Reach out and try to retrieve the shiny item"
-                  },
-                  "styles": []
-                },
-                "type": "UNIVERSAL",
-                "variableGroup": {
-                  "key": "f5ca8f60-e034-460a-b086-e5b18b93b285",
-                  "logicOperator": "AND",
-                  "variableComparers": []
-                },
-                "variablesSet": [],
-                "exit": {
-                  "key": "e63d7fef-90b8-4fe7-a1f5-24ec9f3ff7dc",
-                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
-                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "af835f2a-c701-4209-97c9-ed1c656b369c",
-                  "type": "SCENE"
-                }
-              }
-            ]
-          },
-          "color": "ffe8ead5",
-          "baseProbability": 15,
-          "variableGroup": {
-            "key": "34d83e88-1ace-46eb-84f4-bb526614da9d",
-            "logicOperator": "AND",
-            "variableComparers": []
-          },
-          "probabilityModifiers": []
-        },
-        {
           "key": "bd45aaa1-fa95-4e6a-802d-6e65719fa33e",
           "name": "Gentle Water 3",
-          "order": 2,
+          "order": 0,
           "text": {
             "textMap": {
               "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
@@ -381,6 +209,178 @@
           "baseProbability": 15,
           "variableGroup": {
             "key": "5004a358-c28b-442e-97a8-d869e6c7cd16",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        },
+        {
+          "key": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+          "name": "Gentle Water 1",
+          "order": 1,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "In the thick woods, the gentle lullaby of rushing water can be heard, sneaking its way among the dark bushes and the low branches, like a distant melody of the forest.\n\nIt takes some time to reach it, as the ground is slowly rising into a cliff, making navigation quite hard. Chasm and fallen trees often block your path, sharp stones start to emerge from the soft undergrowth more often, trying to bite at your ankles and making it hard to keep your footing.\r\n\r\nAt last, the river is in front of you. It’s a large and deep thing, it’s water clear and fast, killing any hope to try and traverse it, as you would be easily swept away against the large stones that often sleep barely below the surface."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "ae25bbf0-f4fb-4570-a37b-1fad7eb5c6ce",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "cd63c294-b46d-4a7b-a0df-f29ae09f8082",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "68b7e1b8-ce72-4a08-8d12-faa53f8bdbf4",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "6c1e1a4d-6300-428b-9067-2201e2ff3c68",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Fermati e siediti sulla riva del fiume, ascoltandone la voce",
+                    "ENGLISH": "Stop and sit near the river, listening to it's voice"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "637bdc9d-cec6-423b-8c77-54293a23743d",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "e58d7440-9265-4cf5-aeb8-6014081fa867",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffede1dc",
+          "baseProbability": 50,
+          "variableGroup": {
+            "key": "de95cfb3-7051-4d6a-b39a-4cf5b204aeaf",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        },
+        {
+          "key": "af835f2a-c701-4209-97c9-ed1c656b369c",
+          "name": "Gentle Water 2",
+          "order": 2,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "The water flows gently along the rocks lazily reflecting what little light drips between the folliage above your head.\r\n\r\nYou can see the smooth pebbles on the river bed, their dull colors slightly painted by little algae. \n\nAmong them, you catch something small and shiny hidden under the layer of rocks."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "13492cc8-b2d3-492b-9000-d9d33f67551a",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "6227db3b-a24c-49c9-ac8a-263a618b6ee8",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "efaa56a2-1021-49ff-9788-dc2e34d7154a",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "a12b12b8-8dd7-4615-a52b-61949b334750",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Fermati e siediti sulla riva del fiume, ascoltandone la voce",
+                    "ENGLISH": "Stop and sit near the river, listening to it's voice"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "215e9780-2093-4767-b676-fe943378450f",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "75018f93-e471-42c4-8a29-23400084bf77",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "ccf36499-a039-490c-96fa-f982237c203f",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Allunga una mano e prova a raccogliere l'oggetto luccicante",
+                    "ENGLISH": "Reach out and try to retrieve the shiny item"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "f5ca8f60-e034-460a-b086-e5b18b93b285",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "e63d7fef-90b8-4fe7-a1f5-24ec9f3ff7dc",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "af835f2a-c701-4209-97c9-ed1c656b369c",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffe8ead5",
+          "baseProbability": 15,
+          "variableGroup": {
+            "key": "34d83e88-1ace-46eb-84f4-bb526614da9d",
             "logicOperator": "AND",
             "variableComparers": []
           },
@@ -637,7 +637,7 @@
     "d645f40a-afae-4a5f-8b53-f8ec2f4590b9": {
       "key": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
       "name": "Reach out and pluck off some flowers",
-      "order": 1,
+      "order": 3,
       "isStartingScene": false,
       "image": null,
       "events": [
