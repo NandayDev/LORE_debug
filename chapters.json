@@ -1,1 +1,27 @@
-{"5a67d3cc-d723-4236-b175-6955419d26bc":{"key":"5a67d3cc-d723-4236-b175-6955419d26bc","name":"Natura","order":1,"chapters":{"0e22b85e-0509-4afb-9af4-02fc72db938d":{"key":"0e22b85e-0509-4afb-9af4-02fc72db938d","name":"Quest - An Empty Village - Prelude","order":1,"probability":70},"80392f9c-79c8-431e-99e2-012cb9dddcfe":{"key":"80392f9c-79c8-431e-99e2-012cb9dddcfe","name":"EC - A Well","order":2,"probability":30}}}}
+{
+  "5a67d3cc-d723-4236-b175-6955419d26bc": {
+    "key": "5a67d3cc-d723-4236-b175-6955419d26bc",
+    "name": "Natura",
+    "order": 1,
+    "chapters": {
+      "0e22b85e-0509-4afb-9af4-02fc72db938d": {
+        "key": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+        "name": "Quest - An Empty Village - Prelude",
+        "order": 1,
+        "probability": 70
+      },
+      "80392f9c-79c8-431e-99e2-012cb9dddcfe": {
+        "key": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+        "name": "EC - A Well",
+        "order": 2,
+        "probability": 30
+      },
+      "cdfa14c4-53b7-4300-aec5-a1e23367538f": {
+        "key": "cdfa14c4-53b7-4300-aec5-a1e23367538f",
+        "name": "weqwesdf",
+        "order": 3,
+        "probability": 55
+      }
+    }
+  }
+}
