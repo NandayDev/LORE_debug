@@ -1116,11 +1116,22 @@
                   },
                   "styles": []
                 },
-                "type": "UNIVERSAL",
+                "type": "DEPENDENT",
                 "variableGroup": {
                   "key": "65f1b8f6-1356-4080-a874-7b8297ed4682",
                   "logicOperator": "AND",
-                  "variableComparers": []
+                  "variableComparers": [
+                    {
+                      "key": "09c6bf7b-86b8-432c-975e-79fea06e9faa",
+                      "type": "EQUALS",
+                      "value": 1,
+                      "variable": {
+                        "key": "09792418-34e0-4737-9c3b-6922dbb0890f",
+                        "type": "tag",
+                        "tag": "TAGLIENTE"
+                      }
+                    }
+                  ]
                 },
                 "variablesSet": [],
                 "exit": {
