@@ -1,1 +1,1290 @@
-{"key":"0e22b85e-0509-4afb-9af4-02fc72db938d","name":"EC","scenes":{"6129130f-d459-45b8-9682-6093b263e2a8":{"key":"6129130f-d459-45b8-9682-6093b263e2a8","name":"Prima scena - A Calm River","isStartingScene":true,"image":null,"events":[{"key":"5be18611-4d1e-4723-a6e7-06cf8c61ac6d","name":"A Calm River","text":{"textMap":{"ITALIAN":"Test","ENGLISH":"For quite a bit, you have been following a thin but quite deep river. Walking upstream, the soft and constant noise of the water rushing next to you is soothing and familiar.\r\n\nAfter so many days wandering around without a clear direction, it feels nice to have a landmark to follow, a little path towards something.\r\n\r\nLike an ancient road, the stream of water guides you up on a steer cliff, sneaking around rocks and trees, cutting deeply into the firm earth of the woods undergrowth. \r\n\r\nAs you push forward, the forest remains eerily calm and silent, the occasional snaps of twigs or rocks getting loose and rolling downhill is the only sound that dances with the cold water splashing, its constant presence similar to a soft hush in a library or church."},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"b7051722-6619-430d-a752-968c671e3728","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"e0d896be-bd64-4c9f-9ce6-ab0d082e7c09","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"626643cb-6fbf-441b-8dc6-475113796788","nextSceneKey":"6129130f-d459-45b8-9682-6093b263e2a8","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"5be18611-4d1e-4723-a6e7-06cf8c61ac6d","type":"SCENE"}},{"key":"94227076-4ebc-4349-b7f5-e8ab62019d21","text":{"textMap":{"ITALIAN":"Osserva il fiume da vicino","ENGLISH":"Look closely at the river"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"16b4e767-af8d-4265-b9a1-f4ee3d99ad4e","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"fced9428-1ee8-4172-9e97-58a16717d139","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"5be18611-4d1e-4723-a6e7-06cf8c61ac6d","type":"SCENE"}},{"key":"b55d3816-e5ef-446d-8640-7884194d7185","text":{"textMap":{"ITALIAN":"Fermati e siediti vicino al fiume, ascoltandone la voce","ENGLISH":"Stop and sit near the river, listening to it's voice"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"eb6ca845-24a3-43dc-b956-86ec5576669d","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"9c70e2e0-a5f6-401f-bfa6-05ccd99da8e9","nextSceneKey":"6129130f-d459-45b8-9682-6093b263e2a8","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"5be18611-4d1e-4723-a6e7-06cf8c61ac6d","type":"SCENE"}}]},"color":"ffb2a8dd","baseProbability":50,"variableGroup":{"key":"d585d081-0338-4903-9173-55ba25e8baa0","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[]}]},"39e9cb13-0030-4930-83f5-3421a390dcc5":{"key":"39e9cb13-0030-4930-83f5-3421a390dcc5","name":"Look closely at the gentle water","isStartingScene":false,"image":null,"events":[{"key":"caa9f8d8-66f6-4109-9ae6-e92becb70c8e","name":"Gentle Water 1","text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"In the thick woods, the gentle lullaby of rushing water can be heard, sneaking its way among the dark bushes and the low branches, like a distant melody of the forest.\n\nIt takes some time to reach it, as the ground is slowly rising into a cliff, making navigation quite hard. Chasm and fallen trees often block your path, sharp stones start to emerge from the soft undergrowth more often, trying to bite at your ankles and making it hard to keep your footing.\r\n\r\nAt last, the river is in front of you. It’s a large and deep thing, it’s water clear and fast, killing any hope to try and traverse it, as you would be easily swept away against the large stones that often sleep barely below the surface."},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"ae25bbf0-f4fb-4570-a37b-1fad7eb5c6ce","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"cd63c294-b46d-4a7b-a0df-f29ae09f8082","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"68b7e1b8-ce72-4a08-8d12-faa53f8bdbf4","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"caa9f8d8-66f6-4109-9ae6-e92becb70c8e","type":"SCENE"}},{"key":"6c1e1a4d-6300-428b-9067-2201e2ff3c68","text":{"textMap":{"ITALIAN":"Fermati e siediti sulla riva del fiume, ascoltandone la voce","ENGLISH":"Stop and sit near the river, listening to it's voice"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"637bdc9d-cec6-423b-8c77-54293a23743d","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"e58d7440-9265-4cf5-aeb8-6014081fa867","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"caa9f8d8-66f6-4109-9ae6-e92becb70c8e","type":"SCENE"}}]},"color":"ffede1dc","baseProbability":50,"variableGroup":{"key":"de95cfb3-7051-4d6a-b39a-4cf5b204aeaf","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[]},{"key":"af835f2a-c701-4209-97c9-ed1c656b369c","name":"Gentle Water 2","text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"The water flows gently along the rocks lazily reflecting what little light drips between the folliage above your head.\r\n\r\nYou can see the smooth pebbles on the river bed, their dull colors slightly painted by little algae. \n\nAmong them, you catch something small and shiny hidden under the layer of rocks."},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"13492cc8-b2d3-492b-9000-d9d33f67551a","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"6227db3b-a24c-49c9-ac8a-263a618b6ee8","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"efaa56a2-1021-49ff-9788-dc2e34d7154a","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"caa9f8d8-66f6-4109-9ae6-e92becb70c8e","type":"SCENE"}},{"key":"a12b12b8-8dd7-4615-a52b-61949b334750","text":{"textMap":{"ITALIAN":"Fermati e siediti sulla riva del fiume, ascoltandone la voce","ENGLISH":"Stop and sit near the river, listening to it's voice"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"215e9780-2093-4767-b676-fe943378450f","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"75018f93-e471-42c4-8a29-23400084bf77","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"caa9f8d8-66f6-4109-9ae6-e92becb70c8e","type":"SCENE"}},{"key":"ccf36499-a039-490c-96fa-f982237c203f","text":{"textMap":{"ITALIAN":"Allunga una mano e prova a raccogliere l'oggetto luccicante","ENGLISH":"Reach out and try to retrieve the shiny item"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"f5ca8f60-e034-460a-b086-e5b18b93b285","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"e63d7fef-90b8-4fe7-a1f5-24ec9f3ff7dc","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"af835f2a-c701-4209-97c9-ed1c656b369c","type":"SCENE"}}]},"color":"ffe8ead5","baseProbability":15,"variableGroup":{"key":"34d83e88-1ace-46eb-84f4-bb526614da9d","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[]},{"key":"bd45aaa1-fa95-4e6a-802d-6e65719fa33e","name":"Gentle Water 3","text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"The water flows gently along the rocks lazily reflecting what little light drips between the folliage above your head.\r\n\r\nYou can see the smooth pebbles on the river bed, their dull colors slightly painted by little algae. Among them, you catch the weird shape of something buried under the rocks, it's color a bright off white tinge."},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"df570dff-6979-4425-8216-2d482afd8183","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"3c311887-b84b-4161-a402-00679bcaffa5","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"5f85d3fe-f305-4bdb-9653-1ba87907fa81","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"caa9f8d8-66f6-4109-9ae6-e92becb70c8e","type":"SCENE"}},{"key":"ff5c78b0-37cc-4ffd-9a6b-bf06b77bf1f0","text":{"textMap":{"ITALIAN":"Fermati e siediti sulla riva del fiume, ascoltandone la voce","ENGLISH":"Stop and sit near the river, listening to it's voice"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"9053a0e9-e238-450a-af67-952f96ebcf9b","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"2592a8a6-a676-425a-a541-dde0a862e3eb","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"caa9f8d8-66f6-4109-9ae6-e92becb70c8e","type":"SCENE"}},{"key":"3856e9a0-7875-4bcb-bb2a-7bb95a017932","text":{"textMap":{"ITALIAN":"Allunga una mano e prova a raccogliere l'oggetto pallido sotto la superficie","ENGLISH":"Reach out into the water to retrieve the pale item"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"cc84b3d5-3996-47a9-b4cc-130c189a9536","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"25702d63-6ff9-46ac-a804-8d77a13488a2","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"bd45aaa1-fa95-4e6a-802d-6e65719fa33e","type":"SCENE"}}]},"color":"ffdbbdac","baseProbability":15,"variableGroup":{"key":"5004a358-c28b-442e-97a8-d869e6c7cd16","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[]},{"key":"2a41bd44-99e1-4ec8-9da4-c6e9e2be0551","name":"Gentle Water 4","text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"In the river bed, small, colorful flowers blossom, gently moving despite the strong currents, bobbing and swaying under a soft wind that cannot be. \n\nTheir scent is sweet and seems to come from the river itself, the water protecting this hidden garden."},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"21fa5e39-685d-49b6-9f80-bdfcc8de4bb5","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"1edf6f5c-51bd-4cd8-9491-1d0e1a0f7699","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"1a281127-a71c-42cc-9f46-449abe8dc87a","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"caa9f8d8-66f6-4109-9ae6-e92becb70c8e","type":"SCENE"}},{"key":"566a4d86-3d4a-4edd-9a24-259f9302c79a","text":{"textMap":{"ITALIAN":"Fermati e siediti sulla riva del fiume, ascoltandone la voce","ENGLISH":"Stop and sit near the river, listening to it's voice"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"d0136bdb-60de-4738-9639-c7fb93f5d28c","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"8e85c719-e037-406a-b24b-11935b98a6fb","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"caa9f8d8-66f6-4109-9ae6-e92becb70c8e","type":"SCENE"}},{"key":"abe29fe7-ea64-432d-8b00-5833b7937de6","text":{"textMap":{"ITALIAN":"Allunga la mano nell'acqua per cogliere i fiori","ENGLISH":"Reach out into the water to pluck off some of the flowes"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"cc43fa7c-3f3c-47ea-b7c4-a6ee0661b6d2","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"62cb9f6f-0ec8-4c13-a19c-6327225adc09","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"bd45aaa1-fa95-4e6a-802d-6e65719fa33e","type":"SCENE"}}]},"color":"ffc7e2a7","baseProbability":10,"variableGroup":{"key":"dc54a015-e749-4385-a0e6-476ef576eb2c","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[]},{"key":"7318ffbb-cf49-4b1d-9182-b363340c3f99","name":"Gentle Water 5","text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"In the river bed, small, colorful flowers blossom, gently moving despite the strong currents, bobbing and swaying under a soft wind that cannot be. \n\nTheir scent is sweet and seems to come from the river itself, the water protecting this hidden garden."},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"02d19cef-dcd3-42cd-9ac2-a4a43ebc9f99","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"936d3ff6-72fe-4fd4-a13e-fd13396ea0a6","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"c62fc1a1-35f8-43f4-b14c-f260f46221c5","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"caa9f8d8-66f6-4109-9ae6-e92becb70c8e","type":"SCENE"}},{"key":"8cc6ccce-1f5d-4aa3-813d-477ee59300a8","text":{"textMap":{"ITALIAN":"Fermati e siediti sulla riva del fiume, ascoltandone la voce","ENGLISH":"Stop and sit near the river, listening to it's voice"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"2cf5b9c7-1a84-4ebc-95f9-190b70198207","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"8d7f7ece-3973-4e86-8660-f46cf4c5ede2","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"caa9f8d8-66f6-4109-9ae6-e92becb70c8e","type":"SCENE"}},{"key":"950d561c-93bd-4d8d-818c-b7ed8d27aacd","text":{"textMap":{"ITALIAN":"Studia il fiume","ENGLISH":"Concentrate on the river"},"styles":[]},"type":"DEPENDENT","variableGroup":{"key":"17c63e77-7ebf-448a-a045-729d4491ecad","logicOperator":"OR","variableComparers":[{"key":"140ebfc0-60e9-4f9c-8abb-2cc47a47166a","type":"GREATER_OR_EQUALS","value":1,"variable":{"key":"275d48a6-450f-4959-9a77-563d15e532b2","type":"RUN","name":"Y'XIN'HISS"}},{"key":"8021513e-7bcc-4e5f-b168-abe7c6490563","type":"GREATER_OR_EQUALS","value":1,"variable":{"key":"e4a25359-f620-411b-a763-86505f8331f9","type":"CHARACTER","name":"Y'XIN'HISS"}}]},"variablesSet":[],"exit":{"key":"aee5b534-3956-4204-b4ee-33547d909f00","nextSceneKey":"39e9cb13-0030-4930-83f5-3421a390dcc5","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"bd45aaa1-fa95-4e6a-802d-6e65719fa33e","type":"SCENE"}}]},"color":"ffd7e1f1","baseProbability":10,"variableGroup":{"key":"0369df78-c947-439f-8823-54c5855c78ae","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[{"key":"b7a98068-19f6-40a0-8651-5068fcd852cb","variableComparer":{"key":"2dd02cac-122c-4816-ab47-32b81ac4c821","type":"GREATER_THAN","value":0,"variable":{"key":"40674f92-6cd1-4153-82f8-efe7ba7aa6e8","type":"CHARACTER","name":"Y'XIN'HISS"}},"value":10},{"key":"bff1928d-7568-48cb-a851-289628aa9143","variableComparer":{"key":"408a789c-4dca-40b1-a81c-284ff4ca36f7","type":"GREATER_THAN","value":1,"variable":{"key":"fad527db-30d1-4f69-9792-711d091a7020","type":"WORLD","name":"Y'XIN'HISS"}},"value":10}]}]},"d645f40a-afae-4a5f-8b53-f8ec2f4590b9":{"key":"d645f40a-afae-4a5f-8b53-f8ec2f4590b9","name":"Reach out and pluck off some flowers","isStartingScene":false,"image":null,"events":[{"key":"51ebc67a-abd7-4cfa-b2d0-244fb9fb62eb","name":"Glass Flowers","text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"The water it's so cold that it seems like it's coming from a glacier, yet, as your fingers get closer to the flowers, you feel a sense of warmth and comfort in you bones.\n\nYour fingers touch one of the delicate pink petals, but the plant seems to shatters in sharp shards of colored glass. Your blood starts dripping into the clean water as the newborn blades dig deep under your skin, biting and burrowing in their new home.\r\n\r\nWhen you pull out the bleeding fingers from the water, you can see bright pink shard of sharp glass where your nails should be."},"styles":[]},"image":null,"exitPaths":{"type":"SINGLE","paths":[{"key":"63b20136-1428-4a39-b4df-05a0bcf46227","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"f7403e08-ba33-4c3e-afe7-d792e51f9d0d","logicOperator":"AND","variableComparers":[]},"variablesSet":[{"key":"b651a5c8-953e-4bf4-99db-1ce9964da09b","variable":{"key":"cdf5dbda-8a46-4502-bb79-624cbeed33c5","type":"WOUNDS"},"value":1,"operator":"SUBTRACT"},{"key":"36f2da97-d83c-4a6b-ad3d-68693ad74004","variable":{"key":"fe850d77-75db-4177-88de-ca12bf4dd85d","type":"RUN","name":"GLASS CLAWS"},"value":1,"operator":"SET"}],"exit":{"key":"eca10498-9216-4168-aba5-4b0a67dc0b47","nextSceneKey":"d645f40a-afae-4a5f-8b53-f8ec2f4590b9","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"51ebc67a-abd7-4cfa-b2d0-244fb9fb62eb","type":"SCENE"}}]},"color":"ffccd3ea","baseProbability":10,"variableGroup":{"key":"6dada761-51df-4e16-a395-a078fff64874","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[{"key":"c442f5da-3679-479a-879f-e0548d0d4c54","variableComparer":{"key":"caa06675-40a0-4260-83c4-f45fe7e2d9e4","type":"GREATER_THAN","value":1,"variable":{"key":"444594a7-f778-4a0d-a827-ab2201c279cb","type":"WORLD","name":"Y'XIN'HISS"}},"value":10},{"key":"228a838f-278c-454c-a43a-1dae4c4a1dc1","variableComparer":{"key":"3650c6e2-bd62-445e-a064-eb2ce6a9f40f","type":"GREATER_THAN","value":1,"variable":{"key":"55bf8633-b570-4595-8ade-a354cbff553f","type":"CHARACTER","name":"Y'XIN'HISS"}},"value":10}]},{"key":"f9e55e52-af18-456e-a81f-4ec43e046e27","name":"Meet the Dryad","text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"You plunge your hand into the cold waters, reaching to the bottom of the shallow river to grasp some of the exotic flowers that seems to grow on the river bed and yet, despite how close they are to the surface, you cannot seem to ever touch them.\r\n\r\nYou find yourself nealy shoulder deep into the water, your hand grasping at nothing more than rushing water even if you can clearly see that those alluring plants are well into your reach, when you feel watched. \r\n\r\nRising your head and looking in the calm darkness of the forest, you freeze as you spot two plucked out eyes dangling from a thick thorn bush. For a moment you wonder if a stray bird has impaled them on the wicked thorns fo the plant as a way to hide a tasty snack for himself. \n\nThen, the bush seems to move, wines and branches parts away like snakes under it's dangling eyes, revealing a small bird nest behid a wall of theets like thorns. In the nest lays a small black crow, it's stance signaling that it's currently incubating something under it's ruffled feathers. As the thorns starts moving again, the raspy voice of the bird melts with the snapping of wood and rustling of leaves, forming a voice.\n\n\"Who are you that coven my childs? Are you here to pluck them from their rightfull house?\""},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"4b70c5f2-c423-45fd-89b4-452815af5619","text":{"textMap":{"ITALIAN":"Preparati a combattere. Estrai un arma ed affronta la creatura","ENGLISH":"Prepare for a fight. Reach for a weapon and try to strike the entity"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"55f13031-4ba2-4e19-86dc-bef362b487c8","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"8ff01dd2-fabb-4476-b11d-ca0ff98e21d8","nextSceneKey":"d645f40a-afae-4a5f-8b53-f8ec2f4590b9","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"f9e55e52-af18-456e-a81f-4ec43e046e27","type":"SCENE"}},{"key":"9683f711-db0b-4874-a2d6-030b704d6d7e","text":{"textMap":{"ITALIAN":"Inchinati e chiedi perdono","ENGLISH":"Kneel down and beg for mercy"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"7b37a675-ba18-4459-bb6f-bd7c039952c0","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"d3379bd4-8acf-41b6-9a97-b3c0e9bc8fc3","nextSceneKey":"d645f40a-afae-4a5f-8b53-f8ec2f4590b9","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"f9e55e52-af18-456e-a81f-4ec43e046e27","type":"SCENE"}},{"key":"0a484159-4393-40ac-80b8-0d39f98d9145","text":{"textMap":{"ITALIAN":"Prega e parla con l'entità","ENGLISH":"Prey and talk to the creature"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"0897b3bf-ad56-4b1c-9d15-fe9e450220f5","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"22c9974e-5fc8-4c6b-bd14-3161434e6acf","nextSceneKey":"d645f40a-afae-4a5f-8b53-f8ec2f4590b9","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"f9e55e52-af18-456e-a81f-4ec43e046e27","type":"SCENE"}},{"key":"3131b265-59fb-4ff4-8e0a-47815dae5fde","text":{"textMap":{"ITALIAN":"Offri un dono alla creatura","ENGLISH":"offer a gift to the entity"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"8207de88-a8b9-400f-9d0b-34d31121f226","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"8f30a0a2-fb6f-4b3f-b558-2ec7d1e802f7","nextSceneKey":"d645f40a-afae-4a5f-8b53-f8ec2f4590b9","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"f9e55e52-af18-456e-a81f-4ec43e046e27","type":"SCENE"}}]},"color":"ffd7e2f0","baseProbability":30,"variableGroup":{"key":"20cb83f5-699e-418b-b8d6-4c7aa63b788a","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[]},{"key":"630535d9-7ce7-4cc4-ba47-3e91e9cabcad","name":"Gorgeous Flowers","text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"The water it's so cold that it seems like it's coming from a glacier, yet, as your fingers get closer to the flowers, you feel a sense of warmth and comfort in you bones.\n\nUnder the tip of your fingers the flowers feel warmth and welcoming, and you easily pull them out of the river bed. \r\n\r\nStill wet, they gliten in the soft light of the woods, their colors bright and nearly dazing, more similar to those of a painting than those of a real plant. \n\nThey look deeply out of place in the  washed out surrounding and you take great care in putting them away safely so to not ruin one of the few gorgeous thing you have found in this world."},"styles":[]},"image":null,"exitPaths":{"type":"SINGLE","paths":[{"key":"90ea99b7-db48-4873-9cef-e7dc0d6c2c6b","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"89cb16d4-812c-4dc0-a11d-b3fef33bd544","logicOperator":"AND","variableComparers":[]},"variablesSet":[{"key":"17da6b15-5c1f-43fd-8ca7-5ded18b9a08a","variable":{"key":"33402705-0f2f-4bd7-965c-e235229941ae","type":"RUN","name":"GORGEOUS FLOWERS"},"value":1,"operator":"ADD"}],"exit":{"key":"af951c8f-f89e-41f9-ba41-8c61dd3ebb0e","nextSceneKey":"d645f40a-afae-4a5f-8b53-f8ec2f4590b9","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"630535d9-7ce7-4cc4-ba47-3e91e9cabcad","type":"SCENE"}}]},"color":"ffe9d1cd","baseProbability":20,"variableGroup":{"key":"4fd53683-5cff-40e6-93dc-ad21b4be3310","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[]},{"key":"5fcf6e37-2e28-42eb-bd2c-19c6f6b7ba72","name":"Dry Flowers","text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"The water it's so cold that it seems like it's coming from a glacier, yet, as your fingers get closer to the flowers, you feel a sense of warmth and comfort in you bones.\n\nUnder the tip of your fingers the flowers feel warmth and welcoming, and you easily pull them out of the river bed. \r\n\r\nStill wet, they gliten in the soft light of the woods, their colors bright and nearly dazing, more similar to those of a painting than those of a real plant. \r\n\r\nYou barely a few moments to admire them, before they start to rot before your very eyes, the bright petals curling and darknening, shrivering in contact with the air, no longer shielded by the cold water of the river.\r\n\r\nStill, you decide to keep them, carefully placing the now essicated plant away for future use."},"styles":[]},"image":null,"exitPaths":{"type":"SINGLE","paths":[{"key":"9f70e7c6-d3dd-4df4-a717-95c5bb89fe3b","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"d581190f-05e4-4f65-afe3-58fbbf019a31","logicOperator":"AND","variableComparers":[]},"variablesSet":[{"key":"8ec5565e-6b02-442f-80f1-0b2d0ebc9350","variable":{"key":"f1431816-9bf9-4336-aa8c-0a7200e5526d","type":"RUN","name":"DRY FLOWERS"},"value":1,"operator":"ADD"}],"exit":{"key":"bfd9a4fa-c5c6-4902-ba53-6fc0ada20d07","nextSceneKey":"d645f40a-afae-4a5f-8b53-f8ec2f4590b9","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"5fcf6e37-2e28-42eb-bd2c-19c6f6b7ba72","type":"SCENE"}}]},"color":"ffb9c9db","baseProbability":45,"variableGroup":{"key":"ff190f35-f9f9-4cf7-9558-16f8e13217e8","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[]}]},"1c98d8c4-b48f-4494-972d-3004fedc0480":{"key":"1c98d8c4-b48f-4494-972d-3004fedc0480","name":"Listen to the River","isStartingScene":false,"image":null,"events":[{"key":"f912e1c0-f61f-4ac4-815d-69768aeb6647","name":"A Dream","text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"Sitting down on the soft moss, you take a long breath and close your eyes, focusing your mind on the soothing sound of the water dancing between the rocks. \n\nIt feels weirdly familiar, but you cannot properly grasp where you have already heard it.\n\nAs you let the gentle sound embrace you, a cozy darkness fills your mind and you slip into your dreams"},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"35f84a26-ac6e-4b29-8fd9-17375dcda66f","text":{"textMap":{"ITALIAN":"Dormi un sonno senza sogni","ENGLISH":"You sleep a dreamless sleep"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"05055928-31c0-48c5-8c4d-ec429ee01c2c","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"ffed92dd-f9b2-4f50-827c-5e1387da42a3","nextSceneKey":"1c98d8c4-b48f-4494-972d-3004fedc0480","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"f912e1c0-f61f-4ac4-815d-69768aeb6647","type":"SCENE"}},{"key":"00561d57-8890-4d59-b19d-5d402c3d24d5","text":{"textMap":{"ITALIAN":"Sogni il sogno del Bugiardo","ENGLISH":"You dream a Liar's dream"},"styles":[]},"type":"DEPENDENT","variableGroup":{"key":"0251a8bd-4e65-43d3-9555-ff41a81357ac","logicOperator":"OR","variableComparers":[{"key":"4278ed9f-0702-4a9f-ba84-de3e8c754bc7","type":"EQUALS","value":1,"variable":{"key":"4914f72b-7208-44f1-835f-bc1cf570b8df","type":"RUN","name":"LIAR"}},{"key":"0cf777f2-8e6c-4c08-afc5-bc9476cf9164","type":"EQUALS","value":1,"variable":{"key":"3d89720a-c6d6-4eb8-8d91-b5181eb084bd","type":"CHARACTER","name":"LIAR"}}]},"variablesSet":[],"exit":{"key":"83be6ab4-8e6a-4bec-9ae4-b8c84fa86dbf","nextSceneKey":"1c98d8c4-b48f-4494-972d-3004fedc0480","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"f912e1c0-f61f-4ac4-815d-69768aeb6647","type":"SCENE"}},{"key":"6467dff9-8860-4f99-9976-98067e9b8411","text":{"textMap":{"ITALIAN":"Altri sogni","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"65f1b8f6-1356-4080-a874-7b8297ed4682","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"60fabc96-3520-4ff2-83cc-1ba15fe5a9b3","nextSceneKey":"1c98d8c4-b48f-4494-972d-3004fedc0480","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"f912e1c0-f61f-4ac4-815d-69768aeb6647","type":"SCENE"}}]},"color":"ffd7e0be","baseProbability":30,"variableGroup":{"key":"1c3fddbc-41f5-4baa-856a-346b55ca55b1","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[]},{"key":"da742a87-bd80-4a7e-b034-cd160d100ab0","name":"A Nightmare","text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"Sitting down on the soft moss, you take a long breath and close your eyes, focusing your mind on the soothing sound of the water dancing between the rocks. \n\nIt feels weirdly familiar, but you cannot properly grasp where you have already heard it.\n\nAs you let the gentle sound embrace you, a cozy darkness fills your mind and you slip into your dreams"},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"625459d8-407e-4415-a94b-42ddef3e7154","text":{"textMap":{"ITALIAN":"Dormi un sonno senza sogni","ENGLISH":"You sleep a dreamless sleep"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"b4f12afc-88ab-4955-8a4d-490eadfb946a","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"c3f6e535-3e58-4abd-a510-170a9b5f5bac","nextSceneKey":"1c98d8c4-b48f-4494-972d-3004fedc0480","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"f912e1c0-f61f-4ac4-815d-69768aeb6647","type":"SCENE"}},{"key":"0fe23d21-367e-4331-a550-80565625105e","text":{"textMap":{"ITALIAN":"Sogni l'incubo del Bugiardo","ENGLISH":"You dream a Liar's nightmare"},"styles":[]},"type":"DEPENDENT","variableGroup":{"key":"02c76d50-0414-40e7-935d-719e8c3a36a9","logicOperator":"OR","variableComparers":[{"key":"da31f8c8-b64f-4951-bfee-c967b4b1b9d5","type":"EQUALS","value":1,"variable":{"key":"852b1c27-8fdd-4a94-9777-3a3082ef663a","type":"RUN","name":"LIAR"}},{"key":"a178e768-b11f-4c05-8af9-1b9388c6249c","type":"EQUALS","value":1,"variable":{"key":"f2797c54-df3b-4d3b-855c-3b3b6ee91b67","type":"CHARACTER","name":"LIAR"}}]},"variablesSet":[],"exit":{"key":"d9f6d921-a5cb-48a4-b973-02f596b0f689","nextSceneKey":"1c98d8c4-b48f-4494-972d-3004fedc0480","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"f912e1c0-f61f-4ac4-815d-69768aeb6647","type":"SCENE"}},{"key":"4c3890e6-2b3f-4eaf-acc0-21c873a86dac","text":{"textMap":{"ITALIAN":"Altri sogni","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"6c6e4435-2298-449f-98c0-b8c38237384a","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"e07eef7c-d061-42ac-8d10-d0ec9ba3fbb3","nextSceneKey":"1c98d8c4-b48f-4494-972d-3004fedc0480","nextSceneChapterKey":"0e22b85e-0509-4afb-9af4-02fc72db938d","nextEventKey":"f912e1c0-f61f-4ac4-815d-69768aeb6647","type":"SCENE"}}]},"color":"ffd7dca7","baseProbability":30,"variableGroup":{"key":"01e23a1b-f019-4dd1-a3b6-786bf3d412ca","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[]},{"key":"b163ffdc-1a36-45c7-8580-d93f32b28004","name":"Evento 3","text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"Type here the event's text."},"styles":[]},"image":null,"exitPaths":{"type":"SINGLE","paths":[]},"color":"ffbfe9e6","baseProbability":30,"variableGroup":{"key":"800ac61b-e17d-4926-80d4-5e9d2d395a97","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[]}]}}}
+{
+  "key": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+  "name": "EC",
+  "scenes": {
+    "6129130f-d459-45b8-9682-6093b263e2a8": {
+      "key": "6129130f-d459-45b8-9682-6093b263e2a8",
+      "name": "Prima scena - A Calm River",
+      "isStartingScene": true,
+      "image": null,
+      "events": [
+        {
+          "key": "5be18611-4d1e-4723-a6e7-06cf8c61ac6d",
+          "name": "A Calm River",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Test",
+              "ENGLISH": "For quite a bit, you have been following a thin but quite deep river. Walking upstream, the soft and constant noise of the water rushing next to you is soothing and familiar.\r\n\nAfter so many days wandering around without a clear direction, it feels nice to have a landmark to follow, a little path towards something.\r\n\r\nLike an ancient road, the stream of water guides you up on a steer cliff, sneaking around rocks and trees, cutting deeply into the firm earth of the woods undergrowth. \r\n\r\nAs you push forward, the forest remains eerily calm and silent, the occasional snaps of twigs or rocks getting loose and rolling downhill is the only sound that dances with the cold water splashing, its constant presence similar to a soft hush in a library or church."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "b7051722-6619-430d-a752-968c671e3728",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "e0d896be-bd64-4c9f-9ce6-ab0d082e7c09",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "626643cb-6fbf-441b-8dc6-475113796788",
+                  "nextSceneKey": "6129130f-d459-45b8-9682-6093b263e2a8",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "5be18611-4d1e-4723-a6e7-06cf8c61ac6d",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "94227076-4ebc-4349-b7f5-e8ab62019d21",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Osserva il fiume da vicino",
+                    "ENGLISH": "Look closely at the river"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "16b4e767-af8d-4265-b9a1-f4ee3d99ad4e",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "fced9428-1ee8-4172-9e97-58a16717d139",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "5be18611-4d1e-4723-a6e7-06cf8c61ac6d",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "b55d3816-e5ef-446d-8640-7884194d7185",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Fermati e siediti vicino al fiume, ascoltandone la voce",
+                    "ENGLISH": "Stop and sit near the river, listening to it's voice"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "eb6ca845-24a3-43dc-b956-86ec5576669d",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "9c70e2e0-a5f6-401f-bfa6-05ccd99da8e9",
+                  "nextSceneKey": "6129130f-d459-45b8-9682-6093b263e2a8",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "5be18611-4d1e-4723-a6e7-06cf8c61ac6d",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffb2a8dd",
+          "baseProbability": 50,
+          "variableGroup": {
+            "key": "d585d081-0338-4903-9173-55ba25e8baa0",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        }
+      ]
+    },
+    "39e9cb13-0030-4930-83f5-3421a390dcc5": {
+      "key": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+      "name": "Look closely at the gentle water",
+      "isStartingScene": false,
+      "image": null,
+      "events": [
+        {
+          "key": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+          "name": "Gentle Water 1",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "In the thick woods, the gentle lullaby of rushing water can be heard, sneaking its way among the dark bushes and the low branches, like a distant melody of the forest.\n\nIt takes some time to reach it, as the ground is slowly rising into a cliff, making navigation quite hard. Chasm and fallen trees often block your path, sharp stones start to emerge from the soft undergrowth more often, trying to bite at your ankles and making it hard to keep your footing.\r\n\r\nAt last, the river is in front of you. It’s a large and deep thing, it’s water clear and fast, killing any hope to try and traverse it, as you would be easily swept away against the large stones that often sleep barely below the surface."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "ae25bbf0-f4fb-4570-a37b-1fad7eb5c6ce",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "cd63c294-b46d-4a7b-a0df-f29ae09f8082",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "68b7e1b8-ce72-4a08-8d12-faa53f8bdbf4",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "6c1e1a4d-6300-428b-9067-2201e2ff3c68",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Fermati e siediti sulla riva del fiume, ascoltandone la voce",
+                    "ENGLISH": "Stop and sit near the river, listening to it's voice"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "637bdc9d-cec6-423b-8c77-54293a23743d",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "e58d7440-9265-4cf5-aeb8-6014081fa867",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffede1dc",
+          "baseProbability": 50,
+          "variableGroup": {
+            "key": "de95cfb3-7051-4d6a-b39a-4cf5b204aeaf",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        },
+        {
+          "key": "af835f2a-c701-4209-97c9-ed1c656b369c",
+          "name": "Gentle Water 2",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "The water flows gently along the rocks lazily reflecting what little light drips between the folliage above your head.\r\n\r\nYou can see the smooth pebbles on the river bed, their dull colors slightly painted by little algae. \n\nAmong them, you catch something small and shiny hidden under the layer of rocks."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "13492cc8-b2d3-492b-9000-d9d33f67551a",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "6227db3b-a24c-49c9-ac8a-263a618b6ee8",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "efaa56a2-1021-49ff-9788-dc2e34d7154a",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "a12b12b8-8dd7-4615-a52b-61949b334750",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Fermati e siediti sulla riva del fiume, ascoltandone la voce",
+                    "ENGLISH": "Stop and sit near the river, listening to it's voice"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "215e9780-2093-4767-b676-fe943378450f",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "75018f93-e471-42c4-8a29-23400084bf77",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "ccf36499-a039-490c-96fa-f982237c203f",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Allunga una mano e prova a raccogliere l'oggetto luccicante",
+                    "ENGLISH": "Reach out and try to retrieve the shiny item"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "f5ca8f60-e034-460a-b086-e5b18b93b285",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "e63d7fef-90b8-4fe7-a1f5-24ec9f3ff7dc",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "af835f2a-c701-4209-97c9-ed1c656b369c",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffe8ead5",
+          "baseProbability": 15,
+          "variableGroup": {
+            "key": "34d83e88-1ace-46eb-84f4-bb526614da9d",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        },
+        {
+          "key": "bd45aaa1-fa95-4e6a-802d-6e65719fa33e",
+          "name": "Gentle Water 3",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "The water flows gently along the rocks lazily reflecting what little light drips between the folliage above your head.\r\n\r\nYou can see the smooth pebbles on the river bed, their dull colors slightly painted by little algae. Among them, you catch the weird shape of something buried under the rocks, it's color a bright off white tinge."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "df570dff-6979-4425-8216-2d482afd8183",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "3c311887-b84b-4161-a402-00679bcaffa5",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "5f85d3fe-f305-4bdb-9653-1ba87907fa81",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "ff5c78b0-37cc-4ffd-9a6b-bf06b77bf1f0",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Fermati e siediti sulla riva del fiume, ascoltandone la voce",
+                    "ENGLISH": "Stop and sit near the river, listening to it's voice"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "9053a0e9-e238-450a-af67-952f96ebcf9b",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "2592a8a6-a676-425a-a541-dde0a862e3eb",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "3856e9a0-7875-4bcb-bb2a-7bb95a017932",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Allunga una mano e prova a raccogliere l'oggetto pallido sotto la superficie",
+                    "ENGLISH": "Reach out into the water to retrieve the pale item"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "cc84b3d5-3996-47a9-b4cc-130c189a9536",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "25702d63-6ff9-46ac-a804-8d77a13488a2",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "bd45aaa1-fa95-4e6a-802d-6e65719fa33e",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffdbbdac",
+          "baseProbability": 15,
+          "variableGroup": {
+            "key": "5004a358-c28b-442e-97a8-d869e6c7cd16",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        },
+        {
+          "key": "2a41bd44-99e1-4ec8-9da4-c6e9e2be0551",
+          "name": "Gentle Water 4",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "In the river bed, small, colorful flowers blossom, gently moving despite the strong currents, bobbing and swaying under a soft wind that cannot be. \n\nTheir scent is sweet and seems to come from the river itself, the water protecting this hidden garden."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "21fa5e39-685d-49b6-9f80-bdfcc8de4bb5",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "1edf6f5c-51bd-4cd8-9491-1d0e1a0f7699",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "1a281127-a71c-42cc-9f46-449abe8dc87a",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "566a4d86-3d4a-4edd-9a24-259f9302c79a",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Fermati e siediti sulla riva del fiume, ascoltandone la voce",
+                    "ENGLISH": "Stop and sit near the river, listening to it's voice"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "d0136bdb-60de-4738-9639-c7fb93f5d28c",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "8e85c719-e037-406a-b24b-11935b98a6fb",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "abe29fe7-ea64-432d-8b00-5833b7937de6",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Allunga la mano nell'acqua per cogliere i fiori",
+                    "ENGLISH": "Reach out into the water to pluck off some of the flowes"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "cc43fa7c-3f3c-47ea-b7c4-a6ee0661b6d2",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "62cb9f6f-0ec8-4c13-a19c-6327225adc09",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "bd45aaa1-fa95-4e6a-802d-6e65719fa33e",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffc7e2a7",
+          "baseProbability": 10,
+          "variableGroup": {
+            "key": "dc54a015-e749-4385-a0e6-476ef576eb2c",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        },
+        {
+          "key": "7318ffbb-cf49-4b1d-9182-b363340c3f99",
+          "name": "Gentle Water 5",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "In the river bed, small, colorful flowers blossom, gently moving despite the strong currents, bobbing and swaying under a soft wind that cannot be. \n\nTheir scent is sweet and seems to come from the river itself, the water protecting this hidden garden."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "02d19cef-dcd3-42cd-9ac2-a4a43ebc9f99",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "936d3ff6-72fe-4fd4-a13e-fd13396ea0a6",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "c62fc1a1-35f8-43f4-b14c-f260f46221c5",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "8cc6ccce-1f5d-4aa3-813d-477ee59300a8",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Fermati e siediti sulla riva del fiume, ascoltandone la voce",
+                    "ENGLISH": "Stop and sit near the river, listening to it's voice"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "2cf5b9c7-1a84-4ebc-95f9-190b70198207",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "8d7f7ece-3973-4e86-8660-f46cf4c5ede2",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "950d561c-93bd-4d8d-818c-b7ed8d27aacd",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Studia il fiume",
+                    "ENGLISH": "Concentrate on the river"
+                  },
+                  "styles": []
+                },
+                "type": "DEPENDENT",
+                "variableGroup": {
+                  "key": "17c63e77-7ebf-448a-a045-729d4491ecad",
+                  "logicOperator": "OR",
+                  "variableComparers": [
+                    {
+                      "key": "140ebfc0-60e9-4f9c-8abb-2cc47a47166a",
+                      "type": "GREATER_OR_EQUALS",
+                      "value": 1,
+                      "variable": {
+                        "key": "275d48a6-450f-4959-9a77-563d15e532b2",
+                        "type": "RUN",
+                        "name": "Y'XIN'HISS"
+                      }
+                    },
+                    {
+                      "key": "8021513e-7bcc-4e5f-b168-abe7c6490563",
+                      "type": "GREATER_OR_EQUALS",
+                      "value": 1,
+                      "variable": {
+                        "key": "e4a25359-f620-411b-a763-86505f8331f9",
+                        "type": "CHARACTER",
+                        "name": "Y'XIN'HISS"
+                      }
+                    }
+                  ]
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "aee5b534-3956-4204-b4ee-33547d909f00",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "bd45aaa1-fa95-4e6a-802d-6e65719fa33e",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffd7e1f1",
+          "baseProbability": 10,
+          "variableGroup": {
+            "key": "0369df78-c947-439f-8823-54c5855c78ae",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [
+            {
+              "key": "b7a98068-19f6-40a0-8651-5068fcd852cb",
+              "variableComparer": {
+                "key": "2dd02cac-122c-4816-ab47-32b81ac4c821",
+                "type": "GREATER_THAN",
+                "value": 0,
+                "variable": {
+                  "key": "40674f92-6cd1-4153-82f8-efe7ba7aa6e8",
+                  "type": "CHARACTER",
+                  "name": "Y'XIN'HISS"
+                }
+              },
+              "value": 10
+            },
+            {
+              "key": "bff1928d-7568-48cb-a851-289628aa9143",
+              "variableComparer": {
+                "key": "408a789c-4dca-40b1-a81c-284ff4ca36f7",
+                "type": "GREATER_THAN",
+                "value": 1,
+                "variable": {
+                  "key": "fad527db-30d1-4f69-9792-711d091a7020",
+                  "type": "WORLD",
+                  "name": "Y'XIN'HISS"
+                }
+              },
+              "value": 10
+            }
+          ]
+        }
+      ]
+    },
+    "d645f40a-afae-4a5f-8b53-f8ec2f4590b9": {
+      "key": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+      "name": "Reach out and pluck off some flowers",
+      "isStartingScene": false,
+      "image": null,
+      "events": [
+        {
+          "key": "51ebc67a-abd7-4cfa-b2d0-244fb9fb62eb",
+          "name": "Glass Flowers",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "The water it's so cold that it seems like it's coming from a glacier, yet, as your fingers get closer to the flowers, you feel a sense of warmth and comfort in you bones.\n\nYour fingers touch one of the delicate pink petals, but the plant seems to shatters in sharp shards of colored glass. Your blood starts dripping into the clean water as the newborn blades dig deep under your skin, biting and burrowing in their new home.\r\n\r\nWhen you pull out the bleeding fingers from the water, you can see bright pink shard of sharp glass where your nails should be."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "63b20136-1428-4a39-b4df-05a0bcf46227",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "f7403e08-ba33-4c3e-afe7-d792e51f9d0d",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "b651a5c8-953e-4bf4-99db-1ce9964da09b",
+                    "variable": {
+                      "key": "cdf5dbda-8a46-4502-bb79-624cbeed33c5",
+                      "type": "WOUNDS"
+                    },
+                    "value": 1,
+                    "operator": "SUBTRACT",
+                    "minValue": null,
+                    "maxValue": null
+                  },
+                  {
+                    "key": "36f2da97-d83c-4a6b-ad3d-68693ad74004",
+                    "variable": {
+                      "key": "fe850d77-75db-4177-88de-ca12bf4dd85d",
+                      "type": "RUN",
+                      "name": "GLASS CLAWS"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
+                "exit": {
+                  "key": "eca10498-9216-4168-aba5-4b0a67dc0b47",
+                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "51ebc67a-abd7-4cfa-b2d0-244fb9fb62eb",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffccd3ea",
+          "baseProbability": 10,
+          "variableGroup": {
+            "key": "6dada761-51df-4e16-a395-a078fff64874",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [
+            {
+              "key": "c442f5da-3679-479a-879f-e0548d0d4c54",
+              "variableComparer": {
+                "key": "caa06675-40a0-4260-83c4-f45fe7e2d9e4",
+                "type": "GREATER_THAN",
+                "value": 1,
+                "variable": {
+                  "key": "444594a7-f778-4a0d-a827-ab2201c279cb",
+                  "type": "WORLD",
+                  "name": "Y'XIN'HISS"
+                }
+              },
+              "value": 10
+            },
+            {
+              "key": "228a838f-278c-454c-a43a-1dae4c4a1dc1",
+              "variableComparer": {
+                "key": "3650c6e2-bd62-445e-a064-eb2ce6a9f40f",
+                "type": "GREATER_THAN",
+                "value": 1,
+                "variable": {
+                  "key": "55bf8633-b570-4595-8ade-a354cbff553f",
+                  "type": "CHARACTER",
+                  "name": "Y'XIN'HISS"
+                }
+              },
+              "value": 10
+            }
+          ]
+        },
+        {
+          "key": "f9e55e52-af18-456e-a81f-4ec43e046e27",
+          "name": "Meet the Dryad",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "You plunge your hand into the cold waters, reaching to the bottom of the shallow river to grasp some of the exotic flowers that seems to grow on the river bed and yet, despite how close they are to the surface, you cannot seem to ever touch them.\r\n\r\nYou find yourself nealy shoulder deep into the water, your hand grasping at nothing more than rushing water even if you can clearly see that those alluring plants are well into your reach, when you feel watched. \r\n\r\nRising your head and looking in the calm darkness of the forest, you freeze as you spot two plucked out eyes dangling from a thick thorn bush. For a moment you wonder if a stray bird has impaled them on the wicked thorns fo the plant as a way to hide a tasty snack for himself. \n\nThen, the bush seems to move, wines and branches parts away like snakes under it's dangling eyes, revealing a small bird nest behid a wall of theets like thorns. In the nest lays a small black crow, it's stance signaling that it's currently incubating something under it's ruffled feathers. As the thorns starts moving again, the raspy voice of the bird melts with the snapping of wood and rustling of leaves, forming a voice.\n\n\"Who are you that coven my childs? Are you here to pluck them from their rightfull house?\""
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "4b70c5f2-c423-45fd-89b4-452815af5619",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Preparati a combattere. Estrai un arma ed affronta la creatura",
+                    "ENGLISH": "Prepare for a fight. Reach for a weapon and try to strike the entity"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "55f13031-4ba2-4e19-86dc-bef362b487c8",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "8ff01dd2-fabb-4476-b11d-ca0ff98e21d8",
+                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "f9e55e52-af18-456e-a81f-4ec43e046e27",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "9683f711-db0b-4874-a2d6-030b704d6d7e",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Inchinati e chiedi perdono",
+                    "ENGLISH": "Kneel down and beg for mercy"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "7b37a675-ba18-4459-bb6f-bd7c039952c0",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "d3379bd4-8acf-41b6-9a97-b3c0e9bc8fc3",
+                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "f9e55e52-af18-456e-a81f-4ec43e046e27",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "0a484159-4393-40ac-80b8-0d39f98d9145",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prega e parla con l'entità",
+                    "ENGLISH": "Prey and talk to the creature"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "0897b3bf-ad56-4b1c-9d15-fe9e450220f5",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "22c9974e-5fc8-4c6b-bd14-3161434e6acf",
+                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "f9e55e52-af18-456e-a81f-4ec43e046e27",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "3131b265-59fb-4ff4-8e0a-47815dae5fde",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Offri un dono alla creatura",
+                    "ENGLISH": "offer a gift to the entity"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "8207de88-a8b9-400f-9d0b-34d31121f226",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "8f30a0a2-fb6f-4b3f-b558-2ec7d1e802f7",
+                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "f9e55e52-af18-456e-a81f-4ec43e046e27",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffd7e2f0",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "20cb83f5-699e-418b-b8d6-4c7aa63b788a",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        },
+        {
+          "key": "630535d9-7ce7-4cc4-ba47-3e91e9cabcad",
+          "name": "Gorgeous Flowers",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "The water it's so cold that it seems like it's coming from a glacier, yet, as your fingers get closer to the flowers, you feel a sense of warmth and comfort in you bones.\n\nUnder the tip of your fingers the flowers feel warmth and welcoming, and you easily pull them out of the river bed. \r\n\r\nStill wet, they gliten in the soft light of the woods, their colors bright and nearly dazing, more similar to those of a painting than those of a real plant. \n\nThey look deeply out of place in the  washed out surrounding and you take great care in putting them away safely so to not ruin one of the few gorgeous thing you have found in this world."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "90ea99b7-db48-4873-9cef-e7dc0d6c2c6b",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "89cb16d4-812c-4dc0-a11d-b3fef33bd544",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "17da6b15-5c1f-43fd-8ca7-5ded18b9a08a",
+                    "variable": {
+                      "key": "33402705-0f2f-4bd7-965c-e235229941ae",
+                      "type": "RUN",
+                      "name": "GORGEOUS FLOWERS"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
+                "exit": {
+                  "key": "af951c8f-f89e-41f9-ba41-8c61dd3ebb0e",
+                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "630535d9-7ce7-4cc4-ba47-3e91e9cabcad",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffe9d1cd",
+          "baseProbability": 20,
+          "variableGroup": {
+            "key": "4fd53683-5cff-40e6-93dc-ad21b4be3310",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        },
+        {
+          "key": "5fcf6e37-2e28-42eb-bd2c-19c6f6b7ba72",
+          "name": "Dry Flowers",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "The water it's so cold that it seems like it's coming from a glacier, yet, as your fingers get closer to the flowers, you feel a sense of warmth and comfort in you bones.\n\nUnder the tip of your fingers the flowers feel warmth and welcoming, and you easily pull them out of the river bed. \r\n\r\nStill wet, they gliten in the soft light of the woods, their colors bright and nearly dazing, more similar to those of a painting than those of a real plant. \r\n\r\nYou barely a few moments to admire them, before they start to rot before your very eyes, the bright petals curling and darknening, shrivering in contact with the air, no longer shielded by the cold water of the river.\r\n\r\nStill, you decide to keep them, carefully placing the now essicated plant away for future use."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "9f70e7c6-d3dd-4df4-a717-95c5bb89fe3b",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "d581190f-05e4-4f65-afe3-58fbbf019a31",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "8ec5565e-6b02-442f-80f1-0b2d0ebc9350",
+                    "variable": {
+                      "key": "f1431816-9bf9-4336-aa8c-0a7200e5526d",
+                      "type": "RUN",
+                      "name": "DRY FLOWERS"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": null,
+                    "maxValue": null
+                  },
+                  {
+                    "key": "02f51a98-8e27-48fc-acea-a9eedff4bc97",
+                    "variable": {
+                      "key": "2caa21e2-4205-4132-a89a-afafa6092352",
+                      "type": "WORLD",
+                      "name": "SGDSDG"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
+                "exit": {
+                  "key": "bfd9a4fa-c5c6-4902-ba53-6fc0ada20d07",
+                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "5fcf6e37-2e28-42eb-bd2c-19c6f6b7ba72",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffb9c9db",
+          "baseProbability": 45,
+          "variableGroup": {
+            "key": "ff190f35-f9f9-4cf7-9558-16f8e13217e8",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        }
+      ]
+    },
+    "1c98d8c4-b48f-4494-972d-3004fedc0480": {
+      "key": "1c98d8c4-b48f-4494-972d-3004fedc0480",
+      "name": "Listen to the River",
+      "isStartingScene": false,
+      "image": null,
+      "events": [
+        {
+          "key": "f912e1c0-f61f-4ac4-815d-69768aeb6647",
+          "name": "A Dream",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Sitting down on the soft moss, you take a long breath and close your eyes, focusing your mind on the soothing sound of the water dancing between the rocks. \n\nIt feels weirdly familiar, but you cannot properly grasp where you have already heard it.\n\nAs you let the gentle sound embrace you, a cozy darkness fills your mind and you slip into your dreams"
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "35f84a26-ac6e-4b29-8fd9-17375dcda66f",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Dormi un sonno senza sogni",
+                    "ENGLISH": "You sleep a dreamless sleep"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "05055928-31c0-48c5-8c4d-ec429ee01c2c",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "468585fd-d068-4355-8933-9b496a665241",
+                    "variable": {
+                      "key": "cc37218b-e3ee-44d0-a6ee-5586ba8cbc61",
+                      "type": "WORLD",
+                      "name": "AASD"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": null
+                  },
+                  {
+                    "key": "84cf0e2d-d36f-489b-b76b-dc2426624235",
+                    "variable": {
+                      "key": "83a921b4-0f4a-4ded-8760-58f91c6bc346",
+                      "type": "WORLD",
+                      "name": "FFFF"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
+                "exit": {
+                  "key": "ffed92dd-f9b2-4f50-827c-5e1387da42a3",
+                  "nextSceneKey": "1c98d8c4-b48f-4494-972d-3004fedc0480",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "f912e1c0-f61f-4ac4-815d-69768aeb6647",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "00561d57-8890-4d59-b19d-5d402c3d24d5",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sogni il sogno del Bugiardo",
+                    "ENGLISH": "You dream a Liar's dream"
+                  },
+                  "styles": []
+                },
+                "type": "DEPENDENT",
+                "variableGroup": {
+                  "key": "0251a8bd-4e65-43d3-9555-ff41a81357ac",
+                  "logicOperator": "OR",
+                  "variableComparers": [
+                    {
+                      "key": "4278ed9f-0702-4a9f-ba84-de3e8c754bc7",
+                      "type": "EQUALS",
+                      "value": 1,
+                      "variable": {
+                        "key": "4914f72b-7208-44f1-835f-bc1cf570b8df",
+                        "type": "RUN",
+                        "name": "LIAR"
+                      }
+                    },
+                    {
+                      "key": "0cf777f2-8e6c-4c08-afc5-bc9476cf9164",
+                      "type": "EQUALS",
+                      "value": 1,
+                      "variable": {
+                        "key": "3d89720a-c6d6-4eb8-8d91-b5181eb084bd",
+                        "type": "CHARACTER",
+                        "name": "LIAR"
+                      }
+                    }
+                  ]
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "83be6ab4-8e6a-4bec-9ae4-b8c84fa86dbf",
+                  "nextSceneKey": "1c98d8c4-b48f-4494-972d-3004fedc0480",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "f912e1c0-f61f-4ac4-815d-69768aeb6647",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "6467dff9-8860-4f99-9976-98067e9b8411",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Altri sogni",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "65f1b8f6-1356-4080-a874-7b8297ed4682",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "60fabc96-3520-4ff2-83cc-1ba15fe5a9b3",
+                  "nextSceneKey": "1c98d8c4-b48f-4494-972d-3004fedc0480",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "f912e1c0-f61f-4ac4-815d-69768aeb6647",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffd7e0be",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "1c3fddbc-41f5-4baa-856a-346b55ca55b1",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        },
+        {
+          "key": "da742a87-bd80-4a7e-b034-cd160d100ab0",
+          "name": "A Nightmare",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Sitting down on the soft moss, you take a long breath and close your eyes, focusing your mind on the soothing sound of the water dancing between the rocks. \n\nIt feels weirdly familiar, but you cannot properly grasp where you have already heard it.\n\nAs you let the gentle sound embrace you, a cozy darkness fills your mind and you slip into your dreams"
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "625459d8-407e-4415-a94b-42ddef3e7154",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Dormi un sonno senza sogni",
+                    "ENGLISH": "You sleep a dreamless sleep"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "b4f12afc-88ab-4955-8a4d-490eadfb946a",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "c3f6e535-3e58-4abd-a510-170a9b5f5bac",
+                  "nextSceneKey": "1c98d8c4-b48f-4494-972d-3004fedc0480",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "f912e1c0-f61f-4ac4-815d-69768aeb6647",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "0fe23d21-367e-4331-a550-80565625105e",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sogni l'incubo del Bugiardo",
+                    "ENGLISH": "You dream a Liar's nightmare"
+                  },
+                  "styles": []
+                },
+                "type": "DEPENDENT",
+                "variableGroup": {
+                  "key": "02c76d50-0414-40e7-935d-719e8c3a36a9",
+                  "logicOperator": "OR",
+                  "variableComparers": [
+                    {
+                      "key": "da31f8c8-b64f-4951-bfee-c967b4b1b9d5",
+                      "type": "EQUALS",
+                      "value": 1,
+                      "variable": {
+                        "key": "852b1c27-8fdd-4a94-9777-3a3082ef663a",
+                        "type": "RUN",
+                        "name": "LIAR"
+                      }
+                    },
+                    {
+                      "key": "a178e768-b11f-4c05-8af9-1b9388c6249c",
+                      "type": "EQUALS",
+                      "value": 1,
+                      "variable": {
+                        "key": "f2797c54-df3b-4d3b-855c-3b3b6ee91b67",
+                        "type": "CHARACTER",
+                        "name": "LIAR"
+                      }
+                    }
+                  ]
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "d9f6d921-a5cb-48a4-b973-02f596b0f689",
+                  "nextSceneKey": "1c98d8c4-b48f-4494-972d-3004fedc0480",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "f912e1c0-f61f-4ac4-815d-69768aeb6647",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "4c3890e6-2b3f-4eaf-acc0-21c873a86dac",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Altri sogni",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "6c6e4435-2298-449f-98c0-b8c38237384a",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "e07eef7c-d061-42ac-8d10-d0ec9ba3fbb3",
+                  "nextSceneKey": "1c98d8c4-b48f-4494-972d-3004fedc0480",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "f912e1c0-f61f-4ac4-815d-69768aeb6647",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffd7dca7",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "01e23a1b-f019-4dd1-a3b6-786bf3d412ca",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        },
+        {
+          "key": "b163ffdc-1a36-45c7-8580-d93f32b28004",
+          "name": "Evento 3",
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Type here the event's text."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": []
+          },
+          "color": "ffbfe9e6",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "800ac61b-e17d-4926-80d4-5e9d2d395a97",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": []
+        }
+      ]
+    }
+  }
+}

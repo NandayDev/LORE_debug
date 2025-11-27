@@ -1,1 +1,174 @@
-{"WORLD___MIKU":{"isInventory":false,"isQuest":false},"CHARACTER___MIKU":{"isInventory":false,"isQuest":false},"RUN___EMPTY BOTTLE":{"isInventory":true,"isQuest":false},"RUN___Y'XIN'HISS":{"isInventory":false,"isQuest":false},"CHARACTER___Y'XIN'HISS":{"isInventory":false,"isQuest":false},"WORLD___Y'XIN'HISS":{"isInventory":false,"isQuest":false},"RUN___BUGIARDO":{"isInventory":true,"isQuest":false},"CHARACTER___LIAR":{"isInventory":true,"isQuest":false},"RUN___LIAR":{"isInventory":true,"isQuest":false}}
+{
+  "WORLD___MIKU": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "CHARACTER___MIKU": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___EMPTY BOTTLE": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___Y'XIN'HISS": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "CHARACTER___Y'XIN'HISS": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "WORLD___Y'XIN'HISS": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___BUGIARDO": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "CHARACTER___LIAR": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___LIAR": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "WORLD___AASD": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "WORLD___SGDSDG": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "italianoooo",
+        "ENGLISH": "englishooo"
+      },
+      "styles": []
+    }
+  },
+  "WORLD___FFFF": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": null,
+    "tags": [
+      "TAGLIENTE",
+      "CICCIONE",
+      "ORGASMO"
+    ],
+    "text": {
+      "textMap": {
+        "ITALIAN": "sdgsdgsgd",
+        "ENGLISH": "aaaa"
+      },
+      "styles": []
+    }
+  }
+}
