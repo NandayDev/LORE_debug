@@ -105,9 +105,11 @@
             "logicOperator": "AND",
             "variableComparers": []
           },
-          "probabilityModifiers": []
+          "probabilityModifiers": [],
+          "audioTrack": "Drunken Sailer - Irish Rovers.mp3"
         }
-      ]
+      ],
+      "musicTrack": null
     },
     "39e9cb13-0030-4930-83f5-3421a390dcc5": {
       "key": "39e9cb13-0030-4930-83f5-3421a390dcc5",
@@ -212,7 +214,8 @@
             "logicOperator": "AND",
             "variableComparers": []
           },
-          "probabilityModifiers": []
+          "probabilityModifiers": [],
+          "audioTrack": null
         },
         {
           "key": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
@@ -286,7 +289,8 @@
             "logicOperator": "AND",
             "variableComparers": []
           },
-          "probabilityModifiers": []
+          "probabilityModifiers": [],
+          "audioTrack": null
         },
         {
           "key": "af835f2a-c701-4209-97c9-ed1c656b369c",
@@ -384,7 +388,8 @@
             "logicOperator": "AND",
             "variableComparers": []
           },
-          "probabilityModifiers": []
+          "probabilityModifiers": [],
+          "audioTrack": null
         },
         {
           "key": "2a41bd44-99e1-4ec8-9da4-c6e9e2be0551",
@@ -482,7 +487,8 @@
             "logicOperator": "AND",
             "variableComparers": []
           },
-          "probabilityModifiers": []
+          "probabilityModifiers": [],
+          "audioTrack": null
         },
         {
           "key": "7318ffbb-cf49-4b1d-9182-b363340c3f99",
@@ -630,9 +636,11 @@
               },
               "value": 10
             }
-          ]
+          ],
+          "audioTrack": null
         }
-      ]
+      ],
+      "musicTrack": null
     },
     "d645f40a-afae-4a5f-8b53-f8ec2f4590b9": {
       "key": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
@@ -742,7 +750,8 @@
               },
               "value": 10
             }
-          ]
+          ],
+          "audioTrack": null
         },
         {
           "key": "f9e55e52-af18-456e-a81f-4ec43e046e27",
@@ -864,7 +873,8 @@
             "logicOperator": "AND",
             "variableComparers": []
           },
-          "probabilityModifiers": []
+          "probabilityModifiers": [],
+          "audioTrack": null
         },
         {
           "key": "630535d9-7ce7-4cc4-ba47-3e91e9cabcad",
@@ -927,7 +937,8 @@
             "logicOperator": "AND",
             "variableComparers": []
           },
-          "probabilityModifiers": []
+          "probabilityModifiers": [],
+          "audioTrack": null
         },
         {
           "key": "5fcf6e37-2e28-42eb-bd2c-19c6f6b7ba72",
@@ -1002,9 +1013,11 @@
             "logicOperator": "AND",
             "variableComparers": []
           },
-          "probabilityModifiers": []
+          "probabilityModifiers": [],
+          "audioTrack": null
         }
-      ]
+      ],
+      "musicTrack": null
     },
     "1c98d8c4-b48f-4494-972d-3004fedc0480": {
       "key": "1c98d8c4-b48f-4494-972d-3004fedc0480",
@@ -1166,7 +1179,8 @@
             "logicOperator": "AND",
             "variableComparers": []
           },
-          "probabilityModifiers": []
+          "probabilityModifiers": [],
+          "audioTrack": "Carl Orff - O Fortuna - Latin and English Lyrics.mp3"
         },
         {
           "key": "da742a87-bd80-4a7e-b034-cd160d100ab0",
@@ -1285,7 +1299,8 @@
             "logicOperator": "AND",
             "variableComparers": []
           },
-          "probabilityModifiers": []
+          "probabilityModifiers": [],
+          "audioTrack": null
         },
         {
           "key": "b163ffdc-1a36-45c7-8580-d93f32b28004",
@@ -1310,9 +1325,11 @@
             "logicOperator": "AND",
             "variableComparers": []
           },
-          "probabilityModifiers": []
+          "probabilityModifiers": [],
+          "audioTrack": null
         }
-      ]
+      ],
+      "musicTrack": null
     }
   }
 }
