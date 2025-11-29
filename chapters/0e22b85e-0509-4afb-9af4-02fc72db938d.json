@@ -1344,6 +1344,18 @@
                     "operator": "SET",
                     "minValue": 3,
                     "maxValue": 6
+                  },
+                  {
+                    "key": "18e59d26-3521-41d0-9cd3-2eab9a73a19a",
+                    "variable": {
+                      "key": "522d79b9-70c4-4fba-84a6-79a2f5a1ad57",
+                      "type": "CHARACTER",
+                      "name": "ADFSDFSDF"
+                    },
+                    "value": 7,
+                    "operator": "SUBTRACT",
+                    "minValue": 2,
+                    "maxValue": 5
                   }
                 ],
                 "exit": {

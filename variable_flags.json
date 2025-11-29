@@ -170,5 +170,21 @@
       },
       "styles": []
     }
+  },
+  "CHARACTER___ADFSDFSDF": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": null,
+    "tags": [
+      "TAGLIENTE"
+    ],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
   }
 }
