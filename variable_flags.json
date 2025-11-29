@@ -128,8 +128,8 @@
   "WORLD___AASD": {
     "isInventory": false,
     "isQuest": false,
-    "minValue": null,
-    "maxValue": null,
+    "minValue": -5,
+    "maxValue": -2,
     "tags": [],
     "text": {
       "textMap": {

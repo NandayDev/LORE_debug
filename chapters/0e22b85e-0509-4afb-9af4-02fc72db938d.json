@@ -1316,7 +1316,45 @@
           "image": null,
           "exitPaths": {
             "type": "SINGLE",
-            "paths": []
+            "paths": [
+              {
+                "key": "eaa217f5-a6a6-4ff4-8f0f-ca5fe8594c22",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "d95259c3-a861-47a2-93c3-53d1c5c804a2",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "55ac3764-f921-46b5-bec9-33749df7b3d9",
+                    "variable": {
+                      "key": "48c734f7-a9e4-4302-a547-0d90422be202",
+                      "type": "WORLD",
+                      "name": "AASD"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": 3,
+                    "maxValue": 6
+                  }
+                ],
+                "exit": {
+                  "key": "a424c23b-d53e-4faf-8fa5-be54faed5756",
+                  "nextSceneKey": "1c98d8c4-b48f-4494-972d-3004fedc0480",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "b163ffdc-1a36-45c7-8580-d93f32b28004",
+                  "type": "SCENE"
+                }
+              }
+            ]
           },
           "color": "ffbfe9e6",
           "baseProbability": 30,
