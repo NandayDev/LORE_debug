@@ -5,15 +5,17 @@
     "1fb64e7f-e530-466b-9eb2-ac42bd4cee96": {
       "key": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
       "name": "You find a well in your journey",
+      "order": 0,
       "isStartingScene": true,
       "image": null,
       "events": [
         {
           "key": "1e9e15ed-c1de-4661-bd68-4f20882521bd",
           "name": "A well, like many others - 1",
+          "order": 0,
           "text": {
             "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ITALIAN": "A well, like many others",
               "ENGLISH": "A sturdy, old looking well stands in a clearing between the trees. It’s made of stone of different colors, mostly covered by moss and dirt. \r\n\nIt looks out of place, a lonely symbol of civilization in the middle of the wilderness, like a small monument to an humanity that is no longer there. \r\n\nA small and dark wooden bucket is slowly moving in the wind, hanged by a thick rope on a pole above the well, like a hanged man."
             },
             "styles": []
@@ -125,14 +127,15 @@
             "variableComparers": []
           },
           "probabilityModifiers": [],
-          "order": 0
+          "audioTrack": null
         },
         {
           "key": "75dd1c76-2fa8-4a27-a1c9-cbb1d900aad9",
           "name": "A Well, like many others - 2",
+          "order": 1,
           "text": {
             "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ITALIAN": "A Well, like many others - 2",
               "ENGLISH": "A well is leaning slightly on an old tree, barely visible between the brushes. \nIt’s made of very well polished grey stones, but it’s covered in dirt and clearly abandoned, if not for some snails sleeping on its side, their shells stuck to the mossy stones like little dull gems."
             },
             "styles": []
@@ -268,14 +271,15 @@
             "variableComparers": []
           },
           "probabilityModifiers": [],
-          "order": 1
+          "audioTrack": null
         },
         {
           "key": "b6f6675d-ff5e-4fe4-9225-da1edb9a029f",
           "name": "A Well, like many others - 3",
+          "order": 2,
           "text": {
             "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ITALIAN": "A Well, like many others - 3",
               "ENGLISH": "The woods become more sparse and a lonely well sits in the center of the clearing. It’s a fairly large well, made of black squared stones that look finely crafted and still mostly clean from dirt and weatherings. \n\nA heavy looking and slightly rusted metal grate is sitting in the unkempt grass to the side of it, no longer preventing its gaping stone mouth from looking up at the sky."
             },
             "styles": []
@@ -387,14 +391,15 @@
             "variableComparers": []
           },
           "probabilityModifiers": [],
-          "order": 2
+          "audioTrack": null
         },
         {
           "key": "d213d32c-df8d-4c54-964f-364f751d89c9",
           "name": "Miku's Well",
+          "order": 3,
           "text": {
             "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ITALIAN": "Miku's Well",
               "ENGLISH": "Hidden in the tall grass, there is what can barely be called a Well.\n\nIt's stone rim is scarcely a foot tall, and it has not been dug at all, showing a disc of mere dirt inside, at the same height of the ground around it. It looks out of place, lonely and so terribly useless."
             },
             "styles": []
@@ -475,7 +480,9 @@
                       "name": "MIKU"
                     },
                     "value": 1,
-                    "operator": "ADD"
+                    "operator": "ADD",
+                    "minValue": null,
+                    "maxValue": null
                   }
                 ],
                 "exit": {
@@ -525,23 +532,25 @@
               "value": 25
             }
           ],
-          "order": 3
+          "audioTrack": null
         }
       ],
-      "order": 0
+      "musicTrack": null
     },
     "fc10aaed-cfbf-499a-8c78-17e559321e7b": {
       "key": "fc10aaed-cfbf-499a-8c78-17e559321e7b",
       "name": "Look inside the Well",
+      "order": 1,
       "isStartingScene": false,
       "image": null,
       "events": [
         {
           "key": "be932037-7338-4742-93ac-a4044254c2c9",
           "name": "Water 1",
+          "order": 0,
           "text": {
             "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ITALIAN": "Water 1",
               "ENGLISH": "Inside, somewhat clean water is standing like a disk shaped mirror, reflecting the sky above placidally."
             },
             "styles": []
@@ -657,7 +666,9 @@
                       "name": "EMPTY BOTTLE"
                     },
                     "value": 1,
-                    "operator": "SUBTRACT"
+                    "operator": "SUBTRACT",
+                    "minValue": null,
+                    "maxValue": null
                   },
                   {
                     "key": "57809b35-e7aa-437a-9734-fa8ffda9b7b1",
@@ -667,7 +678,9 @@
                       "name": "BOTTLE FULL OF WATER"
                     },
                     "value": 1,
-                    "operator": "ADD"
+                    "operator": "ADD",
+                    "minValue": null,
+                    "maxValue": null
                   }
                 ],
                 "exit": {
@@ -688,20 +701,22 @@
             "variableComparers": []
           },
           "probabilityModifiers": [],
-          "order": 0
+          "audioTrack": null
         }
       ],
-      "order": 1
+      "musicTrack": null
     },
     "02e33582-338c-4a5d-9443-bf59965d2740": {
       "key": "02e33582-338c-4a5d-9443-bf59965d2740",
       "name": "Drink the water",
+      "order": 2,
       "isStartingScene": false,
       "image": null,
       "events": [
         {
           "key": "52fd4338-0a31-4937-9b52-7bc48bf975bb",
           "name": "Drink 1",
+          "order": 0,
           "text": {
             "textMap": {
               "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
@@ -736,7 +751,9 @@
                       "type": "WOUNDS"
                     },
                     "value": 1,
-                    "operator": "ADD"
+                    "operator": "ADD",
+                    "minValue": null,
+                    "maxValue": null
                   }
                 ],
                 "exit": {
@@ -757,10 +774,10 @@
             "variableComparers": []
           },
           "probabilityModifiers": [],
-          "order": 0
+          "audioTrack": null
         }
       ],
-      "order": 2
+      "musicTrack": null
     }
   }
 }
