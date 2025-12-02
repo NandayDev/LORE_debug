@@ -1,1 +1,42 @@
-{"key":"a4af9248-fe1f-4f60-889b-42ec32ee8336","name":"The graveyard","scenes":{"29eec23c-7422-405e-8300-7b8a315e51c5":{"key":"29eec23c-7422-405e-8300-7b8a315e51c5","name":"Prima scena","order":0,"isStartingScene":true,"image":null,"events":[{"key":"c01e0765-4418-4977-bfcb-8e33ae082926","name":"Evento 1","order":0,"text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"Type here the event's text."},"styles":[]},"image":null,"exitPaths":{"type":"SINGLE","paths":[]},"color":"ffe5dab7","baseProbability":30,"variableGroup":{"key":"7c2559eb-dc11-4b0b-b1c8-932b271b4e03","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[],"audioTrack":null}],"musicTrack":null}}}
+{
+  "key": "a4af9248-fe1f-4f60-889b-42ec32ee8336",
+  "name": "EC - The graveyard",
+  "scenes": {
+    "29eec23c-7422-405e-8300-7b8a315e51c5": {
+      "key": "29eec23c-7422-405e-8300-7b8a315e51c5",
+      "name": "Prima scena",
+      "order": 0,
+      "isStartingScene": true,
+      "image": null,
+      "events": [
+        {
+          "key": "c01e0765-4418-4977-bfcb-8e33ae082926",
+          "name": "Evento 1",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Type here the event's text."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": []
+          },
+          "color": "ffe5dab7",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "7c2559eb-dc11-4b0b-b1c8-932b271b4e03",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    }
+  }
+}

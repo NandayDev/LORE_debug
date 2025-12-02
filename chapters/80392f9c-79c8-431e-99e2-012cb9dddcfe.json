@@ -1,1 +1,783 @@
-{"key":"80392f9c-79c8-431e-99e2-012cb9dddcfe","name":"Quest","scenes":{"1fb64e7f-e530-466b-9eb2-ac42bd4cee96":{"key":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","name":"You find a well in your journey","order":0,"isStartingScene":true,"image":null,"events":[{"key":"1e9e15ed-c1de-4661-bd68-4f20882521bd","name":"A well, like many others - 1","order":0,"text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"A sturdy, old looking well stands in a clearing between the trees. It’s made of stone of different colors, mostly covered by moss and dirt. \r\n\nIt looks out of place, a lonely symbol of civilization in the middle of the wilderness, like a small monument to an humanity that is no longer there. \r\n\nA small and dark wooden bucket is slowly moving in the wind, hanged by a thick rope on a pole above the well, like a hanged man."},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"07868597-6825-484d-8e31-86261e832523","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"4570f8d5-e282-4cc9-8245-156e9e85c729","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"be2b3238-5574-420e-889b-eb67883ad615","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"1e9e15ed-c1de-4661-bd68-4f20882521bd","type":"SCENE"}},{"key":"b8637536-85a3-4a8f-b5cc-33ddad6c7e4d","text":{"textMap":{"ITALIAN":"Sbircia all'interno del Pozzo","ENGLISH":"Look inside the Well"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"6a33196a-da27-4e90-8749-c011eb00ae2c","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"cb406df4-c242-4f34-ae3a-87048f2e074a","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"1e9e15ed-c1de-4661-bd68-4f20882521bd","type":"SCENE"}},{"key":"6c1f0757-ec63-47ce-a48c-80b9fb6e1b48","text":{"textMap":{"ITALIAN":"Prega","ENGLISH":"Pray"},"styles":[]},"type":"DEPENDENT","variableGroup":{"key":"490040b9-9249-4e14-b861-904e125232ed","logicOperator":"OR","variableComparers":[{"key":"cfec766f-c6c4-48f1-b983-a982622dbb51","type":"GREATER_THAN","value":0,"variable":{"key":"af7a4673-5c6a-4f5d-964b-02e8255403e1","type":"WORLD","name":"MIKU"}},{"key":"52ee9cf4-dac5-4199-9a95-2324d18168b0","type":"GREATER_THAN","value":0,"variable":{"key":"c81651a2-7b04-4c74-9c0d-4cbcbe504c77","type":"CHARACTER","name":"MIKU"}}]},"variablesSet":[],"exit":{"key":"8f310247-9b63-4fc7-b6be-e16091961b76","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"1e9e15ed-c1de-4661-bd68-4f20882521bd","type":"SCENE"}}]},"color":"ffaae2d4","baseProbability":30,"variableGroup":{"key":"9dbb330e-0890-4636-a0d9-7e1575234bc3","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[],"audioTrack":null},{"key":"75dd1c76-2fa8-4a27-a1c9-cbb1d900aad9","name":"A Well, like many others - 2","order":1,"text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"A well is leaning slightly on an old tree, barely visible between the brushes. \nIt’s made of very well polished grey stones, but it’s covered in dirt and clearly abandoned, if not for some snails sleeping on its side, their shells stuck to the mossy stones like little dull gems."},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"54966e00-26d8-4a52-9777-6db32ba2567c","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"cadafcd0-ce59-498c-b477-39f37adc6c15","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"024d454f-61fd-42e5-bbaf-24e90c88c857","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"75dd1c76-2fa8-4a27-a1c9-cbb1d900aad9","type":"SCENE"}},{"key":"02c23b74-80d9-4108-a8f7-8a31330293a7","text":{"textMap":{"ITALIAN":"Sbircia all'interno","ENGLISH":"Look inside the Well"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"0090a1e2-2448-4e39-a80e-ec59dc81100a","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"afadc9b3-ad6f-47c4-9a98-b5e726490c11","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"75dd1c76-2fa8-4a27-a1c9-cbb1d900aad9","type":"SCENE"}},{"key":"a35e8120-4682-47e1-9733-3dfe81fc3a96","text":{"textMap":{"ITALIAN":"Osserva le piccole lumache","ENGLISH":"Inspect the small snails"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"8c68c789-02f2-4a73-905b-3e9c32ab6d8f","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"c4944ca6-556d-4b83-b970-defb28fb9727","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"75dd1c76-2fa8-4a27-a1c9-cbb1d900aad9","type":"SCENE"}},{"key":"930087e8-8408-4229-b569-135162dd512a","text":{"textMap":{"ITALIAN":"Prega","ENGLISH":"Pray"},"styles":[]},"type":"DEPENDENT","variableGroup":{"key":"4a12d075-d8b2-4aca-8be1-cd655bede5f2","logicOperator":"OR","variableComparers":[{"key":"e917d07d-ee6e-4b05-8db8-d3b1bd12e161","type":"GREATER_THAN","value":0,"variable":{"key":"c114d422-f28a-47c1-8fec-08ca553ba412","type":"WORLD","name":"MIKU"}},{"key":"728e6ae4-f745-4208-a37c-de02970cf2f9","type":"GREATER_THAN","value":0,"variable":{"key":"59590993-7aa7-4636-8d3c-1c7dd5389719","type":"CHARACTER","name":"MIKU"}}]},"variablesSet":[],"exit":{"key":"620906c9-7cf6-4ab7-b109-6465567175f6","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"75dd1c76-2fa8-4a27-a1c9-cbb1d900aad9","type":"SCENE"}}]},"color":"ffe4bde2","baseProbability":30,"variableGroup":{"key":"afaffbcb-d32d-490f-ab47-8a172c7854b9","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[],"audioTrack":null},{"key":"b6f6675d-ff5e-4fe4-9225-da1edb9a029f","name":"A Well, like many others - 3","order":2,"text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"The woods become more sparse and a lonely well sits in the center of the clearing. It’s a fairly large well, made of black squared stones that look finely crafted and still mostly clean from dirt and weatherings. \n\nA heavy looking and slightly rusted metal grate is sitting in the unkempt grass to the side of it, no longer preventing its gaping stone mouth from looking up at the sky."},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"e735f667-3c17-4465-a1de-8ea370d37aa7","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"a83774dd-a6e3-4964-a6a3-903519dc2041","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"0da0c280-cf23-4fd0-aa78-f52a7856dae3","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"b6f6675d-ff5e-4fe4-9225-da1edb9a029f","type":"SCENE"}},{"key":"71041b55-b8eb-47a6-ac1e-c94c7a4f923e","text":{"textMap":{"ITALIAN":"Sbircia all'interno del Pozzo","ENGLISH":"Look inside the Well"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"e366c5c5-ab37-4d45-8e3a-367113a61a7b","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"452819b0-66c5-4540-91b3-aee7646e27d0","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"b6f6675d-ff5e-4fe4-9225-da1edb9a029f","type":"SCENE"}},{"key":"cebcd3ee-b7b4-4143-a8f1-dd997d0bdb0b","text":{"textMap":{"ITALIAN":"Prega","ENGLISH":"Pray"},"styles":[]},"type":"DEPENDENT","variableGroup":{"key":"561f9d04-630c-4799-b7e3-765fffabaa43","logicOperator":"OR","variableComparers":[{"key":"41e0fa4e-fdbf-4d44-8896-84242c76a1f6","type":"GREATER_THAN","value":0,"variable":{"key":"5cd59833-9cbd-415c-aae5-7af81af0fb67","type":"WORLD","name":"MIKU"}},{"key":"79d62b12-cd4b-4bff-b1ab-ffea6d3609c9","type":"GREATER_THAN","value":0,"variable":{"key":"2772d9ca-2c06-4912-9c42-379ff7f513d5","type":"CHARACTER","name":"MIKU"}}]},"variablesSet":[],"exit":{"key":"81dfabe3-0cb6-4356-8794-1a4ab6ff6a80","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"b6f6675d-ff5e-4fe4-9225-da1edb9a029f","type":"SCENE"}}]},"color":"ffeadaed","baseProbability":30,"variableGroup":{"key":"f255e733-269e-475b-82ad-6c5adf8a9f5c","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[],"audioTrack":null},{"key":"d213d32c-df8d-4c54-964f-364f751d89c9","name":"Miku's Well","order":3,"text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"Hidden in the tall grass, there is what can barely be called a Well.\n\nIt's stone rim is scarcely a foot tall, and it has not been dug at all, showing a disc of mere dirt inside, at the same height of the ground around it. It looks out of place, lonely and so terribly useless."},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"39321fcf-f367-4f5a-90f2-159485819430","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"efbb718c-ea4e-4d4d-beb0-2f2f60f51a56","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"fe3faa25-17a2-421d-b929-aab8011fc3fb","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"d213d32c-df8d-4c54-964f-364f751d89c9","type":"SCENE"}},{"key":"e64ea36b-d451-415a-9a47-87740e729b02","text":{"textMap":{"ITALIAN":"Sbircia all'interno del Pozzo","ENGLISH":"Look inside the Well"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"5110a9e7-2208-41c7-9cac-f3d69296e890","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"c4c88ff6-91e0-4c0c-aa7b-2c4fbab06d60","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"d213d32c-df8d-4c54-964f-364f751d89c9","type":"SCENE"}},{"key":"35be18f3-6aab-49f7-b648-4ed8ef887f68","text":{"textMap":{"ITALIAN":"Prega","ENGLISH":"Pray"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"66c16321-23e3-4627-8199-89c3b1f7ca6d","logicOperator":"AND","variableComparers":[]},"variablesSet":[{"key":"1a8daf26-922c-46a5-b1f6-5f06b4ba1821","variable":{"key":"816ff80c-806d-43a3-8e67-36d9819e2fe7","type":"CHARACTER","name":"MIKU"},"value":1,"operator":"ADD","minValue":1,"maxValue":1}],"exit":{"key":"88cacb4d-3af8-4248-932b-b20eccdefcd5","nextSceneKey":"1fb64e7f-e530-466b-9eb2-ac42bd4cee96","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"d213d32c-df8d-4c54-964f-364f751d89c9","type":"SCENE"}}]},"color":"ffdfc1bd","baseProbability":10,"variableGroup":{"key":"896d2578-3d62-4a96-9c65-bb770f603dd5","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[{"key":"c3e2e527-eb98-470d-8d9f-1c81ae08ccba","variableComparer":{"key":"f1c501a8-fa19-4a44-aae7-7afc69688c2e","type":"EQUALS","value":1,"variable":{"key":"54a24e94-3e4a-4236-b7ff-68d75620ae9a","type":"WORLD","name":"MIKU"}},"value":10},{"key":"c92561eb-bfc1-4e29-8100-25f4646c984f","variableComparer":{"key":"b8339a58-e59e-4749-87a8-cf87c05a0372","type":"GREATER_THAN","value":1,"variable":{"key":"746cbe10-596b-491f-a07e-4268471cc6ec","type":"WORLD","name":"MIKU"}},"value":25}],"audioTrack":null}],"musicTrack":null},"fc10aaed-cfbf-499a-8c78-17e559321e7b":{"key":"fc10aaed-cfbf-499a-8c78-17e559321e7b","name":"Look inside the Well","order":1,"isStartingScene":false,"image":null,"events":[{"key":"be932037-7338-4742-93ac-a4044254c2c9","name":"Water 1","order":0,"text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"Inside, somewhat clean water is standing like a disk shaped mirror, reflecting the sky above placidally."},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"d0af0e36-96e8-4ed7-ad26-ba5656f2c74b","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"26e5272a-6027-41bb-a664-42cd80be3750","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"f62b8c22-3142-49b5-8073-fee275c2f545","nextSceneKey":"fc10aaed-cfbf-499a-8c78-17e559321e7b","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"be932037-7338-4742-93ac-a4044254c2c9","type":"SCENE"}},{"key":"fb06753b-4a84-4754-9713-ed03169be5e1","text":{"textMap":{"ITALIAN":"Bevi dal Pozzo","ENGLISH":"Drink from the Well"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"2b13ddaf-6a7f-4126-be88-c33560f7b7dc","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"e958c918-f681-4393-9991-befe0a29d5cb","nextSceneKey":"fc10aaed-cfbf-499a-8c78-17e559321e7b","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"be932037-7338-4742-93ac-a4044254c2c9","type":"SCENE"}},{"key":"f9846982-7cd2-4853-91b0-81cb8ff140c6","text":{"textMap":{"ITALIAN":"Getta qualcosa nel Pozzo","ENGLISH":"Toss something in the Well"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"dad0f626-95d1-48e6-aaa1-cfa6cf08793a","logicOperator":"AND","variableComparers":[]},"variablesSet":[],"exit":{"key":"873969c6-63ae-40fb-ba25-c8c5ce2bcc10","nextSceneKey":"fc10aaed-cfbf-499a-8c78-17e559321e7b","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"be932037-7338-4742-93ac-a4044254c2c9","type":"SCENE"}},{"key":"9c1e338d-e77d-410f-9cae-64ded8b863b0","text":{"textMap":{"ITALIAN":"Raccogli l'acqua in un contenitore","ENGLISH":"Collect the water in a container"},"styles":[]},"type":"DEPENDENT","variableGroup":{"key":"1fd3e7c6-021b-42db-95c7-90f9811a48e0","logicOperator":"AND","variableComparers":[{"key":"b2a72b1f-eb61-486d-a06c-417099eddad2","type":"GREATER_OR_EQUALS","value":1,"variable":{"key":"fdd59a0e-27a1-49e5-8c5b-b53517cb661a","type":"RUN","name":"EMPTY BOTTLE"}}]},"variablesSet":[{"key":"d7e02868-2d19-4954-87b6-882ffb30a67c","variable":{"key":"79c42e07-942c-44da-a3af-c15c627371a2","type":"RUN","name":"EMPTY BOTTLE"},"value":1,"operator":"SUBTRACT","minValue":null,"maxValue":null},{"key":"57809b35-e7aa-437a-9734-fa8ffda9b7b1","variable":{"key":"aa8cae0b-916f-4806-853f-543c5a09de0f","type":"RUN","name":"BOTTLE FULL OF WATER"},"value":1,"operator":"ADD","minValue":null,"maxValue":null}],"exit":{"key":"246c13a7-444e-4f90-b6a3-b30b55f06c96","nextSceneKey":"fc10aaed-cfbf-499a-8c78-17e559321e7b","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"be932037-7338-4742-93ac-a4044254c2c9","type":"SCENE"}}]},"color":"ffceeee2","baseProbability":20,"variableGroup":{"key":"e764f90b-90a9-40c1-8e8d-b019bba07eb3","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[],"audioTrack":null}],"musicTrack":null},"02e33582-338c-4a5d-9443-bf59965d2740":{"key":"02e33582-338c-4a5d-9443-bf59965d2740","name":"Drink the water","order":2,"isStartingScene":false,"image":null,"events":[{"key":"52fd4338-0a31-4937-9b52-7bc48bf975bb","name":"Drink 1","order":0,"text":{"textMap":{"ITALIAN":"Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.","ENGLISH":"Cold and a little slimy, the water goes down the throat, hitting the stomach weirdly hard. It has a slight metal taste, along with a bit of residue that makes the teeths feel dirty."},"styles":[]},"image":null,"exitPaths":{"type":"CHOICES","paths":[{"key":"0f620729-7642-4386-b0a5-0cc8d3001b75","text":{"textMap":{"ITALIAN":"Prosegui oltre","ENGLISH":"Press onward"},"styles":[]},"type":"UNIVERSAL","variableGroup":{"key":"63b58917-126a-4828-80ac-7e95b595e1a4","logicOperator":"AND","variableComparers":[]},"variablesSet":[{"key":"e0f3da63-82c1-49bc-af1e-82bfc213f160","variable":{"key":"6aec5ad6-5888-4843-8b7e-28693afd8b82","type":"WOUNDS"},"value":1,"operator":"ADD","minValue":null,"maxValue":null}],"exit":{"key":"8dd9d063-8041-4a86-87ca-abb4be14b357","nextSceneKey":"02e33582-338c-4a5d-9443-bf59965d2740","nextSceneChapterKey":"80392f9c-79c8-431e-99e2-012cb9dddcfe","nextEventKey":"52fd4338-0a31-4937-9b52-7bc48bf975bb","type":"SCENE"}}]},"color":"ffeccee5","baseProbability":50,"variableGroup":{"key":"948b5947-4af7-4638-9aea-14cd85e36ac1","logicOperator":"AND","variableComparers":[]},"probabilityModifiers":[],"audioTrack":null}],"musicTrack":null}}}
+{
+  "key": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+  "name": "EC - A Well",
+  "scenes": {
+    "1fb64e7f-e530-466b-9eb2-ac42bd4cee96": {
+      "key": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+      "name": "You find a well in your journey",
+      "order": 0,
+      "isStartingScene": true,
+      "image": null,
+      "events": [
+        {
+          "key": "1e9e15ed-c1de-4661-bd68-4f20882521bd",
+          "name": "A well, like many others - 1",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "A sturdy, old looking well stands in a clearing between the trees. It’s made of stone of different colors, mostly covered by moss and dirt. \r\n\nIt looks out of place, a lonely symbol of civilization in the middle of the wilderness, like a small monument to an humanity that is no longer there. \r\n\nA small and dark wooden bucket is slowly moving in the wind, hanged by a thick rope on a pole above the well, like a hanged man."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "07868597-6825-484d-8e31-86261e832523",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "4570f8d5-e282-4cc9-8245-156e9e85c729",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "be2b3238-5574-420e-889b-eb67883ad615",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "1e9e15ed-c1de-4661-bd68-4f20882521bd",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "b8637536-85a3-4a8f-b5cc-33ddad6c7e4d",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sbircia all'interno del Pozzo",
+                    "ENGLISH": "Look inside the Well"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "6a33196a-da27-4e90-8749-c011eb00ae2c",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "cb406df4-c242-4f34-ae3a-87048f2e074a",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "1e9e15ed-c1de-4661-bd68-4f20882521bd",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "6c1f0757-ec63-47ce-a48c-80b9fb6e1b48",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prega",
+                    "ENGLISH": "Pray"
+                  },
+                  "styles": []
+                },
+                "type": "DEPENDENT",
+                "variableGroup": {
+                  "key": "490040b9-9249-4e14-b861-904e125232ed",
+                  "logicOperator": "OR",
+                  "variableComparers": [
+                    {
+                      "key": "cfec766f-c6c4-48f1-b983-a982622dbb51",
+                      "type": "GREATER_THAN",
+                      "value": 0,
+                      "variable": {
+                        "key": "af7a4673-5c6a-4f5d-964b-02e8255403e1",
+                        "type": "WORLD",
+                        "name": "MIKU"
+                      }
+                    },
+                    {
+                      "key": "52ee9cf4-dac5-4199-9a95-2324d18168b0",
+                      "type": "GREATER_THAN",
+                      "value": 0,
+                      "variable": {
+                        "key": "c81651a2-7b04-4c74-9c0d-4cbcbe504c77",
+                        "type": "CHARACTER",
+                        "name": "MIKU"
+                      }
+                    }
+                  ]
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "8f310247-9b63-4fc7-b6be-e16091961b76",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "1e9e15ed-c1de-4661-bd68-4f20882521bd",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffaae2d4",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "9dbb330e-0890-4636-a0d9-7e1575234bc3",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "75dd1c76-2fa8-4a27-a1c9-cbb1d900aad9",
+          "name": "A Well, like many others - 2",
+          "order": 1,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "A well is leaning slightly on an old tree, barely visible between the brushes. \nIt’s made of very well polished grey stones, but it’s covered in dirt and clearly abandoned, if not for some snails sleeping on its side, their shells stuck to the mossy stones like little dull gems."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "54966e00-26d8-4a52-9777-6db32ba2567c",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "cadafcd0-ce59-498c-b477-39f37adc6c15",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "024d454f-61fd-42e5-bbaf-24e90c88c857",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "75dd1c76-2fa8-4a27-a1c9-cbb1d900aad9",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "02c23b74-80d9-4108-a8f7-8a31330293a7",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sbircia all'interno",
+                    "ENGLISH": "Look inside the Well"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "0090a1e2-2448-4e39-a80e-ec59dc81100a",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "afadc9b3-ad6f-47c4-9a98-b5e726490c11",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "75dd1c76-2fa8-4a27-a1c9-cbb1d900aad9",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "a35e8120-4682-47e1-9733-3dfe81fc3a96",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Osserva le piccole lumache",
+                    "ENGLISH": "Inspect the small snails"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "8c68c789-02f2-4a73-905b-3e9c32ab6d8f",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "c4944ca6-556d-4b83-b970-defb28fb9727",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "75dd1c76-2fa8-4a27-a1c9-cbb1d900aad9",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "930087e8-8408-4229-b569-135162dd512a",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prega",
+                    "ENGLISH": "Pray"
+                  },
+                  "styles": []
+                },
+                "type": "DEPENDENT",
+                "variableGroup": {
+                  "key": "4a12d075-d8b2-4aca-8be1-cd655bede5f2",
+                  "logicOperator": "OR",
+                  "variableComparers": [
+                    {
+                      "key": "e917d07d-ee6e-4b05-8db8-d3b1bd12e161",
+                      "type": "GREATER_THAN",
+                      "value": 0,
+                      "variable": {
+                        "key": "c114d422-f28a-47c1-8fec-08ca553ba412",
+                        "type": "WORLD",
+                        "name": "MIKU"
+                      }
+                    },
+                    {
+                      "key": "728e6ae4-f745-4208-a37c-de02970cf2f9",
+                      "type": "GREATER_THAN",
+                      "value": 0,
+                      "variable": {
+                        "key": "59590993-7aa7-4636-8d3c-1c7dd5389719",
+                        "type": "CHARACTER",
+                        "name": "MIKU"
+                      }
+                    }
+                  ]
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "620906c9-7cf6-4ab7-b109-6465567175f6",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "75dd1c76-2fa8-4a27-a1c9-cbb1d900aad9",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffe4bde2",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "afaffbcb-d32d-490f-ab47-8a172c7854b9",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "b6f6675d-ff5e-4fe4-9225-da1edb9a029f",
+          "name": "A Well, like many others - 3",
+          "order": 2,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "The woods become more sparse and a lonely well sits in the center of the clearing. It’s a fairly large well, made of black squared stones that look finely crafted and still mostly clean from dirt and weatherings. \n\nA heavy looking and slightly rusted metal grate is sitting in the unkempt grass to the side of it, no longer preventing its gaping stone mouth from looking up at the sky."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "e735f667-3c17-4465-a1de-8ea370d37aa7",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "a83774dd-a6e3-4964-a6a3-903519dc2041",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "0da0c280-cf23-4fd0-aa78-f52a7856dae3",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "b6f6675d-ff5e-4fe4-9225-da1edb9a029f",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "71041b55-b8eb-47a6-ac1e-c94c7a4f923e",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sbircia all'interno del Pozzo",
+                    "ENGLISH": "Look inside the Well"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "e366c5c5-ab37-4d45-8e3a-367113a61a7b",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "452819b0-66c5-4540-91b3-aee7646e27d0",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "b6f6675d-ff5e-4fe4-9225-da1edb9a029f",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "cebcd3ee-b7b4-4143-a8f1-dd997d0bdb0b",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prega",
+                    "ENGLISH": "Pray"
+                  },
+                  "styles": []
+                },
+                "type": "DEPENDENT",
+                "variableGroup": {
+                  "key": "561f9d04-630c-4799-b7e3-765fffabaa43",
+                  "logicOperator": "OR",
+                  "variableComparers": [
+                    {
+                      "key": "41e0fa4e-fdbf-4d44-8896-84242c76a1f6",
+                      "type": "GREATER_THAN",
+                      "value": 0,
+                      "variable": {
+                        "key": "5cd59833-9cbd-415c-aae5-7af81af0fb67",
+                        "type": "WORLD",
+                        "name": "MIKU"
+                      }
+                    },
+                    {
+                      "key": "79d62b12-cd4b-4bff-b1ab-ffea6d3609c9",
+                      "type": "GREATER_THAN",
+                      "value": 0,
+                      "variable": {
+                        "key": "2772d9ca-2c06-4912-9c42-379ff7f513d5",
+                        "type": "CHARACTER",
+                        "name": "MIKU"
+                      }
+                    }
+                  ]
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "81dfabe3-0cb6-4356-8794-1a4ab6ff6a80",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "b6f6675d-ff5e-4fe4-9225-da1edb9a029f",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffeadaed",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "f255e733-269e-475b-82ad-6c5adf8a9f5c",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "d213d32c-df8d-4c54-964f-364f751d89c9",
+          "name": "Miku's Well",
+          "order": 3,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Hidden in the tall grass, there is what can barely be called a Well.\n\nIt's stone rim is scarcely a foot tall, and it has not been dug at all, showing a disc of mere dirt inside, at the same height of the ground around it. It looks out of place, lonely and so terribly useless."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "39321fcf-f367-4f5a-90f2-159485819430",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "efbb718c-ea4e-4d4d-beb0-2f2f60f51a56",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "fe3faa25-17a2-421d-b929-aab8011fc3fb",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "d213d32c-df8d-4c54-964f-364f751d89c9",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "e64ea36b-d451-415a-9a47-87740e729b02",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sbircia all'interno del Pozzo",
+                    "ENGLISH": "Look inside the Well"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "5110a9e7-2208-41c7-9cac-f3d69296e890",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "c4c88ff6-91e0-4c0c-aa7b-2c4fbab06d60",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "d213d32c-df8d-4c54-964f-364f751d89c9",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "35be18f3-6aab-49f7-b648-4ed8ef887f68",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prega",
+                    "ENGLISH": "Pray"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "66c16321-23e3-4627-8199-89c3b1f7ca6d",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "1a8daf26-922c-46a5-b1f6-5f06b4ba1821",
+                    "variable": {
+                      "key": "816ff80c-806d-43a3-8e67-36d9819e2fe7",
+                      "type": "CHARACTER",
+                      "name": "MIKU"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": 1,
+                    "maxValue": 1
+                  }
+                ],
+                "exit": {
+                  "key": "88cacb4d-3af8-4248-932b-b20eccdefcd5",
+                  "nextSceneKey": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "d213d32c-df8d-4c54-964f-364f751d89c9",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffdfc1bd",
+          "baseProbability": 10,
+          "variableGroup": {
+            "key": "896d2578-3d62-4a96-9c65-bb770f603dd5",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [
+            {
+              "key": "c3e2e527-eb98-470d-8d9f-1c81ae08ccba",
+              "variableComparer": {
+                "key": "f1c501a8-fa19-4a44-aae7-7afc69688c2e",
+                "type": "EQUALS",
+                "value": 1,
+                "variable": {
+                  "key": "54a24e94-3e4a-4236-b7ff-68d75620ae9a",
+                  "type": "WORLD",
+                  "name": "MIKU"
+                }
+              },
+              "value": 10
+            },
+            {
+              "key": "c92561eb-bfc1-4e29-8100-25f4646c984f",
+              "variableComparer": {
+                "key": "b8339a58-e59e-4749-87a8-cf87c05a0372",
+                "type": "GREATER_THAN",
+                "value": 1,
+                "variable": {
+                  "key": "746cbe10-596b-491f-a07e-4268471cc6ec",
+                  "type": "WORLD",
+                  "name": "MIKU"
+                }
+              },
+              "value": 25
+            }
+          ],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    },
+    "fc10aaed-cfbf-499a-8c78-17e559321e7b": {
+      "key": "fc10aaed-cfbf-499a-8c78-17e559321e7b",
+      "name": "Look inside the Well",
+      "order": 1,
+      "isStartingScene": false,
+      "image": null,
+      "events": [
+        {
+          "key": "be932037-7338-4742-93ac-a4044254c2c9",
+          "name": "Water 1",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Inside, somewhat clean water is standing like a disk shaped mirror, reflecting the sky above placidally."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "d0af0e36-96e8-4ed7-ad26-ba5656f2c74b",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "26e5272a-6027-41bb-a664-42cd80be3750",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "f62b8c22-3142-49b5-8073-fee275c2f545",
+                  "nextSceneKey": "fc10aaed-cfbf-499a-8c78-17e559321e7b",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "be932037-7338-4742-93ac-a4044254c2c9",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "fb06753b-4a84-4754-9713-ed03169be5e1",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Bevi dal Pozzo",
+                    "ENGLISH": "Drink from the Well"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "2b13ddaf-6a7f-4126-be88-c33560f7b7dc",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "e958c918-f681-4393-9991-befe0a29d5cb",
+                  "nextSceneKey": "fc10aaed-cfbf-499a-8c78-17e559321e7b",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "be932037-7338-4742-93ac-a4044254c2c9",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "f9846982-7cd2-4853-91b0-81cb8ff140c6",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Getta qualcosa nel Pozzo",
+                    "ENGLISH": "Toss something in the Well"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "dad0f626-95d1-48e6-aaa1-cfa6cf08793a",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "873969c6-63ae-40fb-ba25-c8c5ce2bcc10",
+                  "nextSceneKey": "fc10aaed-cfbf-499a-8c78-17e559321e7b",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "be932037-7338-4742-93ac-a4044254c2c9",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "9c1e338d-e77d-410f-9cae-64ded8b863b0",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Raccogli l'acqua in un contenitore",
+                    "ENGLISH": "Collect the water in a container"
+                  },
+                  "styles": []
+                },
+                "type": "DEPENDENT",
+                "variableGroup": {
+                  "key": "1fd3e7c6-021b-42db-95c7-90f9811a48e0",
+                  "logicOperator": "AND",
+                  "variableComparers": [
+                    {
+                      "key": "b2a72b1f-eb61-486d-a06c-417099eddad2",
+                      "type": "GREATER_OR_EQUALS",
+                      "value": 1,
+                      "variable": {
+                        "key": "fdd59a0e-27a1-49e5-8c5b-b53517cb661a",
+                        "type": "RUN",
+                        "name": "EMPTY BOTTLE"
+                      }
+                    }
+                  ]
+                },
+                "variablesSet": [
+                  {
+                    "key": "d7e02868-2d19-4954-87b6-882ffb30a67c",
+                    "variable": {
+                      "key": "79c42e07-942c-44da-a3af-c15c627371a2",
+                      "type": "RUN",
+                      "name": "EMPTY BOTTLE"
+                    },
+                    "value": 1,
+                    "operator": "SUBTRACT",
+                    "minValue": null,
+                    "maxValue": null
+                  },
+                  {
+                    "key": "57809b35-e7aa-437a-9734-fa8ffda9b7b1",
+                    "variable": {
+                      "key": "aa8cae0b-916f-4806-853f-543c5a09de0f",
+                      "type": "RUN",
+                      "name": "BOTTLE FULL OF WATER"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
+                "exit": {
+                  "key": "246c13a7-444e-4f90-b6a3-b30b55f06c96",
+                  "nextSceneKey": "fc10aaed-cfbf-499a-8c78-17e559321e7b",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "be932037-7338-4742-93ac-a4044254c2c9",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffceeee2",
+          "baseProbability": 20,
+          "variableGroup": {
+            "key": "e764f90b-90a9-40c1-8e8d-b019bba07eb3",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    },
+    "02e33582-338c-4a5d-9443-bf59965d2740": {
+      "key": "02e33582-338c-4a5d-9443-bf59965d2740",
+      "name": "Drink the water",
+      "order": 2,
+      "isStartingScene": false,
+      "image": null,
+      "events": [
+        {
+          "key": "52fd4338-0a31-4937-9b52-7bc48bf975bb",
+          "name": "Drink 1",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Cold and a little slimy, the water goes down the throat, hitting the stomach weirdly hard. It has a slight metal taste, along with a bit of residue that makes the teeths feel dirty."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "0f620729-7642-4386-b0a5-0cc8d3001b75",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "63b58917-126a-4828-80ac-7e95b595e1a4",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "e0f3da63-82c1-49bc-af1e-82bfc213f160",
+                    "variable": {
+                      "key": "6aec5ad6-5888-4843-8b7e-28693afd8b82",
+                      "type": "WOUNDS"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
+                "exit": {
+                  "key": "8dd9d063-8041-4a86-87ca-abb4be14b357",
+                  "nextSceneKey": "02e33582-338c-4a5d-9443-bf59965d2740",
+                  "nextSceneChapterKey": "80392f9c-79c8-431e-99e2-012cb9dddcfe",
+                  "nextEventKey": "52fd4338-0a31-4937-9b52-7bc48bf975bb",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffeccee5",
+          "baseProbability": 50,
+          "variableGroup": {
+            "key": "948b5947-4af7-4638-9aea-14cd85e36ac1",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    }
+  }
+}
