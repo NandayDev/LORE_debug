@@ -1,0 +1,209 @@
+{
+  "key": "776163c0-abc0-4b2a-a6fc-f8cc7183f9ad",
+  "name": "EC - The Abbey",
+  "scenes": {
+    "12ac0b4f-8940-4f87-839d-a4fa85cde747": {
+      "key": "12ac0b4f-8940-4f87-839d-a4fa85cde747",
+      "name": "Prima scena -An Abbey in the woods",
+      "order": 0,
+      "isStartingScene": true,
+      "image": null,
+      "events": [
+        {
+          "key": "88a15b60-4603-48a0-916b-8bf19172af1f",
+          "name": "Empty Village - The Worm 1",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "The woods keeps following you, like an endless maze of trees and hills, where the dull skulls of long fallen men and women spy on you from under moss and roots.\n\nGradually, the jagged stones that rise from the grass of your half hidden path start to change shape, untill they become a rough set of stony stairs that gently descend into a clearing.\n\nYour eyes welcome the change in scenery as you notice a relatively small and badly ruined abbey. The woods, clearly infuriate by such a brazed display of civilization, have reclaimed mostly of it's shape, with large green tongues of grass and thorns crushing the dented walls of the once proud building.\n\nOne step after the other, you enter the clearing, noticing how the earth has taken a weird shape all around the ruined building. Shallow trenches seems to have been dug into the grass, shoveling up the brown earth and painting a spiral path towars the entrace of the abode."
+            },
+            "styles": []
+          },
+          "image": "5e80521b9352e2599a39677438e15bba.jpg",
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "2e37eeaf-b3a3-41a7-8abd-2092506bae00",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "3cdeb8f0-4b94-4acb-ae7d-3e4499379b52",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "88e033b3-5c68-4a43-8700-20a0cb2ad2e9",
+                  "nextSceneKey": "12ac0b4f-8940-4f87-839d-a4fa85cde747",
+                  "nextSceneChapterKey": "776163c0-abc0-4b2a-a6fc-f8cc7183f9ad",
+                  "nextEventKey": "befec253-80d1-4e03-8d5d-595a91951d8b",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffe2c6c5",
+          "baseProbability": 0,
+          "variableGroup": {
+            "key": "42368671-04d4-42bc-ab43-e0c8898a166e",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [
+            {
+              "key": "904cc03e-d622-4fe3-bfab-a12e9548d908",
+              "variableComparer": {
+                "key": "2ed00a5a-411f-4757-9fc3-ac46b9f8e149",
+                "type": "EQUALS",
+                "value": 1,
+                "variable": {
+                  "key": "90c62446-87de-4437-b9a5-4529c48217a4",
+                  "type": "RUN",
+                  "name": "EMPTY VILLAGE "
+                }
+              },
+              "value": 95
+            }
+          ],
+          "audioTrack": null
+        },
+        {
+          "key": "befec253-80d1-4e03-8d5d-595a91951d8b",
+          "name": "Empty Village - The Worm 2",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Inside, there is a weird sense of finality to this place.\n\nIt has mostly fallen to ruin, with thick wines cascading down from holes in the celling like green drapes. \n\nFat, colorful mushrooms sits on the broken benches, spreading around a musky and rotten smell like a long out of date incense.\n\nLike tombstones, the angelic statues of saints push out from the wet ground, their necks and hands now barely more than perches for bird's nests.\n\nThere is a mix of serenity and gloom in this place. You notice that only one spot has been left alone by they greedy vegetation; in the central nave you can still see a bookrest with a massive tome on it, the stone altar under it still clean and barely touched by insects and moss.\n\nIn the stale air, with the viscous humidity clinging to your face, you know that you are not alone here."
+            },
+            "styles": []
+          },
+          "image": "0c505ed3fa4e27d1b75f7bf370d9ae6b.jpg",
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "1667196c-b089-44b2-b673-0c9567996a93",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Avvicinati all'altare",
+                    "ENGLISH": "Get closer to the altar"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "08b7fe8d-20df-495a-9dcb-5eedeeee7248",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "32633dab-5b7f-4a00-9cca-0818d04005b3",
+                  "nextSceneKey": "12ac0b4f-8940-4f87-839d-a4fa85cde747",
+                  "nextSceneChapterKey": "776163c0-abc0-4b2a-a6fc-f8cc7183f9ad",
+                  "nextEventKey": "cab46dfd-1841-42be-9487-6b9ad34084ac",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffcac4e1",
+          "baseProbability": 0,
+          "variableGroup": {
+            "key": "f54ec1f2-5a23-4639-b779-ad2695b3a551",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "cab46dfd-1841-42be-9487-6b9ad34084ac",
+          "name": "Empty Village - The Worm 3",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "You feel so utterly out of place as you step on the small slab of stone from wich the altar rises.\n\nEach step seems to echo inside the abbey, even if it's broken down walls shouldn't cause such a sound at all. Slim, hodded figures seems to look at you from every shadow that you can see in the corner of your eye, yet they are never there when you turn towards them.\n\nJust a few steps, and yet it feels like you are climbing a mountain. The air feels empty and thin, your body so heavy and sluggish. You feel older when you finally reach the bookrest and you are able to look upon the open tome resting on it.\n\nBefore you even knew what you where doing, your eyes stumble on the foul words etched in the poor paper. You don't notice the subtle shaking of the earth, as what little remains of  the glass windows shatter and the green wines lazily sway from left to right at the movement of something so massive and ancient in the cold core of the earth. \n\nLike slow and inarrestable slugs, the words in the book slither into your mind, unwelcomed and unstoppable, teaching you of the childrens of Oro and their terrible hungers.\n\nThe sun melts away in a dark sky as you know of the most pridefuls of beings, and how they have bit cut down and buried into the earth, their limbs fed to the beasts and their neck brokes, so that they could no longer walk, no longer grasp and no longer look up at the skies that where no longer their realm.\n\nSo it was, and so it is, and so now you know of the children of Oro, the great worms that ruled once and will not rule anymore."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "9ed2071a-20ed-4618-bd74-61f955ef9f2e",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Ti risvegli senza mai esserti addormentato",
+                    "ENGLISH": "You wake up without having ever gone to sleep"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "2860fe4e-eef1-40f5-a22d-340df28cbc2b",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "0620a525-520b-42ad-828b-8e2d3c049f1c",
+                    "variable": {
+                      "key": "385e222b-79f2-4de7-8b67-f9bc008e0737",
+                      "type": "RUN",
+                      "name": "ORO"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": null,
+                    "maxValue": 1
+                  },
+                  {
+                    "key": "21bb389d-bdfb-469e-bda5-a336f18eb6e8",
+                    "variable": {
+                      "key": "ecd1e38c-8c2a-4b4f-9391-5219aad35d34",
+                      "type": "WORLD",
+                      "name": "ORO"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": null,
+                    "maxValue": 1
+                  }
+                ],
+                "exit": {
+                  "key": "d305b36e-4cc4-4f7a-95dc-4404b4f714af",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "9d9dd7cc-3da7-4f55-a43a-6596ca972c44",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffa7bed8",
+          "baseProbability": 0,
+          "variableGroup": {
+            "key": "f0fa6297-6f27-42b3-9853-08d83df0437e",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    }
+  }
+}

@@ -1,1 +1,383 @@
-{"WORLD___MIKU":{"isInventory":false,"isQuest":false,"minValue":null,"maxValue":null,"tags":[],"text":{"textMap":{"ITALIAN":"","ENGLISH":""},"styles":[]}},"CHARACTER___MIKU":{"isInventory":false,"isQuest":false,"minValue":null,"maxValue":null,"tags":[],"text":{"textMap":{"ITALIAN":"","ENGLISH":""},"styles":[]}},"RUN___EMPTY BOTTLE":{"isInventory":true,"isQuest":false,"minValue":null,"maxValue":null,"tags":[],"text":{"textMap":{"ITALIAN":"","ENGLISH":""},"styles":[]}},"RUN___Y'XIN'HISS":{"isInventory":false,"isQuest":false,"minValue":null,"maxValue":null,"tags":[],"text":{"textMap":{"ITALIAN":"","ENGLISH":""},"styles":[]}},"CHARACTER___Y'XIN'HISS":{"isInventory":false,"isQuest":false,"minValue":null,"maxValue":null,"tags":[],"text":{"textMap":{"ITALIAN":"","ENGLISH":""},"styles":[]}},"WORLD___Y'XIN'HISS":{"isInventory":false,"isQuest":false,"minValue":null,"maxValue":null,"tags":["DIVINITY"],"text":{"textMap":{"ITALIAN":"","ENGLISH":""},"styles":[]}},"RUN___BUGIARDO":{"isInventory":true,"isQuest":false,"minValue":null,"maxValue":null,"tags":[],"text":{"textMap":{"ITALIAN":"","ENGLISH":""},"styles":[]}},"CHARACTER___LIAR":{"isInventory":true,"isQuest":false,"minValue":null,"maxValue":null,"tags":[],"text":{"textMap":{"ITALIAN":"","ENGLISH":""},"styles":[]}},"RUN___LIAR":{"isInventory":true,"isQuest":false,"minValue":null,"maxValue":null,"tags":[],"text":{"textMap":{"ITALIAN":"","ENGLISH":""},"styles":[]}},"RUN___GLASS CLAWS":{"isInventory":true,"isQuest":false,"minValue":0,"maxValue":1,"tags":[],"text":{"textMap":{"ITALIAN":"Artigli di Vetro","ENGLISH":"Glass Claws"},"styles":[]}},"RUN___BONE FLUTE":{"isInventory":true,"isQuest":false,"minValue":0,"maxValue":1,"tags":[],"text":{"textMap":{"ITALIAN":"Flauto d'Osso","ENGLISH":"Bone Flute"},"styles":[]}}}
+{
+  "WORLD___MIKU": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "CHARACTER___MIKU": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___EMPTY BOTTLE": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___Y'XIN'HISS": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "CHARACTER___Y'XIN'HISS": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "WORLD___Y'XIN'HISS": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [
+      "DIVINITY"
+    ],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___BUGIARDO": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "CHARACTER___LIAR": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___LIAR": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___GLASS CLAWS": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": 1,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "Artigli di Vetro",
+        "ENGLISH": "Glass Claws"
+      },
+      "styles": []
+    }
+  },
+  "RUN___BONE FLUTE": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": 1,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "Flauto d'Osso",
+        "ENGLISH": "Bone Flute"
+      },
+      "styles": []
+    }
+  },
+  "RUN___LOCUS": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___ENGRAVED SKULL": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": 1,
+    "tags": [
+      "CURSED",
+      "VOICE OF THE DEAD"
+    ],
+    "text": {
+      "textMap": {
+        "ITALIAN": "Teschio Inciso",
+        "ENGLISH": "Engraved Skull"
+      },
+      "styles": []
+    }
+  },
+  "RUN___FOLLOWED": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___SHORTSWORD": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": 1,
+    "tags": [
+      "SLASH"
+    ],
+    "text": {
+      "textMap": {
+        "ITALIAN": "Spada Corta",
+        "ENGLISH": "Short Sword"
+      },
+      "styles": []
+    }
+  },
+  "RUN___LIGHTER": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": 1,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "Piccolo Accendino",
+        "ENGLISH": "Small Lighter"
+      },
+      "styles": []
+    }
+  },
+  "RUN___GORGEOUS FLOWERS": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___DRY FLOWERS": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___GIFT OF THORNS": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": 1,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "Bracciale di Rovi",
+        "ENGLISH": "Bracelet of Thorns"
+      },
+      "styles": []
+    }
+  },
+  "RUN___SPEKLED EGG": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": 1,
+    "tags": [
+      "GIFT"
+    ],
+    "text": {
+      "textMap": {
+        "ITALIAN": "Uovo Maculato",
+        "ENGLISH": "Spekled Egg"
+      },
+      "styles": []
+    }
+  },
+  "RUN___SYLVANUS'S EYE": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": 1,
+    "tags": [
+      "GIFT"
+    ],
+    "text": {
+      "textMap": {
+        "ITALIAN": "Pallido Occhio Umano",
+        "ENGLISH": "Pale human eye"
+      },
+      "styles": []
+    }
+  },
+  "RUN___DRY GRASSHOPPER": {
+    "isInventory": true,
+    "isQuest": false,
+    "minValue": 0,
+    "maxValue": 1,
+    "tags": [
+      "GIFT"
+    ],
+    "text": {
+      "textMap": {
+        "ITALIAN": "Insetto Mummificato",
+        "ENGLISH": "Dry Grasshopper"
+      },
+      "styles": []
+    }
+  },
+  "RUN___EMPTY VILLAGE ": {
+    "isInventory": false,
+    "isQuest": true,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___ABYSS": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "RUN___ORO": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [
+      "DIVINITY"
+    ],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  },
+  "WORLD___ORO": {
+    "isInventory": false,
+    "isQuest": false,
+    "minValue": null,
+    "maxValue": null,
+    "tags": [
+      "DIVINITY"
+    ],
+    "text": {
+      "textMap": {
+        "ITALIAN": "",
+        "ENGLISH": ""
+      },
+      "styles": []
+    }
+  }
+}

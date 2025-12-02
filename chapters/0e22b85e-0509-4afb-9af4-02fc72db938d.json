@@ -7,7 +7,7 @@
       "name": "Prima scena - A Calm River",
       "order": 0,
       "isStartingScene": true,
-      "image": "Handout A_Bloody Banner.jpg",
+      "image": "pexels-blooddrainer-1655901.jpg",
       "events": [
         {
           "key": "5be18611-4d1e-4723-a6e7-06cf8c61ac6d",
@@ -28,8 +28,8 @@
                 "key": "b7051722-6619-430d-a752-968c671e3728",
                 "text": {
                   "textMap": {
-                    "ITALIAN": "Prosegui oltre",
-                    "ENGLISH": "Press onward"
+                    "ITALIAN": "Prosegui oltre cercando di guadare il fiume",
+                    "ENGLISH": "Press onward and try to find a path to the other side of the river"
                   },
                   "styles": []
                 },
@@ -39,12 +39,25 @@
                   "logicOperator": "AND",
                   "variableComparers": []
                 },
-                "variablesSet": [],
+                "variablesSet": [
+                  {
+                    "key": "52aa2526-6fce-49e5-a8d7-0fc210bc1032",
+                    "variable": {
+                      "key": "770b0913-c4c1-4a8a-9c35-fb2c89870043",
+                      "type": "RUN",
+                      "name": "EMPTY VILLAGE "
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
                 "exit": {
                   "key": "626643cb-6fbf-441b-8dc6-475113796788",
-                  "nextSceneKey": "6129130f-d459-45b8-9682-6093b263e2a8",
+                  "nextSceneKey": "2a583d16-e05a-486f-8602-a04b57eb4c59",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "5be18611-4d1e-4723-a6e7-06cf8c61ac6d",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               },
@@ -63,12 +76,25 @@
                   "logicOperator": "AND",
                   "variableComparers": []
                 },
-                "variablesSet": [],
+                "variablesSet": [
+                  {
+                    "key": "a83bab1b-12bb-4501-9ba2-7dc5f448a755",
+                    "variable": {
+                      "key": "505fbfe2-0a3e-4143-b4ce-f0bd407b7b06",
+                      "type": "RUN",
+                      "name": "EMPTY VILLAGE "
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
                 "exit": {
                   "key": "fced9428-1ee8-4172-9e97-58a16717d139",
                   "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "5be18611-4d1e-4723-a6e7-06cf8c61ac6d",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               },
@@ -87,12 +113,25 @@
                   "logicOperator": "AND",
                   "variableComparers": []
                 },
-                "variablesSet": [],
+                "variablesSet": [
+                  {
+                    "key": "8e121461-01a1-4f9d-a2d6-0fe8ee346a29",
+                    "variable": {
+                      "key": "59401bcd-0f1b-47fe-a737-ead08cd91806",
+                      "type": "RUN",
+                      "name": "EMPTY VILLAGE "
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
                 "exit": {
                   "key": "9c70e2e0-a5f6-401f-bfa6-05ccd99da8e9",
-                  "nextSceneKey": "6129130f-d459-45b8-9682-6093b263e2a8",
+                  "nextSceneKey": "1c98d8c4-b48f-4494-972d-3004fedc0480",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "5be18611-4d1e-4723-a6e7-06cf8c61ac6d",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               }
@@ -116,7 +155,7 @@
       "name": "Look closely at the gentle water",
       "order": 1,
       "isStartingScene": false,
-      "image": null,
+      "image": "1000_F_152688640_SU0z1WLE1k1e3OJJxd3GGygG5cmCUINn.jpg",
       "events": [
         {
           "key": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
@@ -153,7 +192,7 @@
                   "key": "68b7e1b8-ce72-4a08-8d12-faa53f8bdbf4",
                   "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               },
@@ -177,7 +216,7 @@
                   "key": "e58d7440-9265-4cf5-aeb8-6014081fa867",
                   "nextSceneKey": "1c98d8c4-b48f-4494-972d-3004fedc0480",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               }
@@ -252,7 +291,7 @@
                   "key": "75018f93-e471-42c4-8a29-23400084bf77",
                   "nextSceneKey": "1c98d8c4-b48f-4494-972d-3004fedc0480",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               },
@@ -276,7 +315,7 @@
                   "key": "e63d7fef-90b8-4fe7-a1f5-24ec9f3ff7dc",
                   "nextSceneKey": "176acebd-6b07-45ba-bc06-7803cf9b6e3f",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "af835f2a-c701-4209-97c9-ed1c656b369c",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               }
@@ -647,7 +686,7 @@
       "name": "Reach out and pluck off some flowers",
       "order": 2,
       "isStartingScene": false,
-      "image": null,
+      "image": "3dc3bde1593109938050bed9661852d8.jpg",
       "events": [
         {
           "key": "51ebc67a-abd7-4cfa-b2d0-244fb9fb62eb",
@@ -706,7 +745,7 @@
                 ],
                 "exit": {
                   "key": "eca10498-9216-4168-aba5-4b0a67dc0b47",
-                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
                   "nextEventKey": "51ebc67a-abd7-4cfa-b2d0-244fb9fb62eb",
                   "type": "SCENE"
@@ -755,7 +794,7 @@
         },
         {
           "key": "f9e55e52-af18-456e-a81f-4ec43e046e27",
-          "name": "Meet the Dryad",
+          "name": "Meet the Sylvanus",
           "order": 1,
           "text": {
             "textMap": {
@@ -764,7 +803,7 @@
             },
             "styles": []
           },
-          "image": null,
+          "image": "b1529c9caacbaaf0538fabbfd8c90b2d.jpg",
           "exitPaths": {
             "type": "CHOICES",
             "paths": [
@@ -772,8 +811,8 @@
                 "key": "4b70c5f2-c423-45fd-89b4-452815af5619",
                 "text": {
                   "textMap": {
-                    "ITALIAN": "Preparati a combattere. Estrai un arma ed affronta la creatura",
-                    "ENGLISH": "Prepare for a fight. Reach for a weapon and try to strike the entity"
+                    "ITALIAN": "Preparati a combattere. Estrai un arma ed affronta la creatura X",
+                    "ENGLISH": "Prepare for a fight. Reach for a weapon and try to strike the entity X"
                   },
                   "styles": []
                 },
@@ -786,9 +825,9 @@
                 "variablesSet": [],
                 "exit": {
                   "key": "8ff01dd2-fabb-4476-b11d-ca0ff98e21d8",
-                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneKey": "bf19f806-a444-4c31-ad8a-6e272397e481",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "f9e55e52-af18-456e-a81f-4ec43e046e27",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               },
@@ -810,9 +849,9 @@
                 "variablesSet": [],
                 "exit": {
                   "key": "d3379bd4-8acf-41b6-9a97-b3c0e9bc8fc3",
-                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneKey": "6fa65fb4-2430-4030-b80c-3e292448c6d3",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "f9e55e52-af18-456e-a81f-4ec43e046e27",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               },
@@ -825,18 +864,29 @@
                   },
                   "styles": []
                 },
-                "type": "UNIVERSAL",
+                "type": "DEPENDENT",
                 "variableGroup": {
                   "key": "0897b3bf-ad56-4b1c-9d15-fe9e450220f5",
-                  "logicOperator": "AND",
-                  "variableComparers": []
+                  "logicOperator": "OR",
+                  "variableComparers": [
+                    {
+                      "key": "a65da2c6-1ed1-40a9-a03e-4adda75881ba",
+                      "type": "GREATER_THAN",
+                      "value": 1,
+                      "variable": {
+                        "key": "89ee40c7-6f2d-4775-8cd6-166118e7f8a4",
+                        "type": "RUN",
+                        "name": "LOCUS"
+                      }
+                    }
+                  ]
                 },
                 "variablesSet": [],
                 "exit": {
                   "key": "22c9974e-5fc8-4c6b-bd14-3161434e6acf",
-                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneKey": "6fa65fb4-2430-4030-b80c-3e292448c6d3",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "f9e55e52-af18-456e-a81f-4ec43e046e27",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               },
@@ -849,18 +899,49 @@
                   },
                   "styles": []
                 },
-                "type": "UNIVERSAL",
+                "type": "DEPENDENT",
                 "variableGroup": {
                   "key": "8207de88-a8b9-400f-9d0b-34d31121f226",
-                  "logicOperator": "AND",
-                  "variableComparers": []
+                  "logicOperator": "OR",
+                  "variableComparers": [
+                    {
+                      "key": "a18f7df5-a438-4f7e-bb0e-c3502bc1d84e",
+                      "type": "EQUALS",
+                      "value": 1,
+                      "variable": {
+                        "key": "d5a973c5-b7b6-434d-b0c2-884979f5a938",
+                        "type": "RUN",
+                        "name": "GORGEOUS FLOWERS"
+                      }
+                    },
+                    {
+                      "key": "10be061e-89d8-45a2-913c-1c38bdec8377",
+                      "type": "EQUALS",
+                      "value": 1,
+                      "variable": {
+                        "key": "315a1ad8-b517-44e3-aed3-b650cdc29cfb",
+                        "type": "RUN",
+                        "name": "DRY FLOWERS"
+                      }
+                    },
+                    {
+                      "key": "c929d6a7-e35d-4e74-999b-ff6e05d4ec0b",
+                      "type": "EQUALS",
+                      "value": 1,
+                      "variable": {
+                        "key": "bc95a88a-45fd-4728-b84b-b82eb647e8fb",
+                        "type": "RUN",
+                        "name": "ENGRAVED SKULL"
+                      }
+                    }
+                  ]
                 },
                 "variablesSet": [],
                 "exit": {
                   "key": "8f30a0a2-fb6f-4b3f-b558-2ec7d1e802f7",
-                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneKey": "746fea3f-3014-423e-ad71-afad58ed92c5",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "f9e55e52-af18-456e-a81f-4ec43e046e27",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               }
@@ -922,9 +1003,9 @@
                 ],
                 "exit": {
                   "key": "af951c8f-f89e-41f9-ba41-8c61dd3ebb0e",
-                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "630535d9-7ce7-4cc4-ba47-3e91e9cabcad",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               }
@@ -986,9 +1067,9 @@
                 ],
                 "exit": {
                   "key": "bfd9a4fa-c5c6-4902-ba53-6fc0ada20d07",
-                  "nextSceneKey": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "5fcf6e37-2e28-42eb-bd2c-19c6f6b7ba72",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               }
@@ -1012,7 +1093,7 @@
       "name": "Listen to the River",
       "order": 5,
       "isStartingScene": false,
-      "image": null,
+      "image": "590981497a5b2de9c112651efb2e6878.jpg",
       "events": [
         {
           "key": "f912e1c0-f61f-4ac4-815d-69768aeb6647",
@@ -1288,7 +1369,7 @@
       "name": "Reach out and try to retrieve the pale item\r",
       "order": 3,
       "isStartingScene": false,
-      "image": null,
+      "image": "590981497a5b2de9c112651efb2e6878.jpg",
       "events": [
         {
           "key": "745e2173-4b7d-413f-b237-efb37f7f9e44",
@@ -1301,7 +1382,7 @@
             },
             "styles": []
           },
-          "image": null,
+          "image": "da4072ff8ab8d8b0d40d2cc300c5c438.jpg",
           "exitPaths": {
             "type": "CHOICES",
             "paths": [
@@ -1336,9 +1417,9 @@
                 ],
                 "exit": {
                   "key": "87799f99-ee46-4be2-a573-249c245a1d18",
-                  "nextSceneKey": "c4dd1cc8-3aa1-4870-8cb7-e7867bd036e8",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "745e2173-4b7d-413f-b237-efb37f7f9e44",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               }
@@ -1361,14 +1442,76 @@
           "text": {
             "textMap": {
               "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
-              "ENGLISH": "On the flat and rocky bottom of the river you can see what it looks like a weirdly shaped rock. It's pale and round, with what looks like small engraving on it. \n\nThe water is cold and hostile when you push your hand down to retrieve the rock."
+              "ENGLISH": "On the flat and rocky bottom of the river you can see what it looks like a weirdly shaped rock. It's pale and round, with what looks like small engraving on it. \n\nThe water is cold and hostile when you push your hand down to retrieve the rock. As your warm fingers brush into the surface of the pale shape underwater, a joilt of cold thunder snakes up your arm, stopping your useless hearth for a few seconds and letting an indifferent darkness swallow your senses.\n\nWhen you open your eyes again, you lay down on the wet grass near the river, clinging your hands around a finely engraved skull.  "
             },
             "styles": []
           },
-          "image": null,
+          "image": "c096c6d24be979e8486c4a34e2c212f9.jpg",
           "exitPaths": {
-            "type": "SINGLE",
-            "paths": []
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "73f46770-88f5-4165-86dd-c34f3b46dedd",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Getta il teschio in acqua e procedi oltre",
+                    "ENGLISH": "Trow the skull back into the water and resume your journey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "abc0d166-03b1-4cc3-8b28-f59cc7570616",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "563df608-566d-48c0-b78a-8acf23f2323f",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "8a35a9e6-d490-4204-896a-0fcc303b1961",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Tieni con te il teschio misterioso e procedi lungo la tua strada",
+                    "ENGLISH": "Keep the weird skull with you and get back to your journey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "f45aa3c4-9779-478e-82d1-7db8c99476ad",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "4a6ab7f9-49bc-4d83-9a70-a8ee90b5a308",
+                    "variable": {
+                      "key": "31dabcae-06ac-427d-b402-a459289c6e93",
+                      "type": "RUN",
+                      "name": "ENGRAVED SKULL"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": 1
+                  }
+                ],
+                "exit": {
+                  "key": "99cb2d7b-03ad-4ec4-9a01-9c96ef05c612",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
           },
           "color": "ffd7d0a8",
           "baseProbability": 40,
@@ -1381,13 +1524,126 @@
           "audioTrack": null
         },
         {
-          "key": "c028fa91-541a-4810-9e87-5cc96620f4f5",
-          "name": "Evento 3",
-          "order": 2,
+          "key": "7331f880-19f7-4fef-a58f-341399ec5171",
+          "name": "Pale Guardian",
+          "order": 1,
           "text": {
             "textMap": {
               "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
-              "ENGLISH": "Type here the event's text."
+              "ENGLISH": "On the flat and rocky bottom of the river you can see what it looks like a weirdly shaped rock. It's pale and round, with what looks like small engraving on it. \n\nThe water is cold and hostile when you push your hand down to retrieve the rock. As your warm fingers brush into the surface of the pale shape underwater, a joilt of cold thunder snakes up your arm, stopping your useless hearth for a few seconds.\n\nWith a gasp you pull the skull back towards your chest, the pale bone still dripping and your heart still hurting in your rib cage. The wind seems to change, bringing out the darkest of shadows from under the roots of the woods, like a dark veil was swallowing the ground around your feet... or is it just your vision getting dimmer?"
+            },
+            "styles": []
+          },
+          "image": "b743a9b908f3588ef206b5fc2a23753b.jpg",
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "aa717c67-3ff1-49ce-9f7c-535c3ca41be0",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Rigetta il teschio in acqua e procedi oltre, prima che sia troppo tardi",
+                    "ENGLISH": "Trow the skull back into the water and resume your journey before it's too late"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "a1ac10b3-10d5-4639-a132-f6f38c2f4ca7",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "21a25a50-945d-4faa-ba2e-7c369a50b631",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "adb5ef33-2ee0-4126-af66-a6964169eef8",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Tieni il teschio stretto al tuo petto",
+                    "ENGLISH": "Cling to the weird skull, pressing it into your chest"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "826c45c5-20ab-4047-b852-0f07bac7e3ec",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "b7f33971-3be3-48a7-b1dc-fbdc7916197b",
+                    "variable": {
+                      "key": "db27087e-f081-4e35-a079-c3d7ca26e433",
+                      "type": "RUN",
+                      "name": "ENGRAVED SKULL"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": 1
+                  }
+                ],
+                "exit": {
+                  "key": "44f97e19-5379-417f-8762-8516de340bd6",
+                  "nextSceneKey": "a78739b3-47f8-4124-bd15-b7965799e54a",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "c3c6331b-6560-4414-9698-687ff7c476b6",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffe5ddc9",
+          "baseProbability": 20,
+          "variableGroup": {
+            "key": "3be4436a-57d9-4966-b514-e8fc1d07db51",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [
+            {
+              "key": "c79dca57-4819-41e4-95a0-dab757fa6a6d",
+              "variableComparer": {
+                "key": "e008c7b0-2271-4036-8546-d3bb5f0bf67c",
+                "type": "GREATER_THAN",
+                "value": 0,
+                "variable": {
+                  "key": "537230f6-7ca0-45dd-b062-b0fc57a59512",
+                  "type": "RUN",
+                  "name": "FOLLOWED"
+                }
+              },
+              "value": 60
+            }
+          ],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    },
+    "9dbe85ad-d303-4627-9de3-38412780d377": {
+      "key": "9dbe85ad-d303-4627-9de3-38412780d377",
+      "name": "Towards the Town",
+      "order": 21,
+      "isStartingScene": false,
+      "image": "7aa3fd432f067d4dd4dd850d250b5879.jpg",
+      "events": [
+        {
+          "key": "9d9dd7cc-3da7-4f55-a43a-6596ca972c44",
+          "name": "Evento 1",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Evento di smistaggio tra tutti i percorsi, da definire una volta definiti tutti. Place holder.",
+              "ENGLISH": "Evento di smistaggio tra tutti i percorsi, da definire una volta definiti tutti. Place holder."
             },
             "styles": []
           },
@@ -1396,7 +1652,7 @@
             "type": "SINGLE",
             "paths": [
               {
-                "key": "34754194-20a6-4139-8692-e466306103ba",
+                "key": "5f6a1d0c-40c8-4f90-9a94-832f8426adc3",
                 "text": {
                   "textMap": {
                     "ITALIAN": "Prosegui oltre",
@@ -1406,56 +1662,20 @@
                 },
                 "type": "UNIVERSAL",
                 "variableGroup": {
-                  "key": "dd43e40b-a17d-4f1d-b4bb-c2e7e9e74538",
+                  "key": "216471f7-e026-4847-97a6-de931b1b5ae2",
                   "logicOperator": "AND",
                   "variableComparers": []
                 },
                 "variablesSet": [],
                 "exit": {
-                  "key": "7c1b047c-c63c-4a44-a751-1f657cfd20af",
-                  "nextSceneKey": "c4dd1cc8-3aa1-4870-8cb7-e7867bd036e8",
-                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "c028fa91-541a-4810-9e87-5cc96620f4f5",
+                  "key": "96d3cc4b-e4af-4f76-8a31-07bb452b6d2d",
+                  "nextSceneKey": "12ac0b4f-8940-4f87-839d-a4fa85cde747",
+                  "nextSceneChapterKey": "776163c0-abc0-4b2a-a6fc-f8cc7183f9ad",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               }
             ]
-          },
-          "color": "ffd1e1a7",
-          "baseProbability": 30,
-          "variableGroup": {
-            "key": "590c0305-d84e-4806-91ca-a55d7d034147",
-            "logicOperator": "AND",
-            "variableComparers": []
-          },
-          "probabilityModifiers": [],
-          "audioTrack": null
-        }
-      ],
-      "musicTrack": null
-    },
-    "9dbe85ad-d303-4627-9de3-38412780d377": {
-      "key": "9dbe85ad-d303-4627-9de3-38412780d377",
-      "name": "Towards the Town",
-      "order": 16,
-      "isStartingScene": false,
-      "image": null,
-      "events": [
-        {
-          "key": "9d9dd7cc-3da7-4f55-a43a-6596ca972c44",
-          "name": "Evento 1",
-          "order": 0,
-          "text": {
-            "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
-              "ENGLISH": "Type here the event's text."
-            },
-            "styles": []
-          },
-          "image": null,
-          "exitPaths": {
-            "type": "SINGLE",
-            "paths": []
           },
           "color": "ffb3e4d0",
           "baseProbability": 30,
@@ -1475,32 +1695,237 @@
       "name": "Reach out and try to retrieve the shining item",
       "order": 4,
       "isStartingScene": false,
-      "image": null,
+      "image": "590981497a5b2de9c112651efb2e6878.jpg",
       "events": [
         {
           "key": "36963f46-603c-4ce2-8c27-ab898e87a910",
-          "name": "Evento 1",
+          "name": "An old sword",
           "order": 0,
           "text": {
             "textMap": {
               "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
-              "ENGLISH": "Type here the event's text."
+              "ENGLISH": "You notice what looks like a shiny root between two particulary colorfoul rocks. In the bed of grey and round pebbles it's straight shape catches your attention and you lean forward towars the rushing water.\n\nAs your fingers close around the item, you can feel that it's weirdly warm to the touch, and nearly weighless. It's not easy to dislodge it and you briefly fear that it will stay trapped under the heavy rocks, but you manage to pull it out from the water. \n\nAs the water drips down back into the river, you observe what you have collected.\n\nIt's a small shortsword, it's hand guard ruined by rust, but the blade looks still sharp. It's metal has a veirdly green tint, and it's no longer straight after who knows how many times scraping against the rocks on the river bed."
             },
             "styles": []
           },
           "image": null,
           "exitPaths": {
             "type": "SINGLE",
-            "paths": []
+            "paths": [
+              {
+                "key": "a72abf32-64f8-43cc-adc2-ab33ae207afd",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Assicura la piccola spada alla cintura e prosegui oltre",
+                    "ENGLISH": "Fasten the shortsword to your belt and press onward with your journey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "2ae0a417-d974-4a81-9492-958a9a4cb1a6",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "1e099b18-4a93-4c77-acf5-8bd982f80cbc",
+                    "variable": {
+                      "key": "336f6439-f408-4bc3-8f05-16397b8f1c5d",
+                      "type": "RUN",
+                      "name": "SHORTSWORD"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": 1
+                  }
+                ],
+                "exit": {
+                  "key": "2980755a-1359-4cce-95e3-11e292985ddd",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
           },
           "color": "ffb9e3b3",
-          "baseProbability": 30,
+          "baseProbability": 40,
           "variableGroup": {
             "key": "afbf447a-f57f-4ea6-ae79-f754b1dc7800",
             "logicOperator": "AND",
             "variableComparers": []
           },
           "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "a8b77b6e-59be-4291-9503-d2334cb6b59e",
+          "name": "An old lighter",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "You notice what looks like a shiny pebble between two particulary colorful rocks. Among the dull colors, it's shiny metal seems to reflect the light of the sun right into your eyes. \nKneeling down next to the river, you lean forward towars the rushing water.\n\nAs your fingers close around the item, you can feel that it's nearly weighless and you can easily fish it out from it's watery prison.\n\nAs the water drips down back into the river, you observe what you have collected.\n\nIt's a small metallic lighter, with the engraving of an eagle on both sides. The top of the lighter can be opened and, even if it is wet and the top seems to be nearly rusted shut, you think it can still somewhat function."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "f28b08ff-e4b1-4b16-b48d-d1c0db50038b",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Lascia l'accendino scivolarti in tasca e prosegui oltre",
+                    "ENGLISH": "Put the lighter in your pocket and press onward with your journey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "1c7b3cb7-b672-4078-8de2-33eca55be4ff",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "baf7e01a-9f5b-4f98-8ebb-a94b350dedc2",
+                    "variable": {
+                      "key": "8abb1211-ba75-4a52-b456-12fd85d64e78",
+                      "type": "RUN",
+                      "name": "LIGHTER"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": 1
+                  }
+                ],
+                "exit": {
+                  "key": "b34c88ef-a7ab-4638-80fb-6dbe86559506",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffcae6b9",
+          "baseProbability": 40,
+          "variableGroup": {
+            "key": "d1fff4b6-88bb-4aa8-ad27-4554dc33d88b",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "83a1b610-6aef-4bd3-8030-5d69d42b367e",
+          "name": "Pale Guardian",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "You notice what looks like a shiny pebble between two particulary colorful rocks. Among the dull colors, it's shiny metal seems to reflect the light of the sun right into your eyes. \nKneeling down next to the river, you lean forward towars the rushing water.\n\nAs your fingers close around the item, you can feel that it's nearly weighless and you can easily fish it out from it's watery prison.\n\nAs the water drips down back into the river, you observe what you have collected.\n\nIt's a small metallic lighter, with the engraving of an eagle on both sides. The top of the lighter can be opened and, even if it is wet and the top seems to be nearly rusted shut, you think it can still somewhat function.\n\nAs you inspect the small lighter, you start feeling a burning sensation on your skin, your hairs curling as if a massive fire was barely a few inches from you. Looking around, the whole woods seems to be getting tinted in the red light of an invisible fire."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "a38f2820-b4d4-4aab-a5c5-31564d4de475",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Getta rapidamente l'accendino nel fiume e prosegui oltre",
+                    "ENGLISH": "Trow the lighter back into the water and press onward with your journey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "f629731e-bf04-4f5e-b3a8-c0b390f6d969",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "430c4c74-3502-41af-9c0e-a357e1ab5fa5",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "3fb32825-0fe3-4989-8395-29563f4d8ffd",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Tieni con te l'accendino",
+                    "ENGLISH": "Keep the lighter with you"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "62a3f11b-51eb-4398-963d-4a5ea60e67ba",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "d30e5763-e8fd-426e-82f7-1c9cbe29191a",
+                    "variable": {
+                      "key": "4b457075-da98-4d8f-a32d-57e24f661fc1",
+                      "type": "RUN",
+                      "name": "LIGHTER"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": 1
+                  }
+                ],
+                "exit": {
+                  "key": "a51a7279-172e-4b67-916e-f4ca9a483c1b",
+                  "nextSceneKey": "a78739b3-47f8-4124-bd15-b7965799e54a",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "1f6f6a92-65a2-4015-ae36-9bdb069d7c57",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffafccdb",
+          "baseProbability": 20,
+          "variableGroup": {
+            "key": "41957db3-ca16-4cca-b729-daa784735dd3",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [
+            {
+              "key": "45e32681-7ecf-4d2b-bf3a-f274e7349409",
+              "variableComparer": {
+                "key": "9c4c4c1b-e0cf-4c01-8a7f-3587dfbe6cbe",
+                "type": "GREATER_THAN",
+                "value": 0,
+                "variable": {
+                  "key": "135d42d8-86f1-43c1-929d-b4ccc32a106d",
+                  "type": "RUN",
+                  "name": "FOLLOWED"
+                }
+              },
+              "value": 60
+            }
+          ],
           "audioTrack": null
         }
       ],
@@ -1551,49 +1976,244 @@
       "events": [
         {
           "key": "9255e783-5d94-452c-99d5-378d9f9d397c",
-          "name": "Evento 1",
+          "name": "The scent of Honey",
           "order": 0,
           "text": {
             "textMap": {
               "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
-              "ENGLISH": "Type here the event's text."
+              "ENGLISH": "It's hard to remember when you stop to rest for the last time, and it's even harder to think of how you will find the strenght to get back on the path if you stop now. \n\nEvery bone in your bony is aching, a dull, constant ache that it's somewhat becoming normal after... days? Weeks? Who knew.\n\nSlowly you sit down on the slightly wet grass, your back resting against a sturdy and trunk. Everything is slightly dump and uncomfortable, and yet it felt so easy to close your eyes and just concentrate on your breathing.\n\nThere was a scent in the air. It reminded you of freshly cut hay, yet there was more to it. It was sweet, like honey and mint, so soft that you could easily miss it yet once you become aware of it ... ignoring it was impossible."
             },
             "styles": []
           },
           "image": null,
           "exitPaths": {
-            "type": "SINGLE",
+            "type": "CHOICES",
             "paths": [
               {
-                "key": "025e62c4-c9ae-4c14-9dcf-0a2b52516313",
+                "key": "e565666d-5b76-4405-8123-9bccfead0e3f",
                 "text": {
                   "textMap": {
-                    "ITALIAN": "Prosegui oltre",
-                    "ENGLISH": "Press onward"
+                    "ITALIAN": "Cerca di ignorare il profumo e rimani a riposare",
+                    "ENGLISH": "Try to ignore the smell and just rest"
                   },
                   "styles": []
                 },
                 "type": "UNIVERSAL",
                 "variableGroup": {
-                  "key": "e70ec216-baf0-4f81-9c1c-d463a60fe137",
+                  "key": "6315efb2-5a71-4c58-888e-7323d88e4437",
                   "logicOperator": "AND",
                   "variableComparers": []
                 },
                 "variablesSet": [],
                 "exit": {
-                  "key": "467f5c94-e23f-4b39-adf2-5d7f242521c0",
+                  "key": "348da6c0-6f00-448e-bfb6-4a770c1cde0a",
+                  "nextSceneKey": "1c98d8c4-b48f-4494-972d-3004fedc0480",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "d04aea38-8dbf-440a-9403-40cabd543d83",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Cerca di ignorare il profumo e concentrati sul fiume",
+                    "ENGLISH": "Try to ignore the scent and focus on the nearby river"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "cfadc842-0843-4a7d-a380-1e02eb97935c",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "bf0e93cd-4ac4-49b1-8633-f3c7db0ad87e",
+                  "nextSceneKey": "39e9cb13-0030-4930-83f5-3421a390dcc5",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "4dc35c0c-1b6a-4383-9b96-b36e812eb421",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Cerca di individuare la fonte del profumo X",
+                    "ENGLISH": "Try and locate the source of the scent X"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "6634321c-af29-4b17-a0ca-e114a00045f5",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "ecfa62b3-5c05-46d0-9e20-417c94f4f592",
                   "nextSceneKey": "f4cebb88-286d-46d3-8e2d-005ad918e633",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "9255e783-5d94-452c-99d5-378d9f9d397c",
+                  "nextEventKey": "f781820d-de56-40c0-a1e4-33ffedec2a2b",
                   "type": "SCENE"
                 }
               }
             ]
           },
           "color": "ffcfdfb2",
-          "baseProbability": 30,
+          "baseProbability": 100,
           "variableGroup": {
             "key": "26def1bf-b449-42db-bef6-97a8832f8b22",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "f781820d-de56-40c0-a1e4-33ffedec2a2b",
+          "name": "The Hive",
+          "order": 1,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "It takes some times to get back on your feet. \n\nIt takes even more time to start walking among the threes, leaving the path you where following behind.\n\nEach step was guided by the fragrant aroma in your nose, like a trail of sweet scents that was invisible, yet so clear to you.\n\nAs you get closer and closer to the source, you start hearing a low, melodic, buzzing. \n\nFinally, pushing yourself past some thick vines and thorny bushes, you are able too see what you where unknowingly looking for.\n\nIn front of your, a large [Descrizione di un alveare pieno di insetti, la descrizione si adatterà a quello che ci produce l'IA]."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "001ed291-d5ad-4ea8-ac32-91d495b9da8c",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Studia l'Alveare da lontano",
+                    "ENGLISH": "Study the Hive from afar"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "5348b36a-5442-4864-b7e5-b2b98d46ce12",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "b6bdc875-85df-40e2-aba1-fe6456152942",
+                  "nextSceneKey": "85ec5e6e-e70e-4297-af75-64fbf63edc2a",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "2dd62201-3df3-4f75-96ed-f11f01c75396",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Cerca di raccogliere la sostanza zuccherina prodotta dagli insetti",
+                    "ENGLISH": "Try to collect some of the Hive's glistening honey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "324a8d12-c661-4067-aebe-ad9d9f6d33a7",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "4d584d04-a210-4dfb-a4e2-9474710a66c3",
+                  "nextSceneKey": "aa71c330-dd57-46e5-b74e-170200563f78",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "be480953-0d5a-4f09-8bfa-94a8304e12fa",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Cerca di distruggere l'Alveare",
+                    "ENGLISH": "Try and destroy the Hive"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "721cc998-5248-48af-bc2d-6bb7e49d032b",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "f84129d0-b154-47ac-b479-19bef948cd1f",
+                  "nextSceneKey": "3e7e23ed-2f57-4ccf-b9aa-0efb3f169738",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "49ba74c6-37dd-4cb2-b17c-256f7556569b",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Resisti al richiamo di quel profumo e torna su i tuoi passi",
+                    "ENGLISH": "Shake away the scent from your mind and go back towards the old path"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "e971a088-e384-4aaf-9225-887effa1b72f",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "cfaf7ad0-0977-4248-b8c1-c95e100de1e8",
+                  "nextSceneKey": "2a583d16-e05a-486f-8602-a04b57eb4c59",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "cd39e72e-fecd-43fa-a15d-82f47c138b1c",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Ignora l'Alveare e continua ad inoltrarti nel bosco",
+                    "ENGLISH": "Keep your distance from the Hive and keep going deep into the woods"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "0f662494-ad51-4553-941b-72b232a83503",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "1586b979-97b4-442d-93f4-b8919380aca5",
+                  "nextSceneKey": "7d6e692f-cd3e-4a99-8f90-b70af2f1d11f",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffcce8d1",
+          "baseProbability": 0,
+          "variableGroup": {
+            "key": "2f81fc9a-a0a4-4901-ad0d-b00154d80779",
             "logicOperator": "AND",
             "variableComparers": []
           },
@@ -1756,24 +2376,571 @@
       "events": [
         {
           "key": "4800d3a3-7a70-4455-8cfb-40cc320eec72",
-          "name": "Evento 1",
+          "name": "Acceptance",
           "order": 0,
           "text": {
             "textMap": {
               "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
-              "ENGLISH": "Type here the event's text."
+              "ENGLISH": "As you kneel down, you can feel the air becoming heavy around you.\n\nThe birds, the rushing water, the wind between the foliage; everything seems to stop to witness what is happening.\n\nWith a sound of snapping wood and brushing leaves, the creature slowly moves, but you do not dare to look up at it. \n\nYou can hear as it circles around you, slow and deliberate, like the lazy blossoming of a flower.\n\nWhen the pain snaps you back into reality, it's as sudden as it is sharp. A long, deep gush has been opened on your back, a thin and warm dribble of warm blood rushing down your skin.\n\nWhen you look up, the creature is no more. As silently as it has came, he disapeared, leaving a small bracelets of thorns behind you, along with a painfull reminder of your crime."
             },
             "styles": []
           },
           "image": null,
           "exitPaths": {
-            "type": "SINGLE",
-            "paths": []
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "f6045f00-bb97-4b2f-9edd-5e801b7fb131",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Dolorante, riprendi il tuo cammino",
+                    "ENGLISH": "Hurt and tired, get back up and start walking again"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "36b08c13-d827-4a4b-bb05-9105516afe4c",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "cb0919cf-f139-49ce-9be8-156e55273a15",
+                    "variable": {
+                      "key": "f6b2ab7a-87b7-4567-aa67-9526f91e3f20",
+                      "type": "WOUNDS"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": 0,
+                    "maxValue": 5
+                  }
+                ],
+                "exit": {
+                  "key": "ade2abfe-2416-4265-a68d-19d6489cd8aa",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "c82ed9f1-4cfd-4236-ab27-0970bb4b9489",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Raccogli e indossa il bracciale di spine prima di riprendere il tuo cammino",
+                    "ENGLISH": "Take the thorn's bracelet and slip it on before going back to your journey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "8a241ce0-a741-4c93-a2c6-074fc2f35bc7",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "f509557c-d706-4405-a289-cd6358344910",
+                    "variable": {
+                      "key": "d97d2fc7-4713-446c-b48c-db3d0ea2f9d6",
+                      "type": "WOUNDS"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": 0,
+                    "maxValue": 5
+                  },
+                  {
+                    "key": "0ed1ba5d-be82-4d0f-a903-ad9887594d40",
+                    "variable": {
+                      "key": "bf930947-10a1-456b-ba3d-0dbb807b1af6",
+                      "type": "RUN",
+                      "name": "GIFT OF THORNS"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
+                "exit": {
+                  "key": "6e6e7c31-72e7-4b7f-b797-20cbe4c63fe8",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
           },
           "color": "ffc8b1dc",
-          "baseProbability": 30,
+          "baseProbability": 40,
           "variableGroup": {
             "key": "d28d8530-6d95-4d6c-9167-699420365f3b",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "1dc7a892-cf69-449b-b743-f36033ed56c6",
+          "name": "Doubt",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "As you kneel down, you can feel the air becoming heavy around you.\n\nThe birds, the rushing water, the wind between the foliage; everything seems to stop to witness what is happening.\n\nWith a sound of snapping wood and brushing leaves, the creature slowly moves, but you do not dare to look up at it. \n\nYou can hear as it circles around you, slow and deliberate, like the lazy blossoming of a flower.\n\nA raspy voice, more like the brushing of wood against wood and the distant voice of crows, sneaks into your hears from behind your back.\n\n\"Why are you here, children of Men?\""
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "65934f52-a068-4c1b-8c02-d275f3b954d0",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "\"Non lo sò, sono solo un viandante\"",
+                    "ENGLISH": "\"I do not know, I am merely a traveler\""
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "7878c817-1252-4973-9237-a1bbd196af95",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "14dd1dec-046c-4fb5-afe5-faf83b0959f4",
+                    "variable": {
+                      "key": "523ed769-9bc2-4dc2-b1f9-605dd69c896a",
+                      "type": "WOUNDS"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": 0,
+                    "maxValue": 5
+                  }
+                ],
+                "exit": {
+                  "key": "ef7d3b76-f96a-44d0-a28a-a5c4b33aae3f",
+                  "nextSceneKey": "6fa65fb4-2430-4030-b80c-3e292448c6d3",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "1c764e5f-f2f0-4304-98d5-c5cd9c956f55",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "2c15f60c-ca78-4ecf-bc05-12933abeafd5",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "\"Sono in cerca del mio cammino\"",
+                    "ENGLISH": "\"I am looking for my Path\""
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "edcbba5e-1578-4e07-8da9-124e4248e19e",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "63fa2fe5-6c02-43c3-ad13-4981b3d3d241",
+                    "variable": {
+                      "key": "ebb64227-b256-4176-a2d7-3634fee63711",
+                      "type": "WOUNDS"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": 0,
+                    "maxValue": 5
+                  },
+                  {
+                    "key": "f65bf0b9-bb83-4fb4-889b-a5a31fc3e742",
+                    "variable": {
+                      "key": "0b330e31-9b40-46aa-8ea4-c1ade3fd7ed1",
+                      "type": "RUN",
+                      "name": "GIFT OF THORNS"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
+                "exit": {
+                  "key": "7e692e6a-d7e4-4597-80cf-ee4ea6b63914",
+                  "nextSceneKey": "6fa65fb4-2430-4030-b80c-3e292448c6d3",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "5d4e0fa4-f63e-43e7-8ec2-149c2633aafe",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "9b912fe2-d665-4606-b6a4-380b95e8584d",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "\"Non ti riguarda chi io sia o dove sto andando, fatti da parte\"",
+                    "ENGLISH": "\"Who I am and where I am going is my business, leave me alone\""
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "1b562032-f436-49e4-a335-da3aca3389c0",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "1b79794f-c6fa-4f82-90a5-83225597d4f2",
+                  "nextSceneKey": "6fa65fb4-2430-4030-b80c-3e292448c6d3",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "1dc7a892-cf69-449b-b743-f36033ed56c6",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffdcefd0",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "1edb082c-3936-41af-9ae3-b69d0f88c3c3",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "4801ebf4-c738-4e9e-9e75-26b76589ff43",
+          "name": "Punishment",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "As you kneel down, you can feel the air becoming heavy around you.\n\nThe birds, the rushing water, the wind between the foliage; everything seems to stop to witness what is happening.\n\nWith a sound of snapping wood and brushing leaves, the creature slowly moves, but you do not dare to look up at it. \n\nYou can hear as it circles around you, slow and deliberate, like the lazy blossoming of a flower.\n\nWhen the pain snaps you back into reality, it's as sudden as it is sharp. A long, deep gush has been opened on your back, a thin and warm dribble of warm blood rushing down your skin.\n\nWhen you look up, the creature is no more. As silently as it has came, he disapeared, leaving you with a painfull reminder of your crime."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "f634263f-90f3-47cf-8a27-7e8ed85a4968",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Dolorante, riprendi il tuo cammino",
+                    "ENGLISH": "Hurt and tired, get back up and start walking again"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "758a509d-a36f-46ed-9ce3-1d77916dc3c8",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "362e987f-44be-4a97-b651-76023441964d",
+                    "variable": {
+                      "key": "30da597f-caf3-4c98-88f6-a28aa9ced163",
+                      "type": "WOUNDS"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": 0,
+                    "maxValue": 5
+                  }
+                ],
+                "exit": {
+                  "key": "d291991c-7a3f-4061-92ab-5a890ab92ed3",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffc4dfbc",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "6a894ba5-7797-4cdf-b0c7-999fa22fa525",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "1c764e5f-f2f0-4304-98d5-c5cd9c956f55",
+          "name": "I am but a traveler",
+          "order": 3,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "It is hard to tell if the creature is answering you or if it even heard you. \n\nAround you, all that it's heard is the silent presence of the woods, with it's slithering, crawling, rushing and brushing sounds; but is this not the language of your guest?\n\nFinally, just before you decide to stand back up and look around, a slow and gentle snapping of woods, similar to the warm sound of a fireplace, brushes your hears.\n\n\"You are not someone. You were and you will be for the present is a tale you do not know.\"\n\nThose words that are not words at all cut deep into you, giving you the strenght to turn around.\n\nBehind you, the creature is no more. A small bird nest made of scraps of bloodied tissues and twigs lies on the ground with a single, spekled, black and brown egg in it."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "39573067-f46b-4fc6-8089-535280741b7f",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Confuso ma sollevato, decidi di procedere oltre verso il tuo cammino",
+                    "ENGLISH": "Dazed but safe, you decide to go on with your journey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "9234b8ee-75b9-4d94-a5b7-d47a34b475a5",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "52aa88b6-1254-4edb-a4de-9db7834df2a0",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "fc16ca07-9373-4a04-aaaf-2526bc3a9883",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Raccogli l'uovo e lo metti delicatamente nel tuo zaino prima di procedere lungo il tuo cammino",
+                    "ENGLISH": "You pick up the misterious egg and carefully put it in your backpack before going back to your journey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "d2cca4d7-97c0-4dac-9b68-b3d977d74358",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "32115981-b4fd-4c71-a1ae-e82e69a8099c",
+                    "variable": {
+                      "key": "d7f76006-62b7-4a3b-8ca8-34553b3e93b0",
+                      "type": "RUN",
+                      "name": "SPEKLED EGG"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
+                "exit": {
+                  "key": "a3d79129-0ff5-432f-92fd-d0c1843cabb7",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffdae1ba",
+          "baseProbability": 0,
+          "variableGroup": {
+            "key": "9591405a-459f-403f-9115-d00a41883197",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "5d4e0fa4-f63e-43e7-8ec2-149c2633aafe",
+          "name": "I am looking for my path",
+          "order": 3,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "It is hard to tell if the creature is answering you or if it even heard you. \n\nAround you, all that it's heard is the silent presence of the woods, with it's slithering, crawling, rushing and brushing sounds; but is this not the language of your guest?\n\nFinally, just before you decide to stand back up and look around, a slow and gentle snapping of woods, similar to the warm sound of a fireplace, brushes your hears.\n\n\"A destination without a road, a river that goes to no lake. You will dry up into nothing.\"\n\nThose words that are not words at all cut deep into you, giving you the strenght to turn around.\n\nBehind you, the creature is no more. A small bird nest made of scraps of bloodied tissues and twigs lies on the ground with a single, wet looking, pale human eye in it."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "6641f898-e892-407c-97e2-6c02dbb82e0c",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Confuso ma sollevato, decidi di procedere oltre verso il tuo cammino",
+                    "ENGLISH": "Dazed but safe, you decide to go on with your journey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "86444929-60cc-49fd-95d6-6e39b08e3c43",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "7806f8ce-ad76-42e7-857c-e7df8a8b2bbe",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "a9b6c997-d094-4516-ab34-acdd9e8dd39e",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Raccogli l'occhio e lo metti delicatamente nel tuo zaino prima di procedere lungo il tuo cammino",
+                    "ENGLISH": "You pick up the grousome eye and carefully put it in your backpack before going back to your journey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "d8cf767e-cdea-4c01-a40e-af26fd8800e0",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "10cb9b75-81a1-4ce6-b0bc-a179335635fc",
+                    "variable": {
+                      "key": "073dc54a-8ae3-462f-9f43-c9cc8afce502",
+                      "type": "RUN",
+                      "name": "SYLVANUS'S EYE"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
+                "exit": {
+                  "key": "05ddf3f1-8a7d-43e0-825d-ec0b2ed3bddd",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffcac2eb",
+          "baseProbability": 0,
+          "variableGroup": {
+            "key": "13a8190f-6db3-4648-8bb6-4657102ec870",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "7b133d20-66e5-459c-adf6-e4b828bfad95",
+          "name": "Get out of my way",
+          "order": 3,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "It is hard to tell if the creature is answering you or if it even heard you. \n\nAround you, all that it's heard is the silent presence of the woods, with it's slithering, crawling, rushing and brushing sounds; but is this not the language of your guest?\n\nFinally, just before you decide to stand back up and look around, a slow and gentle snapping of woods, similar to the warm sound of a fireplace, brushes your hears.\n\n\"A fiery critter, a fearsom bug. Blind to the woods you will die underfoot.\"\n\nThose words that are not words at all cut deep into you, giving you the strenght to turn around.\n\nBehind you, the creature is no more. A small bird nest made of scraps of bloodied tissues and twigs lies on the ground with a single, mummified, dried up grasshopper in it."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "1860e9ae-0847-4d05-8c03-1ddb83bc66b8",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Confuso ma sollevato, decidi di procedere oltre verso il tuo cammino",
+                    "ENGLISH": "Dazed but safe, you decide to go on with your journey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "d971f15a-d5c8-4a88-85f4-009cf5d5b138",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "5f67def8-5851-46f9-89d1-e386b384a724",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "886a647c-8a38-4478-b8cd-0b341804228e",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Raccogli l'insetto e lo metti delicatamente nel tuo zaino prima di procedere lungo il tuo cammino",
+                    "ENGLISH": "You pick up the dry grasshopper and carefully put it in your backpack before going back to your journey"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "1cabad18-66c5-46ed-b555-2f1be6659d37",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "c5dd36b4-ea1b-408a-b36a-7124794e5319",
+                    "variable": {
+                      "key": "515e9979-c07f-4446-acd4-668371260d17",
+                      "type": "RUN",
+                      "name": "DRY GRASSHOPPER"
+                    },
+                    "value": 1,
+                    "operator": "SET",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
+                "exit": {
+                  "key": "94cab32b-2323-4cb5-9f6e-99b66b5a3364",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "1c764e5f-f2f0-4304-98d5-c5cd9c956f55",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffcde3b3",
+          "baseProbability": 0,
+          "variableGroup": {
+            "key": "87c5172d-5dc2-40ed-98e9-42deeae17ad5",
             "logicOperator": "AND",
             "variableComparers": []
           },
@@ -1864,8 +3031,1521 @@
       "events": [
         {
           "key": "c3c6331b-6560-4414-9698-687ff7c476b6",
+          "name": "A corpse in the Dark 1",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "As the darkness rises from the grass under you, a dull sound of bones against bones catches your attention from behind you,\n\nThe creature emerging from the hollow trunk of a nearby three is tall and somehow regal in it's presence. It's exposed bones are perfectly white, it's flesh having long been disposed off by endless creatures.\n\nIt moves with solemnity, it's bone fingers graspin at the air in front of him, painting mute words on the wind and yet, even if they make no sense to you, each unspoken word is clear as day.\n\n\"Pay\" \n\n\"Savage\"\n\n\"Thief\"\n\nEach mute word is filled with a cold, indifferent hate, as the skeletal figure quickly step closer, ready to face you."
+            },
+            "styles": []
+          },
+          "image": "b593ea933bc4b42a5835bc830aa80b70.jpg",
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "53808636-72d1-46bf-be0f-beaff36d73ee",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Estrai un arma ed affronta la creatura",
+                    "ENGLISH": "Take on the skeleton with one of your weapons"
+                  },
+                  "styles": []
+                },
+                "type": "DEPENDENT",
+                "variableGroup": {
+                  "key": "677880bf-e09a-4eb2-8019-2b03108973b5",
+                  "logicOperator": "OR",
+                  "variableComparers": [
+                    {
+                      "key": "cdf77cb8-f12b-4dbd-b088-9df7a3ab1300",
+                      "type": "GREATER_THAN",
+                      "value": 0,
+                      "variable": {
+                        "key": "cdf77cb8-f12b-4dbd-b088-9df7a3ab1300",
+                        "type": "tag",
+                        "tag": "WEAPON"
+                      }
+                    }
+                  ]
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "e2a6cc2a-d0a2-459f-9c21-1b847a1294ec",
+                  "nextSceneKey": "a78739b3-47f8-4124-bd15-b7965799e54a",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "c3c6331b-6560-4414-9698-687ff7c476b6",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "d0f2cd78-6674-4eb8-a111-c22043a49e77",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Preparati allo scontro come puoi",
+                    "ENGLISH": "Brace yourself for the fight"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "d6882f15-0b1d-4497-b90e-c2a51a126331",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "b7c15abd-a178-4c7a-bf63-d108540d6198",
+                  "nextSceneKey": "a78739b3-47f8-4124-bd15-b7965799e54a",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "c3c6331b-6560-4414-9698-687ff7c476b6",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "bf7fae15-4a14-476d-ad3f-27c3494f24be",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Cerca di scappare",
+                    "ENGLISH": "Try to escape it"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "a1b71ecc-78f4-47dc-80cd-1f9d88caad61",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "c48bf126-ed55-48c8-a026-faec8a05912d",
+                  "nextSceneKey": "a78739b3-47f8-4124-bd15-b7965799e54a",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "c3c6331b-6560-4414-9698-687ff7c476b6",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffe7d5ee",
+          "baseProbability": 50,
+          "variableGroup": {
+            "key": "10623c80-30f4-4c4b-95a6-986deea75955",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "1f6f6a92-65a2-4015-ae36-9bdb069d7c57",
+          "name": "A corpse in the Fire 1",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "As an impossible and burning warmth rises from the grass under you, a dull sound of bones against bones catches your attention from behind you,\n\nThe creature emerging from the hollow trunk of a nearby three is tall and somehow regal in it's presence. It's exposed bones a shimy tint of black, it's flesh having long been burned off.\n\nIt moves quikcly and frantically, nearly running an all fours towards you, like a beast despite the humanoid shape of it's bones.\n\nThe woods around you start to snap and moan under the assault of an invisible bonefire and the temperature rises as the furious skeletal figure runs towards you."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "f4e7ec04-de8a-4007-bd29-e0814e7a0fa5",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Estrai un arma ed affronta la creatura",
+                    "ENGLISH": "Take on the skeleton with one of your weapons"
+                  },
+                  "styles": []
+                },
+                "type": "DEPENDENT",
+                "variableGroup": {
+                  "key": "00e9bcba-a251-4033-9ae1-b74776b72775",
+                  "logicOperator": "OR",
+                  "variableComparers": [
+                    {
+                      "key": "68c8603a-cb4f-4773-86cf-30601dd3e9c6",
+                      "type": "GREATER_THAN",
+                      "value": 0,
+                      "variable": {
+                        "key": "96867e34-37a7-41fb-809f-d7825e5253b6",
+                        "type": "tag",
+                        "tag": "WEAPON"
+                      }
+                    }
+                  ]
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "5ae21898-b006-4c6a-ab1c-7c7f88fd758b",
+                  "nextSceneKey": "a78739b3-47f8-4124-bd15-b7965799e54a",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "c3c6331b-6560-4414-9698-687ff7c476b6",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "5f98c018-0ffd-4ef5-a921-da4a521bde0b",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Preparati allo scontro come puoi",
+                    "ENGLISH": "Brace yourself for the fight"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "3109ff00-13ef-4e60-b78e-e40a8a8fdf67",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "0a621551-1aa9-4c8a-89ff-0ddc41fb8802",
+                  "nextSceneKey": "a78739b3-47f8-4124-bd15-b7965799e54a",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "c3c6331b-6560-4414-9698-687ff7c476b6",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "16b78a64-a596-40cf-abf6-09f7f8cde75c",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Cerca di scappare",
+                    "ENGLISH": "Try to escape it"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "c8a69dfd-82be-41c7-a610-f75a9e28a2e1",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "03bd3ddf-fd25-40d5-915f-22032fbe3483",
+                  "nextSceneKey": "a78739b3-47f8-4124-bd15-b7965799e54a",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "c3c6331b-6560-4414-9698-687ff7c476b6",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffd2edd3",
+          "baseProbability": 50,
+          "variableGroup": {
+            "key": "0d06df49-7865-4d6d-ba83-f43b9dc25afe",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    },
+    "2a583d16-e05a-486f-8602-a04b57eb4c59": {
+      "key": "2a583d16-e05a-486f-8602-a04b57eb4c59",
+      "name": "An harsh path",
+      "order": 16,
+      "isStartingScene": false,
+      "image": null,
+      "events": [
+        {
+          "key": "605e98e8-1c29-4687-b8b1-572843cff8ec",
+          "name": "Pick your path",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "In the thick woods, the gentle lullaby of rushing water can be heard, sneaking its way among the dark bushes and the low branches, like a distant melody of the forest.\n\nIt takes some time to reach it, as the ground is slowly rising into a cliff, making navigation quite hard.\n\nChasms and fallen trees often block your path, sharp stones start to emerge from the soft undergrowth more often, trying to bite at your ankles and making it hard to keep your footing.\r\n\r\nAt last, the river is in front of you. It’s a large and deep thing, it’s water clear and fast, killing any hope to try and traverse it, as you would be easily swept away against the large stones that often sleep barely below the surface."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "342140e5-2b57-410f-aaf5-84ec86756d83",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Fermati e ascolta il suono dell'acqua che scorre",
+                    "ENGLISH": "Stop to listen to the sound of rushing water"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "6e3ff646-db99-46d5-a701-d9672a5577d4",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "613aaa16-d04f-406e-9aeb-b17caad2ea21",
+                  "nextSceneKey": "1c98d8c4-b48f-4494-972d-3004fedc0480",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "84307f8e-826c-483a-857e-4af7303637cd",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Cerca un punto dove è possibile attraversare il fiume in sicurezza",
+                    "ENGLISH": "Search for a spot where it's safe to cross the river"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "28a29524-0bfb-424d-b8f9-43afd5c49c42",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "7302e967-52a2-4bdb-8c43-fcf0422f94a4",
+                  "nextSceneKey": "03b17b0f-8972-4ceb-ab04-ad0b1a8424e9",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "789c0df6-0465-4da1-b686-384f6f90b93a",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prova ad attraversare il fiume impetuoso",
+                    "ENGLISH": "Try traversing the harsh river"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "5c730c1a-9bf7-474d-aa50-97250c192fe7",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "7a5e340d-94e8-4371-92c0-5d71ca1ecccc",
+                  "nextSceneKey": "a7bcb13d-28ac-4810-ae6a-27501223fa3a",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffeae4c8",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "3e1c795d-9f1e-43ae-bba0-baff856dcbab",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    },
+    "7d6e692f-cd3e-4a99-8f90-b70af2f1d11f": {
+      "key": "7d6e692f-cd3e-4a99-8f90-b70af2f1d11f",
+      "name": "The secret Garden",
+      "order": 22,
+      "isStartingScene": false,
+      "image": null,
+      "events": [
+        {
+          "key": "1b933554-d7a3-49ce-a0b6-ec8368d8f896",
           "name": "Evento 1",
           "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Questa versione della quest è in costruzione, si viene rediretti verso quella pronta",
+              "ENGLISH": "Questa versione della quest è in costruzione, si viene rediretti verso quella pronta"
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "233642a4-f7b5-43d5-840d-6b0620cb61d5",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "dbf5a445-6524-4846-879d-163bf13efc9b",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "0e061635-0197-4ede-9d2d-f8aa8148442d",
+                  "nextSceneKey": "12ac0b4f-8940-4f87-839d-a4fa85cde747",
+                  "nextSceneChapterKey": "776163c0-abc0-4b2a-a6fc-f8cc7183f9ad",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffede0d9",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "325f258e-b53c-4837-999d-282d554c9455",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    },
+    "9a8700ca-2f02-4e70-b2aa-fde4c5cda99d": {
+      "key": "9a8700ca-2f02-4e70-b2aa-fde4c5cda99d",
+      "name": "The Gutter",
+      "order": 23,
+      "isStartingScene": false,
+      "image": null,
+      "events": [
+        {
+          "key": "ccd44e7a-dbcb-4eb7-a717-8854b47c1c11",
+          "name": "Evento 1",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Questa versione della quest è in costruzione, si viene rediretti verso quella pronta",
+              "ENGLISH": "Questa versione della quest è in costruzione, si viene rediretti verso quella pronta"
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "bc0d0808-e8cc-4db7-b29d-fd66cb28d5cb",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "de0f0957-a5ae-4bcf-b1ae-8c6d52429f83",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "0985102e-e6f6-4480-839b-dccdb37e6a89",
+                  "nextSceneKey": "12ac0b4f-8940-4f87-839d-a4fa85cde747",
+                  "nextSceneChapterKey": "776163c0-abc0-4b2a-a6fc-f8cc7183f9ad",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffb6dfde",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "3b0e9bfd-6900-4dc2-868a-82f42e3616d1",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    },
+    "03b17b0f-8972-4ceb-ab04-ad0b1a8424e9": {
+      "key": "03b17b0f-8972-4ceb-ab04-ad0b1a8424e9",
+      "name": "Crossing a bridge",
+      "order": 18,
+      "isStartingScene": false,
+      "image": "84a050abf1444405bd148cea9153333e.jpg",
+      "events": [
+        {
+          "key": "107186a8-20f9-453b-9eed-67d0524b51e4",
+          "name": "The Troll",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "You follow the bank of the raging river, knowing that it would be foolish to risk breaking a leg while trying to pass it's icy waters.\n\nIt takes quite a bit, walking in the dense woods that hide the skies above you, but in the end you see a small hill and a stone bridge arching above the waters.\n\nAs  you get closer, the canopy seems to shrinks around you, and even if the trees obviously are less dense as you climb towards the bridge, you feel like their presence is closing on you and a sudden darkness covers the skies that you should be able to see and yet you cannot.\n\nStepping on the first of the flat stones of the bridge, you see 5 longs and stretched fingers sneak up from both sides of the well, like gnarled roots with too many knuckles and dark and thick nails. \n\nFingers, as longs as your whole arm and yet barely thicker than your own digit, slowly rest on the low wall of the bridge, like the long and hairy legs of two disgusting spiders."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "1cc0a9f7-68e9-407d-b6e1-11b2e62d888f",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "[Continua]",
+                    "ENGLISH": "[Continue]"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "c18f2244-6e65-4123-86e5-6efd7fb5620d",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "5ebc3c28-2074-436e-a501-a25003e62344",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffd8e7c9",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "1b021b80-73cb-4752-8e4d-5fd491f1f011",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "bbec4a87-85db-4d7b-b514-c8ff9922680f",
+          "name": "The Knight",
+          "order": 1,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "You follow the bank of the raging river, knowing that it would be foolish to risk breaking a leg while trying to pass it's icy waters.\n\nIt takes quite a bit, walking in the dense woods that hide the skies above you, but in the end you see a small hill and a stone bridge arching above the waters.\n\nAs you get closer, the canopy seems to shrinks around you, and even if the trees obviously are less dense as you climb towards the bridge, you feel like their presence is closing on you and a sudden darkness covers the skies that you should be able to see and yet you cannot.\n\nOn the bridge you can see a figure, standing tall in the middle of the bridge. Even if you cannot see it's face, you can feel it's eyes on your as it silendly awaits."
+            },
+            "styles": []
+          },
+          "image": "3ae0321b15a1286512d72588fef8d479.jpg",
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "49b9b7a3-6662-4049-b0e0-f5e0812c6a96",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "488329b7-b728-4168-aff9-8ba8eb8e7684",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "8660133d-f66d-42a6-8d84-fc4c3a44dab7",
+                  "nextSceneKey": "f66cb6ec-f51a-47f3-8408-115f07a047a7",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffd2dfef",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "396a3e9f-31c6-410e-ad2a-671548874c38",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    },
+    "a7bcb13d-28ac-4810-ae6a-27501223fa3a": {
+      "key": "a7bcb13d-28ac-4810-ae6a-27501223fa3a",
+      "name": "Against the current",
+      "order": 17,
+      "isStartingScene": false,
+      "image": "df5557d7ece56813229d28bbc3b7ef6d.jpg",
+      "events": [
+        {
+          "key": "86958469-5546-497e-806f-e3c897f1ea1c",
+          "name": "Jumping on stones 1",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Finding a bridge where to cross could take hours, if it even exists, so you decide to face the river head on.\n\nThe river is not particularly deep, probably as deep as your hips are tall, yet you don't fancy your chances against the very fast current and the uneven river bed.\n\nThere are various rocks emerging from the rushing water, their flat surface offering you a wet and slippery path towards your unknown goal.\n\nWith a deep breath, you brace yourself as you start traversing the river on the flat stones. Each small jump is a test of your abilities as your ruined boots slide and slip on the stones, a single mistep will send you thumbling down in the icy cold waters.\n\nDespite quite a few close calls, you manage to finally jump to safety with nothing worse than a pair of wet boots."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "fe1fc7a8-0d8f-40fd-b750-e2f0d8d0046c",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "71da902d-5621-402f-82c9-0fce6c2e4cae",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "f063eb84-9018-457b-8354-00fbe6a4db1e",
+                  "nextSceneKey": "12ac0b4f-8940-4f87-839d-a4fa85cde747",
+                  "nextSceneChapterKey": "776163c0-abc0-4b2a-a6fc-f8cc7183f9ad",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffe3b7c4",
+          "baseProbability": 25,
+          "variableGroup": {
+            "key": "e556202a-ca3f-456b-987d-d21c9b10a2ad",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "9ae9dd93-7c2d-431d-9731-69c1f390b42b",
+          "name": "Jumping on stones 2",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Finding a bridge where to cross could take hours, if it even exists, so you decide to face the river head on.\n\nThe river is not particularly deep, probably as deep as your hips are tall, yet you don't fancy your chances against the very fast current and the uneven river bed.\n\nThere are various rocks emerging from the rushing water, their flat surface offering you a wet and slippery path towards your unknown goal.\n\nWith a deep breath, you brace yourself as you start traversing the river on the flat stones. Each small jump is a test of your abilities as your ruined boots slide and slip on the stones, a single mistep will send you thumbling down in the icy cold waters.\n\nYou are nearly to the other side when finally your luck runs out and one of the stones moves slightly under you. \n\nIn just a few moments, you find yourself plunging in the rushing water as the sounds of the wood are drowned into a wet gurgling sound.\n\nSo you sink.\n\nAnd sink.\n\nIt's impossible, the whole river should merely be three to four feet deep, and yet you can see the surface slipping away from you. Among the bubbles and rocks, you can see pale hands made of gnarled bones as they grasp at your legs and arms, pulling you down, scratching and bruising you as they greedly call you into their cold realm."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "27cf763a-73ce-445c-9e27-103d094d3892",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sprofonda",
+                    "ENGLISH": "Sink"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "daa70c4f-4e60-45ac-9c3a-1a56a54b72b9",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "79c5231f-ce96-4c9a-971d-801e95b95426",
+                  "nextSceneKey": "a7bcb13d-28ac-4810-ae6a-27501223fa3a",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "b74a68c8-9b70-4c96-a1bc-0c4236dbf440",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffcbecec",
+          "baseProbability": 25,
+          "variableGroup": {
+            "key": "f5776892-9fb0-482f-8934-42dbaa3fd5c3",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "b74a68c8-9b70-4c96-a1bc-0c4236dbf440",
+          "name": "Visions of the Deep",
+          "order": 4,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Cold.\n\nDark.\n\nSinking down, or maybe rising up... you really do not know, for there is nothing up and there is nothing down.\n\nDark shapes move, immense and careless, in the slightly less deep darkness around them.\n\nThe more you sink, the less you feel like you are sinking. It feels like you... belong there. Alone. \n\n"
+            },
+            "styles": []
+          },
+          "image": "794fdc1b841fe420fc852dd3b25b698f.jpg",
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "dd033ed6-3745-43f3-adc9-326ed414c167",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Respira",
+                    "ENGLISH": "Breath"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "618bf2b7-768d-4a1d-8f84-6fb8bd2548a4",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "a2a0b38e-208f-48fb-89fe-f079648e066f",
+                  "nextSceneKey": "a7bcb13d-28ac-4810-ae6a-27501223fa3a",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "58b4963c-e650-4883-ac1d-59a2ec14e53f",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffddb3a4",
+          "baseProbability": 0,
+          "variableGroup": {
+            "key": "5ead0359-1733-4934-a278-385525887f2a",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "58b4963c-e650-4883-ac1d-59a2ec14e53f",
+          "name": "Back to the other side",
+          "order": 5,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "As your head emerges from the cold water, it feels like your lungs are filling up for the first times in years.\n\nAir has become a weird, unwelcoming presence inside you, but there it is. Looking around, your hands are grasping at the rocky terrein at the other side of the shallow river.\n\nCoughing up dark water, you manage to push yourself out of the river and unto dry land. \n\nYour muscles are nearly frozen, your skin purple and scratched. You feel barely able to walk and stand up, but you fight to keep going on."
+            },
+            "styles": []
+          },
+          "image": "df5557d7ece56813229d28bbc3b7ef6d.jpg",
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "c028e157-881a-459d-a54b-ac5f5ef40cc4",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Lascia l'Abisso dietro di te e procedi lungo la tua strada",
+                    "ENGLISH": "Leave the Abyss behind and go on with your path"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "62965843-0efa-4e7c-8b75-a3b96afeb923",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [
+                  {
+                    "key": "8559579f-fa75-45e3-8d5c-8a7a85dceebe",
+                    "variable": {
+                      "key": "217444a3-80ad-4c89-a7d4-e5ab12c7f8b4",
+                      "type": "WOUNDS"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": null,
+                    "maxValue": null
+                  },
+                  {
+                    "key": "1c381e2c-9461-4f31-adb1-0a7ec1ce4ee1",
+                    "variable": {
+                      "key": "df80a694-0414-4ffa-838a-bb76c2b10f14",
+                      "type": "RUN",
+                      "name": "ABYSS"
+                    },
+                    "value": 1,
+                    "operator": "ADD",
+                    "minValue": null,
+                    "maxValue": null
+                  }
+                ],
+                "exit": {
+                  "key": "47fc8a6f-442f-4534-9fd9-d86c1a61582c",
+                  "nextSceneKey": "12ac0b4f-8940-4f87-839d-a4fa85cde747",
+                  "nextSceneChapterKey": "776163c0-abc0-4b2a-a6fc-f8cc7183f9ad",
+                  "nextEventKey": null,
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffb1cbe3",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "0733c1e3-28a3-4eb3-ab46-3f3b3efd6fbf",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    },
+    "2d63ca77-4252-4709-be88-ae1015500056": {
+      "key": "2d63ca77-4252-4709-be88-ae1015500056",
+      "name": "The Troll",
+      "order": 19,
+      "isStartingScene": false,
+      "image": "334752e67154f1da823fc3452027b1bf.jpg",
+      "events": [
+        {
+          "key": "e0a971b9-f9ad-490f-965f-1b99011fc13a",
+          "name": "Radio",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Like mist from the river down below, a voice slowly rises, as mellifluous and disgusting as the thin fingers that slowly move from left to right, feeling the stone next to your feet like brisles of a disgusting insect.\n\n\"I am born in the sky and I am trapped in a coffin\n\nI am the voice that never sleeps \n\na scream from around the world, the voice of a lover that you never met\n\nI am chaing but I will be free, with the turn of a pebble\"\n\n"
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "b24901ce-a54d-4b3a-b886-6fcdc90f1cfd",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Libro\"",
+                    "ENGLISH": "You utter the world \"Book\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "155319b4-238a-43f8-a12e-f01eb55d805b",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "9ccc945c-f5fb-4c03-8b67-801533088394",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "241234c5-1f6b-461c-a275-d3fa7dc496bf",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Millepiede\"",
+                    "ENGLISH": "You utter the world \"Millipede\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "f91e28cf-4091-4c49-bfb8-79d37b39db32",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "b74a6da4-345a-4259-a9f7-839ac6cf5546",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "bd9ae702-b82d-48bb-8aa2-14bc07f72662",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Banshee\"",
+                    "ENGLISH": "You utter the world \"Banshee\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "7ef5cc35-77e0-47fe-a5ab-dd56bcf9256b",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "b7c686c0-2afd-4b7f-a1e3-8f5d263b9baa",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "e99657b2-07e8-445b-8a79-456a8cd310fc",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Lupo\"",
+                    "ENGLISH": "You utter the world \"Wolf\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "0a753f39-20a0-461b-9ac0-ff2a20b0c5eb",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "538b6e34-ae44-49ce-9ce5-68de72155bc2",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "e3a47ca0-2378-4639-a332-80a957fbd474",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Radio\"",
+                    "ENGLISH": "You utter the world \"Radio\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "d215299d-61e5-44b5-a00c-e0a377fb2c4a",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "345a3189-266e-46ee-a425-c8e24049aae2",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "c85689d2-fafb-473a-8976-efcc5b0d85f1",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "09301ba3-442a-46ea-b902-30fc1dd3c3b9",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Stringi i denti e provi ad avanzare in silenzio",
+                    "ENGLISH": "You grin your teeth and try to force your way forward in silence"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "aa42d76d-a9b4-4b4a-9f9c-24027e00508f",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "3ee7ffef-d4eb-4b8c-91fd-3b8167b3cf08",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffe9e3cb",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "9e26a780-b03f-423f-a9f5-51ae91d31e78",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+          "name": "Demise",
+          "order": 1,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "It happens so suddenly that you don't even feel the pain at first. \n\nYou took a single step, maybe, before you feel the sharp pulling at your limbs. \n\nConfused, you can feel each of them being pulled into a different direction, as muscles get tore and bones snap out of position.\n\nThen, the pain explodes in your body, a simpony of pure blinding agony that pushes your mind deep in a place where it tries to hide. \n\nBreathless, you find yourself on the stone floor of the bridge, alone, with the distant sound of a bird chirping and the soft rays of the sun caressing your agonizing body."
+            },
+            "styles": []
+          },
+          "image": "22d111d74a3e5c5887cb29fb635793e8.jpg",
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "d1fa2474-4f37-4c60-ba8f-4ae05c22ce96",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "234c029a-0896-4148-81a3-6932e8fb9a8f",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "fa7db3ea-13ce-4aed-95c0-43ae9b60a7d0",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffc8dbe5",
+          "baseProbability": 0,
+          "variableGroup": {
+            "key": "5f5e6f18-4960-471d-80d1-5be6da15815b",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "c85689d2-fafb-473a-8976-efcc5b0d85f1",
+          "name": "Success",
+          "order": 2,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "As soon as the word escapes your lips the finger shiver in bliss, their long nails scarping against the mossy cobblestone of the bridge.\n\nThey sneak back down into the abyss, their unseen hand disapearing back under the bridge and the darkness evaporates with them.\n\nA low, crackling laughter echoes briefly in the air before disapearing under the bridge.\n\nStill unwelcoming, but familiar now, the path ahead is now open, awaiting for you at the other side of the bridge."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "5bbe7ad9-b94b-4f06-8eab-0afb3f7857f1",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "d8e1086d-cff0-465c-9c1c-058f1d3e95c1",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "91d54547-579e-4082-a361-6e3eb98405dc",
+                  "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "c85689d2-fafb-473a-8976-efcc5b0d85f1",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffbed6aa",
+          "baseProbability": 0,
+          "variableGroup": {
+            "key": "ccbbacba-2225-46f8-9349-75846f0ee56a",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "748a2757-1021-447f-be96-7082e4ce20c3",
+          "name": "Millipede",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Like mist from the river down below, a voice slowly rises, as mellifluous and disgusting as the thin fingers that slowly move from left to right, feeling the stone next to your feet like brisles of a disgusting insect.\n\n\"I am born from the earth and I am trapped in flesh\n\nI am the hunger that never sleeps \n\nI coil in the mouth, flickering tongue\n\nas I protect out legacy with all of myself\"\n\n"
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "6ef9d504-d122-4275-9b56-2b09cb8049b3",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Libro\"",
+                    "ENGLISH": "You utter the world \"Book\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "2672048a-a6f7-4212-a2da-f3ff1a8fd020",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "8811f136-064f-4dfc-9589-7aeca3bda763",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "0c398052-69db-4369-ab4d-f6792b61ffb3",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Millepiede\"",
+                    "ENGLISH": "You utter the world \"Millipede\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "7984312a-94ae-405b-b154-c07ef3cb0a91",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "e82d02f8-d1e0-48ee-ba74-d8e2511e0bf0",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "c85689d2-fafb-473a-8976-efcc5b0d85f1",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "1e397643-c893-4d5c-aa87-25aaf1bf734a",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Banshee\"",
+                    "ENGLISH": "You utter the world \"Banshee\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "e441c7a3-24ec-45f3-95f6-c478cf5a0184",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "6f0439f2-f9d4-42dd-b2bc-906ab72d43d3",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "b3257aff-1362-4f93-b4a4-ff5b4fa34690",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Lupo\"",
+                    "ENGLISH": "You utter the world \"Wolf\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "7187e87b-8538-49bc-ac94-92760e295e34",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "55ffd93b-a156-481e-a4cd-510ca8f1bee7",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "4467216a-c586-48bc-9556-172336924794",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Radio\"",
+                    "ENGLISH": "You utter the world \"Radio\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "6addb6f7-c31f-49cd-8b20-a0441292e5ba",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "b00b8fe6-2a2d-45e0-ad89-0a089c64ab74",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "8721f084-b0ba-4088-ab82-01cb15b4c1aa",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Stringi i denti e provi ad avanzare in silenzio",
+                    "ENGLISH": "You grin your teeth and try to force your way forward in silence"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "0da2649d-b12f-4dc8-b854-40e16428b4b5",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "2c30517c-233a-4b23-84de-6781d1868eee",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffb4e2b5",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "274cbdc7-babd-4ffc-b4cc-bd4c1f914304",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "1c5cf052-1cf0-4bc5-8368-c5f700989a80",
+          "name": "Wolf",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Like mist from the river down below, a voice slowly rises, as mellifluous and disgusting as the thin fingers that slowly move from left to right, feeling the stone next to your feet like brisles of a disgusting insect.\n\n\"I am born in freedom and trapped in my family\n\nI am the companion that never sleeps \n\nI look from afar, I remember your scent\n\nI dress like you, to get what is mine\"\n\n"
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "03ee84ac-e00a-4afb-9148-09bf6ea8861a",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Libro\"",
+                    "ENGLISH": "You utter the world \"Book\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "c761f7b5-15e4-499b-bdb7-141614a25706",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "cd08e472-37a9-4e72-b3fb-b3c72a3fef94",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "3d2e5eb1-e639-4999-be6b-ab1a60fa6a79",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Millepiede\"",
+                    "ENGLISH": "You utter the world \"Millipede\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "08461a2e-baa1-4701-8d7d-a4b2adde20fe",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "5bc52c1b-3ccf-470f-bd3c-f5dd03949812",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "ec9425a0-815c-4155-b0ce-88d79b8da53c",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Banshee\"",
+                    "ENGLISH": "You utter the world \"Banshee\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "ec41de96-926f-48d4-80c7-53d8a6bd8146",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "d36deba7-bce3-48a4-b23e-baf11fbc6692",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "45f76a7a-d160-4974-81b9-d09276d30efa",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Lupo\"",
+                    "ENGLISH": "You utter the world \"Wolf\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "04229059-753f-4f99-892b-5bcc55b53142",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "c29cf55d-1ce2-4565-852e-bd059a2c8566",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "c85689d2-fafb-473a-8976-efcc5b0d85f1",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "6542a1d8-45f3-4625-a9d4-9c51a3ff9c58",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Sussurri la parola \"Radio\"",
+                    "ENGLISH": "You utter the world \"Radio\" "
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "5cf7fabf-6d94-453d-9fa8-8d0b354089e6",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "ece141c4-6ced-4c48-b31b-873f049910ed",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              },
+              {
+                "key": "4a8102c6-68a0-4f71-b808-d1cdbe0251fe",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Stringi i denti e provi ad avanzare in silenzio",
+                    "ENGLISH": "You grin your teeth and try to force your way forward in silence"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "8e05ed8b-f79a-4c7a-a078-b051e1e898e3",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "cfccbfa3-2bc2-4ab1-939a-b3a7ebeb8054",
+                  "nextSceneKey": "2d63ca77-4252-4709-be88-ae1015500056",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "a2992aa8-7c71-4f4f-b072-17a23f1ed36a",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffdacfb6",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "5d929bd6-1778-437b-b2e7-9031c53dd930",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    },
+    "f66cb6ec-f51a-47f3-8408-115f07a047a7": {
+      "key": "f66cb6ec-f51a-47f3-8408-115f07a047a7",
+      "name": "The Knight",
+      "order": 20,
+      "isStartingScene": false,
+      "image": null,
+      "events": [
+        {
+          "key": "588ea0fd-5d6b-4794-8371-015c5ee18a87",
+          "name": "Death",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "The closer you get, the clearer it becomes. On a thin wooden bridge, with woods and mist around you, it came.\n\nTall, silent, regal and utterly indifferent, you knew who you are facing. In the light stuck in it's empty sockets lie the truth that a man can never dream to know.\n\n\"Turn a way\" it says without speaking.\n\n\"Search another path, for this is not a path for the likes of you to take, if they wish to ever come back from it.\""
+            },
+            "styles": []
+          },
+          "image": "b743a9b908f3588ef206b5fc2a23753b.jpg",
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": []
+          },
+          "color": "ffa4dadb",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "77ed08be-8e1d-4b33-9b53-52bdfcebe74e",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "fa6dc3f3-2d10-470e-9287-541b8f0c8f69",
+          "name": "A friend - WIP",
+          "order": 1,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Getting closer to the tall figure, you notice how it's not looking at you.\n\nIt's facing towards a point in the misty nothingness that surrounds this bridge.\n\n\"Have you left someone behind you, I wonder?\"\n\nThe voice is weirdly familiar, yet hard to place. It's not masculine nor femminine, it's not young nor old. It's a voice that you know for sure, and yet you have never heard."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "CHOICES",
+            "paths": [
+              {
+                "key": "9af2ee2b-7c35-4283-a15a-6fe1a8408d2a",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "1f89d8f1-5226-4f60-b236-5db24ee2ada2",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "7e5fb92d-bdb2-49fd-b775-e93cf0c202e4",
+                  "nextSceneKey": "f66cb6ec-f51a-47f3-8408-115f07a047a7",
+                  "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
+                  "nextEventKey": "fa6dc3f3-2d10-470e-9287-541b8f0c8f69",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffc6e3e0",
+          "baseProbability": 0,
+          "variableGroup": {
+            "key": "9130f8e9-81d9-4a23-a435-fce963ee3032",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        },
+        {
+          "key": "12ec6a5a-06b9-4011-9c3c-6438254c0f94",
+          "name": "A duel",
+          "order": 2,
           "text": {
             "textMap": {
               "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
@@ -1878,10 +4558,10 @@
             "type": "SINGLE",
             "paths": []
           },
-          "color": "ffe7d5ee",
+          "color": "ffc3e6e9",
           "baseProbability": 30,
           "variableGroup": {
-            "key": "10623c80-30f4-4c4b-95a6-986deea75955",
+            "key": "5e76f7e1-d014-4353-b686-39ba2bd9f8b0",
             "logicOperator": "AND",
             "variableComparers": []
           },
