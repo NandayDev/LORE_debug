@@ -267,7 +267,7 @@
                   "key": "efaa56a2-1021-49ff-9788-dc2e34d7154a",
                   "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               },
@@ -366,7 +366,7 @@
                   "key": "5f85d3fe-f305-4bdb-9653-1ba87907fa81",
                   "nextSceneKey": "9dbe85ad-d303-4627-9de3-38412780d377",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
-                  "nextEventKey": "caa9f8d8-66f6-4109-9ae6-e92becb70c8e",
+                  "nextEventKey": null,
                   "type": "SCENE"
                 }
               },
