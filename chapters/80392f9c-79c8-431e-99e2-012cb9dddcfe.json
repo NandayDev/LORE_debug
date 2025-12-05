@@ -6,7 +6,7 @@
       "key": "1fb64e7f-e530-466b-9eb2-ac42bd4cee96",
       "name": "You find a well in your journey",
       "order": 0,
-      "isStartingScene": true,
+      "isStartingScene": false,
       "image": null,
       "events": [
         {
@@ -541,7 +541,7 @@
       "key": "fc10aaed-cfbf-499a-8c78-17e559321e7b",
       "name": "Look inside the Well",
       "order": 1,
-      "isStartingScene": false,
+      "isStartingScene": true,
       "image": null,
       "events": [
         {
@@ -719,7 +719,7 @@
           "order": 0,
           "text": {
             "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà sdgsdgsdgsdga schermo.",
               "ENGLISH": "Cold and a little slimy, the water goes down the throat, hitting the stomach weirdly hard. It has a slight metal taste, along with a bit of residue that makes the teeths feel dirty."
             },
             "styles": []
