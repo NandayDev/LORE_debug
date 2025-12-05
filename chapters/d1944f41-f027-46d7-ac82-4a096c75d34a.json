@@ -15,8 +15,8 @@
           "order": 0,
           "text": {
             "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
-              "ENGLISH": "Type here the event's text."
+              "ITALIAN": "Inserisci qui il testo dsgsdsell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Type here the event's dgsdgsdg."
             },
             "styles": []
           },
@@ -29,6 +29,42 @@
           "baseProbability": 30,
           "variableGroup": {
             "key": "2dbb85d1-16ac-4198-bc43-e037a2b4168e",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    },
+    "6f292caa-f861-41c2-955d-21af86537111": {
+      "key": "6f292caa-f861-41c2-955d-21af86537111",
+      "name": "sgsdgsdgsdg",
+      "order": 1,
+      "isStartingScene": false,
+      "image": null,
+      "events": [
+        {
+          "key": "c67f3a22-fe4e-4642-ae73-ad91691366f6",
+          "name": "Evento 1",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Type here the event's text."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": []
+          },
+          "color": "ffe2d6e9",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "d43352f3-57f6-4ffe-8017-b6cf6f4055a2",
             "logicOperator": "AND",
             "variableComparers": []
           },
