@@ -6,7 +6,7 @@
       "key": "6129130f-d459-45b8-9682-6093b263e2a8",
       "name": "Prima scena - A Calm River",
       "order": 0,
-      "isStartingScene": true,
+      "isStartingScene": false,
       "image": "pexels-blooddrainer-1655901.jpg",
       "events": [
         {
@@ -685,7 +685,7 @@
       "key": "d645f40a-afae-4a5f-8b53-f8ec2f4590b9",
       "name": "Reach out and pluck off some flowers",
       "order": 2,
-      "isStartingScene": false,
+      "isStartingScene": true,
       "image": "3dc3bde1593109938050bed9661852d8.jpg",
       "events": [
         {
