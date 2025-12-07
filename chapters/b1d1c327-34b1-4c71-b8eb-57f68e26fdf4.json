@@ -1,0 +1,67 @@
+{
+  "key": "b1d1c327-34b1-4c71-b8eb-57f68e26fdf4",
+  "name": "asd1",
+  "scenes": {
+    "d9b3423e-48a5-4b10-a18d-7979f33de2cb": {
+      "key": "d9b3423e-48a5-4b10-a18d-7979f33de2cb",
+      "name": "Prima scena",
+      "order": 0,
+      "isStartingScene": true,
+      "image": null,
+      "events": [
+        {
+          "key": "55811178-fa38-4c42-bbbc-29eaead3e820",
+          "name": "Evento 1",
+          "order": 0,
+          "text": {
+            "textMap": {
+              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
+              "ENGLISH": "Type here the event's text."
+            },
+            "styles": []
+          },
+          "image": null,
+          "exitPaths": {
+            "type": "SINGLE",
+            "paths": [
+              {
+                "key": "5f465deb-3f01-43ac-8a98-ce6915b36ac3",
+                "text": {
+                  "textMap": {
+                    "ITALIAN": "Prosegui oltre",
+                    "ENGLISH": "Press onward"
+                  },
+                  "styles": []
+                },
+                "type": "UNIVERSAL",
+                "variableGroup": {
+                  "key": "79d11463-585f-44ff-8e97-b059d64b9671",
+                  "logicOperator": "AND",
+                  "variableComparers": []
+                },
+                "variablesSet": [],
+                "exit": {
+                  "key": "7df214a0-31ec-447c-b627-648bf7f36f61",
+                  "nextSceneKey": "0194092a-aa49-45e3-8ac6-5a71e4aba530",
+                  "nextSceneChapterKey": "8877a207-41ff-4f49-9849-286a9976eef9",
+                  "nextEventKey": "0107e7d8-ee50-41a2-942f-3e4dee9f883c",
+                  "type": "SCENE"
+                }
+              }
+            ]
+          },
+          "color": "ffdcb7b8",
+          "baseProbability": 30,
+          "variableGroup": {
+            "key": "4eb04bc8-155d-4af6-b262-d2e92ad6e8ea",
+            "logicOperator": "AND",
+            "variableComparers": []
+          },
+          "probabilityModifiers": [],
+          "audioTrack": null
+        }
+      ],
+      "musicTrack": null
+    }
+  }
+}
