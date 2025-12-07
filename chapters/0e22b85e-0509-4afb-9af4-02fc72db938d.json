@@ -2106,7 +2106,7 @@
                 "variablesSet": [],
                 "exit": {
                   "key": "b6bdc875-85df-40e2-aba1-fe6456152942",
-                  "nextSceneKey": "85ec5e6e-e70e-4297-af75-64fbf63edc2a",
+                  "nextSceneKey": "f4cebb88-286d-46d3-8e2d-005ad918e633",
                   "nextSceneChapterKey": "0e22b85e-0509-4afb-9af4-02fc72db938d",
                   "nextEventKey": null,
                   "type": "SCENE"
@@ -2214,42 +2214,6 @@
           "baseProbability": 0,
           "variableGroup": {
             "key": "2f81fc9a-a0a4-4901-ad0d-b00154d80779",
-            "logicOperator": "AND",
-            "variableComparers": []
-          },
-          "probabilityModifiers": [],
-          "audioTrack": null
-        }
-      ],
-      "musicTrack": null
-    },
-    "85ec5e6e-e70e-4297-af75-64fbf63edc2a": {
-      "key": "85ec5e6e-e70e-4297-af75-64fbf63edc2a",
-      "name": "Study the Hive",
-      "order": 7,
-      "isStartingScene": false,
-      "image": null,
-      "events": [
-        {
-          "key": "c3047769-4ec2-4f46-aa1a-a11755b84ef6",
-          "name": "Evento 1",
-          "order": 0,
-          "text": {
-            "textMap": {
-              "ITALIAN": "Inserisci qui il testo dell'evento che il giocatore leggerà a schermo.",
-              "ENGLISH": "Type here the event's text."
-            },
-            "styles": []
-          },
-          "image": null,
-          "exitPaths": {
-            "type": "SINGLE",
-            "paths": []
-          },
-          "color": "ffe9c6c9",
-          "baseProbability": 30,
-          "variableGroup": {
-            "key": "8a53ed9b-50f2-4a68-96e2-539f85e80f88",
             "logicOperator": "AND",
             "variableComparers": []
           },
